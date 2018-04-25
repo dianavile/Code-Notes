@@ -17,7 +17,7 @@ __GOALS:__
 - __Screen readers:__ How to use screen readers practically?
 - __Inclusive webexperiences:__ How to build webexperiences for all users?
 
-__DEFINITION:__ _What is accessibility?_
+### a.__DEFINITION:__ _What is accessibility?_
 - `Good accessibility`("a11y"):`_to ensure all users can access the content in web and apps_`.
 - Site _**content**_ needs to be `available` to everyone.
 - Site _**functionality**_ needs to be `operable` to everyone.
@@ -28,28 +28,28 @@ __Note:__
 - `"i18n"`is a shorten word for `"internationalization"`.
 - `" l10n"`is a shorten word for `"localization"`.
 
-__USER EDXPERIENCE:__ _Explore diversity of user experience with web and apps_
+### b.__USER EXPERIENCE:__ _Explore diversity of user experience with web and apps_
 - Consider accessibility (`"a11y"`) from the start of your process, as it `affects all users`:
-
-a) Users with _disabilities_: issues due to human disability
+Users with _disabilities_: issues due to human disability
 - 
 -
 -
 -
 -
-b) Users _without disabilities_: issues due to bad design 
+
+Users _without disabilities_: issues due to bad design 
 - (unresponsive, lack of contrast)
 -
 -
 -
 -
 
-### a. Screen Readers
+### c. Screen Readers
 
 - [Chromevox extension](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
   [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
   
-### b. WCAG , Web Aim, and POUR
+### d. WCAG , Web Aim, and POUR
 
 - **[WCAG](https://www.w3.org/TR/WCAG20/)**: Web Content Accessibility Guidelines. It is about making your site POUR.
 - **POUR**: Percievable, Operable, Understandable, and Robust.
