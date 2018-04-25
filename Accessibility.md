@@ -21,6 +21,7 @@ __GOALS:__
 - `Good accessibility`("a11y"):`_to ensure all users can access the content in web and apps_`.
 - Site _**content**_ needs to be `available` to everyone.
 - Site _**functionality**_ needs to be `operable` to everyone.
+__`Acessibility`__= to make sure "content" and "websites" created are `usable` to people with _various imparements or abilities._
 - __Note:__ 
 - `"a11y"` is a shorten word for `"accessibility"`(=there's 11 letters between the "A" and "Y" in the word "Accessibility"). 
 - `"i18n"`is a shorten word for `"internationalization"`.
@@ -39,9 +40,12 @@ __GOALS:__
 2) __Users `_without disabilities_`:__ (issues due to `bad design`) 
 - __unresponsive design__ 
 - __lack of color contrast__ 
--
--
--
+- __lack of keyboard navigation__
+- __lack of visual or sound alternative__
+- __lack of zoom in option__
+- __lack of minimal design__ (to minimize distraction)
+
+
 
 #### Sources:
 - [Disability Compendium](https://disabilitycompendium.org/)
