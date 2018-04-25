@@ -41,8 +41,7 @@ __`Acessibility`__= to make sure "content" and "websites" created are `usable` t
   - __cognitive disability:__ (_difficulty remembering, concentrating, or making decisions_)
 - d. `Motor impairment`
   - __physical disability:__ (_part of the body does not work optimal_)
-- __Note:__   
-- These impairments can be `Temporary`, `Permanent`, or `Situational`.)  
+- __Note:__ These impairments can be `Temporary`, `Permanent`, or `Situational`.)  
 
 2) __Users `_without disabilities_`:__ (issues due to `bad design`) 
 - __unresponsive design__ 
