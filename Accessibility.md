@@ -12,13 +12,26 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 ## 1. A11y Overview
 __GOALS:__
+- __Accessibility__: What is accessibility?
 - __User experience:__ Explore diversity of user experience with web and apps.
 - __Screen readers:__ How to use screen readers practically?
 - __Inclusive webexperiences:__ How to build webexperiences for all users?
 
-- **Definition**: A11y  `site _**content**_ should be available to everyone and _**functionality**_ is operable to everyone`.
-- It affects every user of your website, having _disabilities_, or others with _no disabilities_ 
-but can not access your website due to unresponsive design, colors. 
+- **Definition**: __What is accessibility?__
+`Good accessibility`("a11y"):`_to ensure all users can access the content in web and apps_`.
+- Site _**content**_ needs to be `available` to everyone.
+- Site _**functionality**_ needs to be `operable` to everyone.
+- Consider accessibility from the start of your process.
+- Accessibility affects all users:
+Users with _disabilities_: access issues due to human disability
+Users _without disabilities_: access issues due to bad design (unresponsive, lack of contrast).
+
+__Users with disabilities:__
+- 
+-
+-
+-
+-
 
 ### a. Screen Readers
 
