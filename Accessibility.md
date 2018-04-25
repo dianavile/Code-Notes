@@ -53,9 +53,10 @@ __`Acessibility`__= to make sure "content" and "websites" created are `usable` t
 - ["Prevalence of Refractive Error in the United States, 1999-2004"](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/420707)
 
 ### c. SCREEN READERS 
-A __Screen viewer__ `"Screen reader"`= a `software that allows blind people to hear the information displayed on a screen, via a text-to-speach- syntiziser.`
+A __Screen viewer__ `"Screen reader"`= 
+- a `software that allows blind people to hear the information displayed on a screen, via a text-to-speach- syntiziser.`
 - [Chromevox extension](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
-  [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
+- [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
   
 ### d. WCAG , Web Aim, and POUR
 
