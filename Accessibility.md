@@ -17,12 +17,12 @@ __GOALS:__
 - __Screen readers:__ How to use screen readers practically?
 - __Inclusive webexperiences:__ How to build webexperiences for all users?
 
-- **Definition**: __What is accessibility?__
+- __Definition__:_What is accessibility?_
 `Good accessibility`("a11y"):`_to ensure all users can access the content in web and apps_`.
 - Site _**content**_ needs to be `available` to everyone.
 - Site _**functionality**_ needs to be `operable` to everyone.
 - Consider accessibility from the start of your process.
-- Accessibility affects all users:
+- Accessibility (`"a11y"`) affects all users:
 Users with _disabilities_: access issues due to human disability
 Users _without disabilities_: access issues due to bad design (unresponsive, lack of contrast).
 
