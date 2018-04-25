@@ -21,21 +21,21 @@ __GOALS:__
 - `Good accessibility`("a11y"):`_to ensure all users can access the content in web and apps_`.
 - Site _**content**_ needs to be `available` to everyone.
 - Site _**functionality**_ needs to be `operable` to everyone.
-__Note:__ 
+- __Note:__ 
 - `"a11y"` is a shorten word for `"accessibility"`(=there's 11 letters between the "A" and "Y" in the word "Accessibility"). 
 - `"i18n"`is a shorten word for `"internationalization"`.
 - `" l10n"`is a shorten word for `"localization"`.
 
 ### b. __USER EXPERIENCE:__ _Explore diversity of user experience with web and apps_
 - Consider accessibility (`"a11y"`) from the start of your process, as it `affects all users`:
-Users with `_disabilities_`: (issues due to _human disability_)
+- 1) Users with `_disabilities_`: (issues due to _human disability_)
 - 
 -
 -
 -
 -
 
-Users `_without disabilities_`: (issues due to `bad design`) 
+- 2) Users `_without disabilities_`: (issues due to `bad design`) 
 - (unresponsive, lack of contrast)
 -
 -
