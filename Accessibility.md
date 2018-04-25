@@ -86,13 +86,20 @@ _Web Content Accessibility Guidelines_ (see resources), make your website and ap
 
 ## 2. FOCUS
 __GOALS:__
-- a. __  :__ What is focus? 
+- a. __ FOCUS:__ What is focus? 
 - b. __  :__ 
 - c. __  :__ ?
 - d. __  :__ ?
 
 ### a. __DEFINITION__: What is FOCUS?
 `FOCUS`= the _location on a page that receives input from the keyboard_.
+
+Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management)
+
+- ```TAB```: move focus forward
+- ```SHIFT  TAB```: move focus backwards
+- ```Arrow keys```: to navigate inside a component
+
 
 - [Web Aim](https://webaim.org/standards/wcag/checklist#sc2.1.1)
 - Implicity focusable elements (automatic tab order + built-in keyboard event handling) ex.:
