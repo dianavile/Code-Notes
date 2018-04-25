@@ -12,9 +12,9 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 ## 1. A11y Overview
 __GOALS:__
-- Explore diversity of user experience with web and apps.
-- How to use screen readers practically?
-- How to build webexperiences for all users?
+- __User experience:__ Explore diversity of user experience with web and apps.
+- __Screen readers:__ How to use screen readers practically?
+- __Inclusive webexperiences:__ How to build webexperiences for all users?
 
 - **Definition**: A11y  `site _**content**_ should be available to everyone and _**functionality**_ is operable to everyone`.
 - It affects every user of your website, having _disabilities_, or others with _no disabilities_ 
