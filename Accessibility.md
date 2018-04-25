@@ -31,14 +31,14 @@ __Note:__
 __USER EDXPERIENCE:__ _Explore diversity of user experience with web and apps_
 - Consider accessibility (`"a11y"`) from the start of your process, as it `affects all users`:
 
-a) Users with _disabilities_: access issues due to human disability
+a) Users with _disabilities_: issues due to human disability
 - 
 -
 -
 -
 -
-b) Users _without disabilities_: access issues due to bad design (unresponsive, lack of contrast).
--
+b) Users _without disabilities_: issues due to bad design 
+- (unresponsive, lack of contrast)
 -
 -
 -
