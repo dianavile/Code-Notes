@@ -31,11 +31,11 @@ __GOALS:__
 - 1) __Users with `_disabilities_`:__ (issues due to _human disability_)
   - __vision disability:__ (_blind or have significant difficulty seeing even with glasses_)
   - __refractive error:__ (_a visual impairment which may be corrected with glasses if mild enough_)
-  - __color vision deficiency:__
-  - __hearing disability:__
+  - __color vision deficiency:__(_difficulty to distinguish colors_)
+  - __hearing disability:__(_deaf or have significant difficulty hearing even with hearing devices_)
   - __cognitive disability:__ (_difficulty remembering, concentrating, or making decisions_)
 
-- 2) Users `_without disabilities_`: (issues due to `bad design`) 
+- 2) __Users `_without disabilities_`:__ (issues due to `bad design`) 
 - (unresponsive, lack of contrast)
 -
 -
