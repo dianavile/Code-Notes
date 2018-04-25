@@ -74,14 +74,24 @@ A __Screen viewer__ = `software that allows blind people to hear the information
   - [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
 
 ### d. Web Content Accessibility Guidelines: 
-_Web Content Accessibility Guidelines_ (see resources), make your website and app 
-- __"POUR"__: `Percievable`,  `Operable`,  `Understandable`, and  `Robust`.
+_Web Content Accessibility Guidelines_ (see resources), make your website and app __"POUR"__ (_4 core principles around accessibility_)
+- `Percievable`: to make sure ALL users can "percieve" content. (__Is the content "visual, audio, text, keyboard, touch!- ready?__)
+- `Operable`: to make sure users can "work" with the content. (__Can users use your components and navigate the content?__) mouse or not
+- `Understandable`: to make sure users "understand" the content & the interface. (__Can users understand your content?__) confusion?
+- `Robust`: to make sure ALL users (__Is the content "robust" enought be be consumed by a wide variety of ages?__)
+- __Note:__   
+- Although the below guidelines are a great resource, what actually matters is `"the users experience"`.
 
 #### Sources:
   - **[WCAG](https://www.w3.org/TR/WCAG20/)**: (Web Content Accessibility Guidelines 2.0)
   - **[Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
 
-
+##### Summary
+- Now you know
+- __"What accessibility is?"__ and __"Why it matters for ALL users"__.
+- __Different types of impairments__ and __"What you need to think about?__
+- __How to use a screen reader?__ 
+- __Which Web Content Accessibility Guidelines exist?__
 
 ## 2. FOCUS
 
