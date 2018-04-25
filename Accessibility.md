@@ -80,8 +80,9 @@ Web Content Accessibility Guidelines make your website and app `__**POUR**__`:
 - `Understandable`, and 
 - `Robust`.
 
-- **[WCAG](https://www.w3.org/TR/WCAG20/)**: (Web Content Accessibility Guidelines 2.0)
-- **[WCAG 2.0- Web Aim Checklist](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
+#### Sources:
+  - **[WCAG](https://www.w3.org/TR/WCAG20/)**: (Web Content Accessibility Guidelines 2.0)
+  - **[WCAG 2.0- Web Aim Checklist](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
 
 ## 2. FOCUS
 
