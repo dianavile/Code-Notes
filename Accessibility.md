@@ -28,12 +28,13 @@ __GOALS:__
 
 ### b. __USER EXPERIENCE:__ _Explore diversity of user experience with web and apps_
 - Consider accessibility (`"a11y"`) from the start of your process, as it `affects all users`:
-- 1) __Users with `_disabilities_`:__ (issues due to _human disability_)
+- 1) __Users with `_disabilities_`:__ (issues due to `human disability`)
   - __vision disability:__ (_blind or have significant difficulty seeing even with glasses_)
   - __refractive error:__ (_a visual impairment which may be corrected with glasses if mild enough_)
   - __color vision deficiency:__(_difficulty to distinguish colors_)
   - __hearing disability:__(_deaf or have significant difficulty hearing even with hearing devices_)
   - __cognitive disability:__ (_difficulty remembering, concentrating, or making decisions_)
+
 
 - 2) __Users `_without disabilities_`:__ (issues due to `bad design`) 
 - (unresponsive, lack of contrast)
