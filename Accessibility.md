@@ -1,6 +1,6 @@
 # Accessibility
 
-_Source: Udacity Accessibility part of the Front end nanodegree_
+_Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 ### Table Of Contents:
 * [A11y Overview](#1-a11y-overview)
