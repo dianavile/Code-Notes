@@ -12,32 +12,30 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 ## 1. A11y Overview
 __GOALS:__
-- __Accessibility__: What is accessibility?
-- __User experience:__ Explore diversity of user experience with web and apps.
-- __Screen readers:__ How to use screen readers practically?
-- __Inclusive webexperiences:__ How to build webexperiences for all users?
+- a. __Accessibility__: What is accessibility?
+- b. __User experience:__ Explore diversity of user experience with web and apps.
+- c. __Screen readers:__ How to use screen readers practically?
+- d. __Inclusive webexperiences:__ How to build webexperiences for all users?
 
-### a.__DEFINITION:__ _What is accessibility?_
+### a. __DEFINITION__: What is accessibility?
 - `Good accessibility`("a11y"):`_to ensure all users can access the content in web and apps_`.
 - Site _**content**_ needs to be `available` to everyone.
 - Site _**functionality**_ needs to be `operable` to everyone.
-NOTE: 
-
 __Note:__ 
 - `"a11y"` is a shorten word for `"accessibility"`(=there's 11 letters between the "A" and "Y" in the word "Accessibility"). 
 - `"i18n"`is a shorten word for `"internationalization"`.
 - `" l10n"`is a shorten word for `"localization"`.
 
-### b.__USER EXPERIENCE:__ _Explore diversity of user experience with web and apps_
+### b. __USER EXPERIENCE:__ _Explore diversity of user experience with web and apps_
 - Consider accessibility (`"a11y"`) from the start of your process, as it `affects all users`:
-Users with _disabilities_: issues due to human disability
+Users with `_disabilities_`: (issues due to _human disability_)
 - 
 -
 -
 -
 -
 
-Users _without disabilities_: issues due to bad design 
+Users `_without disabilities_`: (issues due to `bad design`) 
 - (unresponsive, lack of contrast)
 -
 -
