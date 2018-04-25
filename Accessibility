@@ -10,11 +10,11 @@ _Source: Udacity Accessibility part of the Front end nanodegree_
 * [ARIA](#5-aria)
 * [Style](#6-style)
 
-
 ## 1. A11y Overview
 
-- **Definition**: A11y means that site _**content**_ should be available to everyone and _**functionality**_ is operable to everyone.
-- It affects every user of your website, having _disabilities_, or others with _no disabilities_ but can not access your website due to unresponsive design, colors, etc...
+- **Definition**: A11y  `site _**content**_ should be available to everyone and _**functionality**_ is operable to everyone`.
+- It affects every user of your website, having _disabilities_, or others with _no disabilities_ 
+but can not access your website due to unresponsive design, colors. 
 
 ### a. Screen Readers
 
