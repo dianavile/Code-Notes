@@ -31,6 +31,7 @@ __`Acessibility`__= to make sure "content" and "websites" created are `usable` t
 - Consider accessibility (`"a11y"`) from the start of your process, as it `affects all users`:
 
 1) __Users with `_disabilities_`:__ (issues due to `human disability`.) 
+- These impairments can be `Temporary`, `Permanent`, or `Situational`.)  
 - a. `Vision impairment`
   - __vision disability:__ (_blind or have significant difficulty seeing even with glasses_)
   - __refractive error:__ (_a visual impairment which may be corrected with glasses if mild enough_)
@@ -41,12 +42,11 @@ __`Acessibility`__= to make sure "content" and "websites" created are `usable` t
   - __cognitive disability:__ (_difficulty remembering, concentrating, or making decisions_)
 - d. `Motor impairment`
   - __physical disability:__ (_part of the body does not work optimal_)
-These impairments can be `Temporary`, `Permanent`, or `Situational`.)  
-  
+ 
 2) __Users `_without disabilities_`:__ (issues due to `bad design`) 
 - __unresponsive design__ 
-- __lack of color contrast__ 
-- __lack of keyboard navigation__
+- __lack of__ `color contrast` 
+- __lack of__ `keyboard navigation`
 - __lack of visual or sound alternative__
 - __lack of zoom in option__
 - __lack of minimal design__ (to minimize distraction)
