@@ -72,14 +72,13 @@ A __Screen viewer__ = `software that allows blind people to hear the information
   - [Chromevox extension](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
   - [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
 
-### d. Web Content Accessibility Guidelines: WCAG , Web Aim, and POUR
-Web Content Accessibility Guidelines make your website and app `__POUR__`: 
-
-- `Percievable`,  `Operable`,  `Understandable`, and  `Robust`.
+### d. Web Content Accessibility Guidelines: 
+_Web Content Accessibility Guidelines_ (see resources), make your website and app 
+- __"POUR"__: `Percievable`,  `Operable`,  `Understandable`, and  `Robust`.
 
 #### Sources:
   - **[WCAG](https://www.w3.org/TR/WCAG20/)**: (Web Content Accessibility Guidelines 2.0)
-  - **[WCAG 2.0- Web Aim Checklist](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
+  - **[Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
 
 ## 2. FOCUS
 
