@@ -85,13 +85,15 @@ _Web Content Accessibility Guidelines_ (see resources), make your website and ap
   - **[WCAG](https://www.w3.org/TR/WCAG20/)**: (Web Content Accessibility Guidelines 2.0)
   - **[Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
 
-##### Summary: Now you know:
-- _"What accessibility is?"_ and _"Why it matters for ALL users"_.
-- _Different types of impairments_ and _"What you need to think about?_
-- _How to use a screen reader?_ 
-- _Which Web Content Accessibility Guidelines exist?_
-
 ## 2. FOCUS
+__GOALS:__
+- a. __  :__ What is focus? 
+- b. __  :__ 
+- c. __  :__ ?
+- d. __  :__ ?
+
+### a. __DEFINITION__: What is FOCUS?
+`FOCUS`= the _location on a page that receives input from the keyboard_.
 
 - [Web Aim](https://webaim.org/standards/wcag/checklist#sc2.1.1)
 - Implicity focusable elements (automatic tab order + built-in keyboard event handling) ex.:
@@ -138,7 +140,7 @@ _Web Content Accessibility Guidelines_ (see resources), make your website and ap
 [.] Instead change elements DOM order.
 
 
-#### :alien:  JS
+####   JS
 To get tabindex value of an element:
 `element.tabIndex;`
 
