@@ -30,13 +30,19 @@ __`Acessibility`__= to make sure "content" and "websites" created are `usable` t
 ### b. __USER EXPERIENCE:__ _Explore diversity of user experience with web and apps_
 - Consider accessibility (`"a11y"`) from the start of your process, as it `affects all users`:
 
-1) __Users with `_disabilities_`:__ (issues due to `human disability`)
+1) __Users with `_disabilities_`:__ (issues due to `human disability`.) 
+- a. `Vision impairment`
   - __vision disability:__ (_blind or have significant difficulty seeing even with glasses_)
   - __refractive error:__ (_a visual impairment which may be corrected with glasses if mild enough_)
   - __color vision deficiency:__(_difficulty to distinguish colors_)
+- b. `Hearing impairment`  
   - __hearing disability:__(_deaf or have significant difficulty hearing even with hearing devices_)
+- c. `Cognitive impairment`
   - __cognitive disability:__ (_difficulty remembering, concentrating, or making decisions_)
-
+- d. `Motor impairment`
+  - __physical disability:__ (_part of the body does not work optimal_)
+These impairments can be `Temporary`, `Permanent`, or `Situational`.)  
+  
 2) __Users `_without disabilities_`:__ (issues due to `bad design`) 
 - __unresponsive design__ 
 - __lack of color contrast__ 
