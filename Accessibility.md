@@ -47,21 +47,31 @@ __`Acessibility`__= to make sure "content" and "websites" created are `usable` t
 - __unresponsive design__ 
 - __lack of__ `color contrast` 
 - __lack of__ `keyboard navigation`
-- __lack of visual or sound alternative__
-- __lack of zoom in option__
-- __lack of minimal design__ (to minimize distraction)
+- __lack of__ `visual or sound alternative`
+- __lack of__ `zoom-in option`
+- __lack of__ `minimal design`(_to minimize distraction_)
 
 #### Sources:
-- [Disability Compendium](https://disabilitycompendium.org/)
-- ["The Perception of Color"](https://www.ncbi.nlm.nih.gov/books/NBK11538/)
-- ["Prevalence of Refractive Error in the United States, 1999-2004"](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/420707)
+  - [Disability Compendium](https://disabilitycompendium.org/)
+  - ["The Perception of Color"](https://www.ncbi.nlm.nih.gov/books/NBK11538/)
+  - ["Prevalence of Refractive Error in the United States, 1999-2004"](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/420707)
 
 ### c. SCREEN READERS/VIEWERS 
 A __Screen viewer__ = `software that allows blind people to hear the information displayed on a screen, via text-to-speach-syntiziser.`
 - **[Screen Reader example](http://udacity.github.io/ud891/lesson1-overview/06-experiencing-screen-reader/)**
+
+- __How to use a Screenreader?__
+- Enable ChromeVox Lite via the "Enable ChromeVox Lite" button or press TAB once.
+- The controls for ChromeVox Lite will appear once it is enabled:
+- `"Voice"` drop-down: to choose alternate voices
+- `"Speech rate"` drop-down: to make speech faster or slower
+- `"Navigate"`buttons: to move ChromeVox's focus to non-focusable items on the page (e.g. Headers)
+- `"Volume control"`: to fine-tune ChromeVox's volume. 
+
+#### Sources:
   - [Chromevox extension](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
   - [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
-  
+
 ### d. WCAG , Web Aim, and POUR
 
 - **[WCAG](https://www.w3.org/TR/WCAG20/)**: Web Content Accessibility Guidelines. It is about making your site POUR.
