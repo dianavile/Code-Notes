@@ -92,22 +92,25 @@ __GOALS:__
 - d. __  :__ ?
 
 ### a. __DEFINITION__: What is FOCUS?
-__FOCUS__= `the _location on a page that receives input from the keyboard_`. 
-- It determines _where keyboard events go in a page_.
-
-Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management)
-
+__FOCUS__= `the _location on a page that receives input from the keyboard_`. It determines _where keyboard events go in a page_.
+  
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
 - ```Arrow keys```: to navigate inside a component
 
-
-- [Web Aim](https://webaim.org/standards/wcag/checklist#sc2.1.1)
-- Implicity focusable elements (automatic tab order + built-in keyboard event handling) ex.:
+- (automatic tab order + built-in keyboard event handling):
   - input elements.
   - buttons.
-- _No need_ to focus something if the user can NOT interact with it, or provide some sort of input from the user.
-- [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)- tab order is the same as DOM order even if the _visual_ order ( by CSS ) is changed.
+-__NOTE:__ _No need_ to focus something if the user can NOT interact with it, or provide some sort of input from the user.
+
+__FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management):
+- `Tab order` = same as `DOM order`, even if  _visual_ order is changed (with CSS).
+
+#### Sources:
+- [Web Aim](https://webaim.org/standards/wcag/checklist#sc2.1.1)
+- [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
+
+- 
 - Changing the order _visually_ can cause confusion to users depend on keyboard navigation. [Web Aim](https://webaim.org/standards/wcag/checklist#sc1.3.2).
 
 ### a. tabindex attribute
