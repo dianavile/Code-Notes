@@ -58,7 +58,6 @@ __`Acessibility`__= to make sure "content" and "websites" created are `usable` t
 
 ### c. SCREEN READERS/VIEWERS 
 A __Screen viewer__ = `software that allows blind people to hear the information displayed on a screen, via text-to-speach-syntiziser.`
-- **[Screen Reader example](http://udacity.github.io/ud891/lesson1-overview/06-experiencing-screen-reader/)**
 
 - __How to use a Screenreader?__
 - Enable ChromeVox Lite via the "Enable ChromeVox Lite" button or press TAB once.
@@ -69,6 +68,7 @@ A __Screen viewer__ = `software that allows blind people to hear the information
 - `"Volume control"`: to fine-tune ChromeVox's volume. 
 
 #### Sources:
+  - **[Screen Reader example](http://udacity.github.io/ud891/lesson1-overview/06-experiencing-screen-reader/)**
   - [Chromevox extension](https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
   - [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
 
@@ -79,6 +79,8 @@ _Web Content Accessibility Guidelines_ (see resources), make your website and ap
 #### Sources:
   - **[WCAG](https://www.w3.org/TR/WCAG20/)**: (Web Content Accessibility Guidelines 2.0)
   - **[Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
+
+
 
 ## 2. FOCUS
 
