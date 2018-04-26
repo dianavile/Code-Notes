@@ -98,6 +98,7 @@ __GOALS:__
 __FOCUS__= `the location on a page that receives input from the keyboard`. It shows _where keyboard events go in a page_.
 - An __HTML user interface(UI)__ consists of _multiple interactive widgets_ (__input__, __buttons__ & __select__ elements), 
 - Such as:`form controls`, `scrollable regions`, `links`, `dialog boxes`, `browser tabs`, that form a `hierarchy` of `automatic tab order + built-in keyboard event handling`. They are __implicitely focussable__.
+- Yet, __NOT all elements are focussable__. Examples are `header`, `paragraphs`and `images`. 
 
 ### b. __DEFINITION__: focus management
 __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management) to interact with the interface.
