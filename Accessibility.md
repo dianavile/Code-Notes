@@ -91,7 +91,7 @@ __GOALS:__
 - b. __DOMORDER__  
 - c. __TABINDEX ATTRIBUTE__ 
 - d. __SKIP LINKS__ 
-- e. __MANAGE FOCUS AT COMPONENT LEVEL__ 
+- e. __MANAGE FOCUS__ 
 - f. __  :__ ?
 
 ### a. __DEFINITION__:  focus (management)
@@ -217,9 +217,10 @@ JS: document.querySelector(´#modal´).focus()
 - [Focus Start point](https://developers.google.com/web/updates/2016/03/focus-start-point?hl=en)
 - **[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
 
-### d. MANAGE FOCUS AT COMPONENT LEVEL
- - Like in case of drop down menu, tree view component. The keyboard interaction after getting focused is what we are talking about.
- - [WAI-Aria guidelines](https://www.w3.org/TR/wai-aria-practices-1.1/) provide guidance in selcting which keyboard interaction is appropriate for such action.
+### e. MANAGE FOCUS
+- To manage `Focus in Complex Components`, use the [WAI-Aria guidelines](https://www.w3.org/TR/wai-aria-practices-1.1/).
+-  The __ARIA Authoring Practices__ ("_ARIA Design Patterns doc_") provides guidance in selecting which `keyboard interaction` is appropriate for complex component ("actions", such as `drop down menu`, `tree view component`. 
+
  
 ### e. ROVING FOCUS
 - To implement focus inside of a component.
