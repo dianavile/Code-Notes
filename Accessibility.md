@@ -92,19 +92,16 @@ __GOALS:__
 - c. __  :__ ?
 - d. __  :__ ?
 
-### a. __DEFINITION__: What is FOCUS?
+### a. __DEFINITION__: focus
 __FOCUS__= `the location on a page that receives input from the keyboard`. It shows _where keyboard events go in a page_.
-
 - An __HTML user interface(UI)__ consists of _multiple interactive widgets_ (__input elements__ and __buttons__), 
 - Such as:`form controls`, `scrollable regions`, `links`, `dialog boxes`, `browser tabs`, that form a `hierarchy` of `automatic tab order + built-in keyboard event handling`. 
 
-### b. __DEFINITION__: What is FOCUS MANAGEMENT?
+### b. __DEFINITION__: focus management
 __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management) to interact with the interface.The _key input_ is channeled from the system, through this hierarchy of interactive widgets, to the "active(= focused) widget:
-
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
 - ```Arrow keys```: to navigate inside a component
-- __NOTE:__
 ```
 Don't add focus to any content a user can Not interact with.
 Tab order = same as DOM order, even if  _visual_ order is changed (with CSS).
