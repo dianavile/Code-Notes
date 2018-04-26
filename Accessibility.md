@@ -118,7 +118,7 @@ The DOM order matters for FOCUS MANAGEMENT: `element.tabIndex;`
 Tab order = same as DOM order, even if  `visual` order is changed (with CSS).
 Changing the  `visual` order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
 ```
-- Work with native elements is good practice for FOCUS behaviour.
+- Work with native elements is good practice for __FOCUS behaviour__, because they are automatically be inserted into the __TAB ORDER__, based on their __DOM POSITION__.
 ```
 <button> I should </button>
 <button> Be Focussed </button>
