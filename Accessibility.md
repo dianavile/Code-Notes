@@ -88,7 +88,7 @@ _Web Content Accessibility Guidelines_ make your website and app
 ## 2. FOCUS
 __GOALS:__
 - a. __FOCUS:__ What is focus? 
-- b. __  :__ 
+- b. __FOCUS MANAGEMENT:__ What is focus management? 
 - c. __  :__ ?
 - d. __  :__ ?
 
@@ -98,8 +98,8 @@ __FOCUS__= `the location on a page that receives input from the keyboard`. It sh
 - An __HTML user interface(UI)__ consists of _multiple interactive widgets_ (__input elements__ and __buttons__), 
 - Such as:`form controls`, `scrollable regions`, `links`, `dialog boxes`, `browser tabs`, that form a `hierarchy` of `automatic tab order + built-in keyboard event handling`. 
 
-__FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management):
-- When you use a __keyboard to interact with the interface__, the _key input_ is channeled from the system, through this hierarchy of interactive widgets, to the "active(= focused) widget.
+### b. __DEFINITION__: What is FOCUS MANAGEMENT?
+__FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management) to interact with the interface.The _key input_ is channeled from the system, through this hierarchy of interactive widgets, to the "active(= focused) widget:
 
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
@@ -111,46 +111,31 @@ Tab order = same as DOM order, even if  _visual_ order is changed (with CSS).
 Changing the  _visual_ order can cause confusion to users who depend on keyboard navigation. 
 ```
 #### Sources:
-- [Web Aim](https://webaim.org/standards/wcag/checklist#sc1.3.2).
-- [Web Aim](https://webaim.org/standards/wcag/checklist#sc2.1.1)
 - [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
 
-### b. tabindex attribute
+### c. TABINDEX ATTRIBUTE
 
-- tabindex = "-1"
-
+- __tabindex = "-1"__
 [.] Not in tab order.
-
 [.] can be programmatically focused by focus()
-
 [.] For Off screen content (appears in response to user event) like modals.
 ```
 <dialog id="modal" tabindex="-1"></dialog>
 ```
-
-- tabindex = "0"
-
+- __tabindex = "0"__
 [.] Insert natively Unfocusable element in tab order.
-
 [.] can also be programmatically focused by focus()
-
 [.] And then keyboard events get directed to it.
 ```
 <div id="dropdown" tabindex="0"></div>
 ```
-
-- tabindex > 0
-
+- __tabindex > 0__
 [.] In front of tab order.
-
 [.] If multiple elements the lowest value is the first in tab order.
 
-[.] **ANTI - PATTERN**
-
-[.] Confuse screen readers and also keyboard users.
-
+[.] **ANTI-PATTERN**
+[.] Confuse screen readers and keyboard users.
 [.] Instead change elements DOM order.
-
 
 ####   JS
 To get tabindex value of an element:
@@ -159,13 +144,9 @@ To get tabindex value of an element:
 ```
 Don't add focus to any content user will Not interact with.
 ```
-#### :exclamation: Exception:
+#### Exception: [add focus to non-interactioble content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
 
-This video shows an exception to this rule:
-https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU
-
-### b. Skip links
-
+### d. Skip links
 - Allows screen reader users and keyboard, or switch devices users to directly navigate towards main content of the page bypassing navigation items and other things before main content.
 - Visually hidden until it comes into focus.
 ```
@@ -197,16 +178,13 @@ https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU
   top: 0;
   }
   ```
+**[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
 
-:alien: **[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
-
-### c. Managing Focus at the component level
-
+### d. Managing Focus at the component level
  - Like in case of drop down menu, tree view component. The keyboard interaction after getting focused is what we are talking about.
  - [WAI-Aria guidelines](https://www.w3.org/TR/wai-aria-practices-1.1/) provide guidance in selcting which keyboard interaction is appropriate for such action.
  
-### d. Roving Focus
-
+### e. Roving Focus
 - To implement focus inside of a component.
 - For example: Radio group:
   - first radio button: 1. tabindex="0" / 2. checked / 3. focus()
@@ -217,18 +195,17 @@ https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU
   - [Example](https://www.w3.org/TR/wai-aria-practices-1.1/examples/radio/radio-1/radio-1.html)
   - [Video](https://www.youtube.com/watch?v=uCIC2LNt0bk)
 
-### e. Off-screen Content
-
+### f. Off-screen Content
 - Like drawer panel.
 - This can lead focus to visually disappear.
 - You can track the focus (active element) by `document.activeElement;`
 - Overcome it by setting `display: none;` or `visibility: hidden;`
 
-### f. Keyboard Trap
-
+### g. Keyboard Trap
 - [WebAim](https://webaim.org/standards/wcag/checklist#sc2.1.2)
 - It is desirable in modals when you want to trap keyboard focus inside the modal until you close it => return focus to the last focused element before modal open.
 - [Example](https://github.com/udacity/ud891/tree/gh-pages/lesson2-focus/07-modals-and-keyboard-traps)
+
 
 
 ## 3. Semantics Basics
