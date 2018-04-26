@@ -338,6 +338,17 @@ input:not([disabled]), select:not([disabled]),
 textarea:not([disabled]), button:not([disabled]), iframe, object,
 embed, [tabindex=´0´]), [contenteditable]´;
 
+let focusableElements = 
+modal.querySelectorAll(´focusableElementString´);
+
+//Convert Nodelist to Array
+focusableElements= Array.prototype.slice.call(focusableElements);
+
+let firstTabStop = focusableElements[0];
+let secondTabStop = focusableElements[focusableElements.length -1];
+
+//Show the modaland overlay
+
 }
 
 
