@@ -262,19 +262,23 @@ Next element: 1. tabindex="0" / 2. checked / 3. focus()
 - [ARIA- Design Patterns and Widgets](https://www.w3.org/TR/wai-aria-practices/#aria_ex)
 - [Video](https://www.youtube.com/watch?v=uCIC2LNt0bk)
 
-
 ### g. OFF-SCREEN CONTENT
-- Like drawer panel.
-- This can lead focus to visually disappear.
-- You can track the focus (active element) by `document.activeElement;`
-- Overcome it by setting `display: none;` or `visibility: hidden;`
+- A drawer panel can lead focus to `visually disappear`. Overcome it by setting `display: none;` or `visibility: hidden;`
+- TO CHECK OFF-SCREEN CONTENT is ACCESSIBLE:
+- 1) __Track focus:__ to find `missing focus`, type into console: `document.activeElement;`
+    - this gives a reference to the currently focussed item
+- 2) Use the __Chrome Accessibility Developer Tools Extension__ to quickly find __accessibility issues__ in your page:
+    - to add an `Accessibility Properties panel` to __Elements__ inspector
+    - to add an `Accessibility option` to __audits__ panel. 
+#### Sources: 
+- [document.activeElement](https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/activeElement)
+- [Chrome Accessibility Developer Tools Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
 
 ### h. KEYBOARD TRAP
 - [WebAim](https://webaim.org/standards/wcag/checklist#sc2.1.2)
-- It is desirable in modals when you want to trap keyboard focus inside the modal until you close it => return focus to the last focused element before modal open.
+- It is desirable in modals when you want to trap keyboard focus inside the modal until you close it 
+=> return focus to the last focused element before modal open.
 - [Example](https://github.com/udacity/ud891/tree/gh-pages/lesson2-focus/07-modals-and-keyboard-traps)
-
-
 
 
 ## 3. Semantics Basics
