@@ -106,6 +106,7 @@ __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://w
 - ```Arrow keys```: to navigate inside a component
 ```
 Don't add focus to any content a user can Not interact with.
+Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
 Tab order = same as DOM order, even if  _visual_ order is changed (with CSS).
 Changing the  _visual_ order can cause confusion to users who depend on keyboard navigation. 
 ```
@@ -113,35 +114,29 @@ Changing the  _visual_ order can cause confusion to users who depend on keyboard
 - [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
 
 ### c. TABINDEX ATTRIBUTE
+To get tabindex value of an element: `element.tabIndex;`
 
-##### __tabindex = "-1"__
+##### 1) __tabindex = "-1"__
 _ [.] __NOT__ in tab order.
 - [.] focus programmatically by `focus()`
 - [.] Used for __Off screen content, that appear in response to a user event()__ (ex. modals).
 ```
 <dialog id="modal" tabindex="-1"></dialog>
 ```
-##### __tabindex = "0"__
+##### 2) __tabindex = "0"__
 - [.] to insert __Unfocusable element__ in tab order.
 - [.] focus programmatically by `focus()`
 - [.] So, `keyboard events` get directed to it.
 ```
 <div id="dropdown" tabindex="0"></div>
 ```
-##### __tabindex > 0__
+##### 3) __tabindex > 0__
 [.] __IN__ (front of) tab order.
 [.] If multiple elements, `lowest value`= first (in tab order).
 
 [.] **ANTI-PATTERN**
 [.] Creates confusion among `screen readers` and `keyboard users`.
 [.] TIP: Change elements in DOM order.
-
-####  JS
-To get tabindex value of an element: `element.tabIndex;`
-```
-Don't add focus to any content user will Not interact with.
-```
-#### Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
 
 ### d. Skip links
 - Allow screen reader, keyboard, or switch devices users to navigate towards main pagecontent.
