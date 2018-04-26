@@ -87,34 +87,37 @@ _Web Content Accessibility Guidelines_ make your website and app
 
 ## 2. FOCUS
 __GOALS:__
-- a. __FOCUS:__ What is focus? 
-- b. __FOCUS MANAGEMENT:__ What is focus management? 
+- a. __FOCUS (MANAGEMENT):__ What is focus (management)? 
+- b. __DOMANAGEMENT:__ What is focus? 
 - c. __TABINDEX ATTRIBUTE__ 
 - d. __SKIP LINKS__ 
 - e. __MANAGE FOCUS AT COMPONENT LEVEL__ 
 - f. __  :__ ?
 
-### a. __DEFINITION__: focus
+### a. __DEFINITION__:  focus (management)
 __FOCUS__= `the location on a page that receives input from the keyboard`. It shows _where keyboard events go in a page_.
 - An __HTML user interface(UI)__ consists of _multiple interactive widgets_ (__input__, __buttons__ & __select__ elements), 
 - Such as:`form controls`, `scrollable regions`, `links`, `dialog boxes`, `browser tabs`, that form a `hierarchy` of `automatic tab order + built-in keyboard event handling`. They are __implicitely focussable__.
 - Yet, __NOT all elements are focussable__. Examples are `header`, `paragraphs`and `images`. 
 
-### b. __DEFINITION__: focus management
 __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management) to interact with the interface.
 - __TAB ORDER__:  _key input_ is channeled from the system, through a hierarchy of interactive widgets, to the "active(= focused) widget:
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
 - ```Arrow keys```: to navigate inside a component
-
 ```
 Don't add focus to any content a user can Not interact with.
-Tab order = same as DOM order, even if  `visual` order is changed (with CSS).
-Changing the  `visual` order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
 ```
 #### Sources:
 - [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
 - Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
+
+### b. DOM ORDER
+The DOM order matters for FOCUS MANAGEMENT: `element.tabIndex;`
+```
+Tab order = same as DOM order, even if  `visual` order is changed (with CSS).
+Changing the  `visual` order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
+```
 
 ### c. TABINDEX ATTRIBUTE
 To get tabindex value of an element: `element.tabIndex;`
