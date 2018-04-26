@@ -172,7 +172,11 @@ JS: document.querySelector(´#modal´).focus()
 ##### 3) __tabindex > 0__ 
 - [.] Jump to the (__IN__) front of the tab order.
 - [.] If multiple elements, `lowest value`= first (in tab order).
-[- .] This practice is discouraged and seen as an __anti-pattern!__
+- [.] This practice is discouraged and seen as an __anti-pattern!__
+
+- __NOTE__: never remove the `focus indicator` from an _interactive element_ unless you're going to replace it. 
+- Otherwise a keyboard user might not know which element is focused!
+
 #### Sources: 
 - [tabindex on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 - [focus navigation and tabindex attribute](https://www.w3.org/TR/html5/editing.html#sequential-focus-navigation-and-the-tabindex-attribute)
