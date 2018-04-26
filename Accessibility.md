@@ -118,6 +118,8 @@ The DOM order matters for FOCUS MANAGEMENT: `element.tabIndex;`
 Tab order = same as DOM order, even if  `visual` order is changed (with CSS).
 Changing the  `visual` order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
 ```
+#### Sources: 
+- [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc1.3.2)
 
 ### c. TABINDEX ATTRIBUTE
 To get tabindex value of an element: `element.tabIndex;`
