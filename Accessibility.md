@@ -212,7 +212,10 @@ JS: document.querySelector(´#modal´).focus()
   top: 0;
   }
   ```
-#### Sources: **[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
+#### Sources: 
+- [skip links](https://webaim.org/techniques/skipnav/)
+- [Focus Start point](https://developers.google.com/web/updates/2016/03/focus-start-point?hl=en)
+- **[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
 
 ### d. MANAGE FOCUS AT COMPONENT LEVEL
  - Like in case of drop down menu, tree view component. The keyboard interaction after getting focused is what we are talking about.
