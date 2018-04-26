@@ -347,8 +347,9 @@ focusableElements= Array.prototype.slice.call(focusableElements);
 let firstTabStop = focusableElements[0];
 let secondTabStop = focusableElements[focusableElements.length -1];
 
-//Show the modaland overlay
-
+//Show the modal and overlay
+modal.style.display = ´block´;
+modalOverlay.style.display = ´block´;
 }
 
 
