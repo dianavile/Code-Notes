@@ -90,8 +90,8 @@ __GOALS:__
 - a. __FOCUS:__ What is focus? 
 - b. __FOCUS MANAGEMENT:__ What is focus management? 
 - c. __TABINDEX ATTRIBUTE__ 
-- d. __  :__ ?
-- e. __  :__ ?
+- d. __SKIP LINKS__ 
+- e. __MANAGE FOCUS AT COMPONENT LEVEL__ 
 - f. __  :__ ?
 
 ### a. __DEFINITION__: focus
@@ -100,18 +100,23 @@ __FOCUS__= `the location on a page that receives input from the keyboard`. It sh
 - Such as:`form controls`, `scrollable regions`, `links`, `dialog boxes`, `browser tabs`, that form a `hierarchy` of `automatic tab order + built-in keyboard event handling`. 
 
 ### b. __DEFINITION__: focus management
-__FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management) to interact with the interface.The _key input_ is channeled from the system, through this hierarchy of interactive widgets, to the "active(= focused) widget:
+__FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management) to interact with the interface.
+- __TAB ORDER__:  _key input_ is channeled from the system, through a hierarchy of interactive widgets, to the "active(= focused) widget:
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
 - ```Arrow keys```: to navigate inside a component
+
+- [.] **ANTI-PATTERN**
+- [.] Creates confusion among `screen readers` and `keyboard users`.
+- [.] TIP: Change elements in DOM order.
 ```
 Don't add focus to any content a user can Not interact with.
-Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
 Tab order = same as DOM order, even if  _visual_ order is changed (with CSS).
 Changing the  _visual_ order can cause confusion to users who depend on keyboard navigation. 
 ```
 #### Sources:
 - [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
+- :Exclamation mark: Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
 
 ### c. TABINDEX ATTRIBUTE
 To get tabindex value of an element: `element.tabIndex;`
@@ -134,14 +139,10 @@ _ [.] __NOT__ in tab order.
 [.] __IN__ (front of) tab order.
 [.] If multiple elements, `lowest value`= first (in tab order).
 
-[.] **ANTI-PATTERN**
-[.] Creates confusion among `screen readers` and `keyboard users`.
-[.] TIP: Change elements in DOM order.
-
-### d. Skip links
-- Allow screen reader, keyboard, or switch devices users to navigate towards main pagecontent.
+### d. SKIP LINKS
+- Allow `screen reader, keyboard, and switch devices users` to __navigate__ towards main pagecontent.
+- Skip links makes all links __hidden until focus().__
 - It bypasses all navigation items and other elements before main content.
-- Hidden until focus().
 ```
 <!--html code-->
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -171,21 +172,21 @@ _ [.] __NOT__ in tab order.
   top: 0;
   }
   ```
+#### Sources:  
 **[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
 
-### d. Managing Focus at the component level
+### d. MANAGE FOCUS AT COMPONENT LEVEL
  - Like in case of drop down menu, tree view component. The keyboard interaction after getting focused is what we are talking about.
  - [WAI-Aria guidelines](https://www.w3.org/TR/wai-aria-practices-1.1/) provide guidance in selcting which keyboard interaction is appropriate for such action.
  
-### e. Roving Focus
+### e. ROVING FOCUS
 - To implement focus inside of a component.
 - For example: Radio group:
   - first radio button: 1. tabindex="0" / 2. checked / 3. focus()
   - when moving to the next element => first element: 1. tabindex="-1" / 2. remove checked / 3. unfocus :: next element: 1. tabindex="0" / 2. checked / 3. focus()
   - If it is the last element `tab` move us to the first element.
   - If it is the first element `shift` + `tab` move us to the last element.
-  
-  - [Example](https://www.w3.org/TR/wai-aria-practices-1.1/examples/radio/radio-1/radio-1.html)
+    - [Example](https://www.w3.org/TR/wai-aria-practices-1.1/examples/radio/radio-1/radio-1.html)
   - [Video](https://www.youtube.com/watch?v=uCIC2LNt0bk)
 
 ### f. Off-screen Content
