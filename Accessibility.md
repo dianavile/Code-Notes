@@ -170,13 +170,12 @@ HTML: <div id="dropdown" tabindex="0">Settings</div>
 JS: document.querySelector(´#modal´).focus()
 ```
 ##### 3) __tabindex > 0__ 
-[.] Jump to the (__IN__) front of the tab order.
-[.] If multiple elements, `lowest value`= first (in tab order).
-[.] This practice is discouraged and seen as an __anti-pattern!__
+- [.] Jump to the (__IN__) front of the tab order.
+- [.] If multiple elements, `lowest value`= first (in tab order).
+[- .] This practice is discouraged and seen as an __anti-pattern!__
 #### Sources: 
 - [tabindex on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 - [focus navigation and tabindex attribute](https://www.w3.org/TR/html5/editing.html#sequential-focus-navigation-and-the-tabindex-attribute)
-
 
 ### d. SKIP LINKS
 - Allow `screen reader, keyboard, and switch devices users` to __navigate__ towards main pagecontent.
