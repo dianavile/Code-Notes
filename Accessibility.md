@@ -73,7 +73,8 @@ A __Screen viewer__ = `software that allows blind people to hear the information
   - [Chromevox extension shortcuts](http://www.chromevox.com/keyboard_shortcuts.html)
 
 ### d. Web Content Accessibility Guidelines: 
-_Web Content Accessibility Guidelines_ (see resources), make your website and app __"POUR"__ (_4 core principles)
+_Web Content Accessibility Guidelines_ make your website and app 
+- __"POUR"__ (4 core principles):
 - `Percievable`: to make sure ALL users can "percieve" content. (_Is the content "visual, audio, text, keyboard, touch!- ready?_)
 - `Operable`: to make sure users can "work" with the content. (_Can users use your components and navigate the content?_) 
 - `Understandable`: to make sure users "understand" the content & the interface. (_Can users understand your content?_) 
@@ -81,8 +82,8 @@ _Web Content Accessibility Guidelines_ (see resources), make your website and ap
 - __Note:__ Although the below guidelines are a great resource, what actually matters is `"the users experience"`.
 
 #### Sources:
-  - [WCAG](https://www.w3.org/TR/WCAG20/)(_Web Content Accessibility Guidelines 2.0_)
-  - [Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
+  - [WCAG](https://www.w3.org/TR/WCAG20/) (_Web Content Accessibility Guidelines 2.0_)
+  - [Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist): checklist to _`ensure web meet WCAG guidelines`_.
 
 ## 2. FOCUS
 __GOALS:__
@@ -104,12 +105,12 @@ __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://w
   - input elements
   - buttons
 
+- Changing the order _visually_ can cause confusion to users depend on keyboard navigation. [Web Aim](https://webaim.org/standards/wcag/checklist#sc1.3.2).
+
 #### Sources:
 - [Web Aim](https://webaim.org/standards/wcag/checklist#sc2.1.1)
 - [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
 
-- 
-- Changing the order _visually_ can cause confusion to users depend on keyboard navigation. [Web Aim](https://webaim.org/standards/wcag/checklist#sc1.3.2).
 
 ### a. tabindex attribute
 
