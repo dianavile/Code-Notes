@@ -139,7 +139,19 @@ I should </button>
 ### c. TABINDEX ATTRIBUTE
 - Control __FOCUS BEHAVIOUR__ with __TABINDEX ATTRIBUTE__. 
 - To get tabindex value of an element: `element.tabIndex;`
-- __NOTE:__ `ONLY NEEDED` for `Interactional elements` (__input__, __buttons__ & __select__ elements),  __NOT__ for `non-interactional elements` (__HTML-tags__, such as: _headers, paragraphs or images_)
+- __NOTE:__ `ONLY NEEDED` for `Interactional elements` (__input__, __buttons__ & __select__ elements)
+- __NOT__ for `non-interactional elements` (__HTML-tags__, such as: _headers, paragraphs or images_)
+ 
+- These elements should have __FOCUS__:
+  - `Header links`
+  - `Call to Action button`
+  - `Search Input`
+  - `Form Elements`
+  - `Footer Links`
+- The elements should __NOT have FOCUS__:
+  - `Header`
+  - `Block of text (paragraph)`
+  - `Image`
   
 ##### 1) __tabindex = "-1"__
 _ [.] __NOT__ in tab order.
