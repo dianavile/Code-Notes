@@ -320,6 +320,26 @@ let modalToggle document.querySelector(´modalToggle´);
 modalToggle.addEventListener(´click´, openModal);
 
 //create function openModal
+function openModal(){
+//save current focus
+focusedElementBeforeModal= document.activeElement;
+
+//Listen for and trap the keyword
+modal.addEventListener(´keydown´, trapTabKey);
+
+//Listen to indicators to close the modal
+modalOverlay.addEventListener(´click´, closeModal);
+//Sign-up button
+let signupBtn.addEventListener(´click´, closeModal);
+
+//Find all focusable children
+const focusableElementString = ´a[href], area[href],
+input:not([disabled]), select:not([disabled]),
+textarea:not([disabled]), button:not([disabled]), iframe, object,
+embed, [tabindex=´0´]), [contenteditable]´;
+
+}
+
 
 ```
 
