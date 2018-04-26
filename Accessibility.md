@@ -277,12 +277,25 @@ Next element: 1. tabindex="0" / 2. checked / 3. focus()
 - [document.activeElement](https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/activeElement)
 - [Chrome Accessibility Developer Tools Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
 
-### h. MODALS & KEYBOARD TRAPS
-- Definition: __KEYBOARD TRAP:__ keyboard focus is `locked or trapped at one particular page element`. 
+### h. KEYBOARD TRAP & MODAL
+-  __KEYBOARD TRAP:__ keyboard focus is `locked or trapped at one particular page element`. 
 - The user __CAN NOT__ `navigate` to and from all navigable page elements, using only a keyboard.
-- __MODAL:__ Use __WebAim__ in `Modals` to _trap keyboard focus inside the modal_ until modal is closed.
-- It => return focus to `last focused element` before modal open.
+- Prevent a `permanent keyboard trap`.
 
+__EXCEPTION:__ use a `temporary keyboard trap` for a __MODAL__
+- Use __WebAim__ in `Modals` to _trap keyboard focus inside the modal_ until modal is closed.
+- It => return focus to `last focused element` before modal open.
+```
+<div class="modal">
+  <h1> Join our newsletter </h1>
+  <p> short description about the newsletter & why to join? 
+  </p>
+  <div class="field">
+  <label for="fullname"> Full Name </label>
+  <input id="fullname" type= "text">
+</div>
+</div>
+```
 #### Sources: 
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc2.1.2)
 - [dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
