@@ -124,6 +124,14 @@ Changing the  `visual` order can cause confusion among `screen readers` and `key
 <button> Be Focussed </button>
 <button> Last! </button>
 ```
+-  Visual order is changed (with CSS):
+```
+<button style= "float: right;"> 
+I should </button>
+<button> Be Focussed </button>
+<button> Last! </button>
+```
+
 #### Sources: 
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc1.3.2)
 
