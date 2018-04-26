@@ -221,7 +221,6 @@ JS: document.querySelector(´#modal´).focus()
 ### e. MANAGE FOCUS
 - To manage `Focus in Complex Components`, use the [WAI-Aria guidelines](https://www.w3.org/TR/wai-aria-practices-1.1/).
 -  The __ARIA Authoring Practices__ ("_ARIA Design Patterns doc_") provides guidance in selecting which `keyboard interaction` is appropriate for complex component ("actions", such as `drop down menu`, `tree view component`. 
-
  
 ### f. KEYBOARD DESIGN PATTERNS 
 - Use `keyboard design patterns` to implement __focus inside of a component__.
@@ -263,11 +262,13 @@ Next element: 1. tabindex="0" / 2. checked / 3. focus()
 - [Video](https://www.youtube.com/watch?v=uCIC2LNt0bk)
 
 ### g. OFF-SCREEN CONTENT
-- A drawer panel can lead focus to `visually disappear`. Overcome it by setting `display: none;` or `visibility: hidden;`
-- TO CHECK OFF-SCREEN CONTENT is ACCESSIBLE:
-- 1) __Track focus:__ to find `missing focus`, type into console: `document.activeElement;`
-    - this gives a reference to the currently focussed item
-- 2) Use the __Chrome Accessibility Developer Tools Extension__ to quickly find __accessibility issues__ in your page:
+- A drawer panel can lead __focus__ to `visually disappear`. 
+- Overcome it by setting `display: none;` or `visibility: hidden;`
+
+- _How to check if `OFF-SCREEN CONTENT` is __ACCESSIBLE__?_
+1) __Track focus:__ to find `missing focus`, type into console: `document.activeElement;`
+    - this gives a reference to the current focussed item
+2) Use the __Chrome Accessibility Developer Tools Extension__ to quickly find __accessibility issues__ in your page:
     - to add an `Accessibility Properties panel` to __Elements__ inspector
     - to add an `Accessibility option` to __audits__ panel. 
 #### Sources: 
