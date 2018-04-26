@@ -315,6 +315,11 @@ let focusedElementBeforeModal;
 const modal document.querySelector(´modal´);
 const modalOverlay document.querySelector(´modalOverlay´);
 
+//add EventListener "click" on ModalToggle to openModal
+let modalToggle document.querySelector(´modalToggle´);
+modalToggle.addEventListener(´click´, openModal);
+
+//create function openModal
 
 ```
 
