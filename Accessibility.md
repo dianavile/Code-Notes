@@ -93,7 +93,7 @@ __GOALS:__
 - e. __MANAGE FOCUS__ 
 - f. __KEYBOARD DESIGN PATTERNS__ 
 - g. __OFF-SCREEN CONTENT__
-- h. __KEYBOARD TRAP__
+- h. __MODALS & KEYBOARD TRAPS__
 
 ### a. __DEFINITION__:  focus (management)
 __FOCUS__= `the location on a page that receives input from the keyboard`. It shows _where keyboard events go in a page_.
@@ -192,8 +192,10 @@ JS: document.querySelector(´#modal´).focus()
 <nav>
 .
 .
+.
 </nav>
 <main id="main-content" tabindex="-1">
+.
 .
 .
 </main>
@@ -265,7 +267,7 @@ Next element: 1. tabindex="0" / 2. checked / 3. focus()
 - A drawer panel can lead __focus__ to `visually disappear`. 
 - Overcome it by setting `display: none;` or `visibility: hidden;`
 
-- _How to check if `OFF-SCREEN CONTENT` is __ACCESSIBLE__?_
+####__How to check if `OFF-SCREEN CONTENT` is `ACCESSIBLE`?__
 1) __Track focus:__ to find `missing focus`, type into console: `document.activeElement;`
     - this gives a reference to the current focussed item
 2) Use the __Chrome Accessibility Developer Tools Extension__ to quickly find __accessibility issues__ in your page:
@@ -275,14 +277,16 @@ Next element: 1. tabindex="0" / 2. checked / 3. focus()
 - [document.activeElement](https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/activeElement)
 - [Chrome Accessibility Developer Tools Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
 
-### h. KEYBOARD TRAP
-- [WebAim](https://webaim.org/standards/wcag/checklist#sc2.1.2)
-- It is desirable in modals when you want to trap keyboard focus inside the modal until you close it 
-=> return focus to the last focused element before modal open.
+### h. MODALS & KEYBOARD TRAPS
+- __MODAL:__ Use __WebAim__ in `Modals` to _trap keyboard focus inside the modal_ until modal is closed.
+- It => return focus to `last focused element` before modal open.
+
+#### Sources: 
+- [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc2.1.2)
+- [<dialog>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
 - [Example](https://github.com/udacity/ud891/tree/gh-pages/lesson2-focus/07-modals-and-keyboard-traps)
 
-
-## 3. Semantics Basics
+3. Semantics Basics
 
 ### a. Affordances
 - Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
