@@ -344,12 +344,42 @@ modal.querySelectorAll(´focusableElementString´);
 //Convert Nodelist to Array
 focusableElements= Array.prototype.slice.call(focusableElements);
 
+//Figure out first and last element in group of focusableElements
 let firstTabStop = focusableElements[0];
 let secondTabStop = focusableElements[focusableElements.length -1];
 
 //Show the modal and overlay
 modal.style.display = ´block´;
 modalOverlay.style.display = ´block´;
+
+//Focus firstTabStop
+firstTabStop.focus();
+
+function TapKeyPress()
+//Check for TapKeyPress
+if (e.keyCode === 9) {
+
+//shift + TAB
+if (e.shiftKey) {
+if document.activeElement=== firstTabStop) {
+e.preventDefault();
+lastTabStop.focus();
+}
+//TAB
+} else {
+if document.activeElement=== lastTabStop) {
+e.preventDefault();
+firstTabStop.focus();
+ }
+}
+
+
+
+
+
+
+
+
 }
 
 
