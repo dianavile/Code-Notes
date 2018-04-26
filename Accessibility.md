@@ -81,8 +81,8 @@ _Web Content Accessibility Guidelines_ (see resources), make your website and ap
 - __Note:__ Although the below guidelines are a great resource, what actually matters is `"the users experience"`.
 
 #### Sources:
-  - **[WCAG](https://www.w3.org/TR/WCAG20/)**: (Web Content Accessibility Guidelines 2.0)
-  - **[Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
+  - [WCAG](https://www.w3.org/TR/WCAG20/)(_Web Content Accessibility Guidelines 2.0_)
+  - [Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist)**: a checklist to _`ensure web meet WCAG guidelines`_.
 
 ## 2. FOCUS
 __GOALS:__
@@ -92,19 +92,17 @@ __GOALS:__
 - d. __  :__ ?
 
 ### a. __DEFINITION__: What is FOCUS?
-__FOCUS__= `the _location on a page that receives input from the keyboard_`. It determines _where keyboard events go in a page_.
-  
+__FOCUS__= `the location on a page that receives input from the keyboard`. It determines _where keyboard events go in a page_.
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
 - ```Arrow keys```: to navigate inside a component
-
-- (automatic tab order + built-in keyboard event handling):
-  - input elements.
-  - buttons.
 -__NOTE:__ _No need_ to focus something if the user can NOT interact with it, or provide some sort of input from the user.
 
 __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://www.w3.org/TR/html5/editing.html#focus-management):
 - `Tab order` = same as `DOM order`, even if  _visual_ order is changed (with CSS).
+- (automatic tab order + built-in keyboard event handling):
+  - input elements
+  - buttons
 
 #### Sources:
 - [Web Aim](https://webaim.org/standards/wcag/checklist#sc2.1.1)
