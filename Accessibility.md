@@ -89,8 +89,10 @@ _Web Content Accessibility Guidelines_ make your website and app
 __GOALS:__
 - a. __FOCUS:__ What is focus? 
 - b. __FOCUS MANAGEMENT:__ What is focus management? 
-- c. __  :__ ?
+- c. __TABINDEX ATTRIBUTE__ 
 - d. __  :__ ?
+- e. __  :__ ?
+- f. __  :__ ?
 
 ### a. __DEFINITION__: focus
 __FOCUS__= `the location on a page that receives input from the keyboard`. It shows _where keyboard events go in a page_.
@@ -112,40 +114,39 @@ Changing the  _visual_ order can cause confusion to users who depend on keyboard
 
 ### c. TABINDEX ATTRIBUTE
 
-- __tabindex = "-1"__
-[.] Not in tab order.
-[.] can be programmatically focused by focus()
-[.] For Off screen content (appears in response to user event) like modals.
+##### __tabindex = "-1"__
+_ [.] __NOT__ in tab order.
+- [.] focus programmatically by `focus()`
+- [.] Used for __Off screen content, that appear in response to a user event()__ (ex. modals).
 ```
 <dialog id="modal" tabindex="-1"></dialog>
 ```
-- __tabindex = "0"__
-[.] Insert natively Unfocusable element in tab order.
-[.] can also be programmatically focused by focus()
-[.] And then keyboard events get directed to it.
+##### __tabindex = "0"__
+- [.] to insert __Unfocusable element__ in tab order.
+- [.] focus programmatically by `focus()`
+- [.] So, `keyboard events` get directed to it.
 ```
 <div id="dropdown" tabindex="0"></div>
 ```
-- __tabindex > 0__
-[.] In front of tab order.
-[.] If multiple elements the lowest value is the first in tab order.
+##### __tabindex > 0__
+[.] __IN__ (front of) tab order.
+[.] If multiple elements, `lowest value`= first (in tab order).
 
 [.] **ANTI-PATTERN**
-[.] Confuse screen readers and keyboard users.
-[.] Instead change elements DOM order.
+[.] Creates confusion among `screen readers` and `keyboard users`.
+[.] TIP: Change elements in DOM order.
 
-####   JS
-To get tabindex value of an element:
-`element.tabIndex;`
-
+####  JS
+To get tabindex value of an element: `element.tabIndex;`
 ```
 Don't add focus to any content user will Not interact with.
 ```
-#### Exception: [add focus to non-interactioble content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
+#### Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
 
 ### d. Skip links
-- Allows screen reader users and keyboard, or switch devices users to directly navigate towards main content of the page bypassing navigation items and other things before main content.
-- Visually hidden until it comes into focus.
+- Allow screen reader, keyboard, or switch devices users to navigate towards main pagecontent.
+- It bypasses all navigation items and other elements before main content.
+- Hidden until focus().
 ```
 <!--html code-->
 <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -205,17 +206,16 @@ Don't add focus to any content user will Not interact with.
 
 
 
+
 ## 3. Semantics Basics
 
 ### a. Affordances
-
 - Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
 - Screen reader can provide info for elements' **Name(label) Role State Value.**
 - Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
 
 ### b. Labeling, Naming, and Alternative text
-
 - [WebAim](https://webaim.org/standards/wcag/checklist#g1.1)
 - Element could have a visual label (name) like for radio button or text alternative like in case of images.
 - There are 2 ways of labeling form inputs.
@@ -238,7 +238,6 @@ Don't add focus to any content user will Not interact with.
              
              
 ## 4. Navigating Content
-
 - Screen Reader can make you navigate through headings, links, form controls, and landmarks.
 - It is important to use meaningful headings and links names.
 - Also use a good heading structure from h1 to h6 (for long complex content).
@@ -255,7 +254,6 @@ instead of using "learn more" links text use :learn more about bla bla".
 `<footer>`
 
 ## 5. ARIA
-
 - **WAI-ARIA**: Web Accessibility Initiative - Accessible Rich Internet Application.
 - ARIA attributes need to have explicit values (can't be empty values).
 
@@ -329,13 +327,12 @@ instead of using "learn more" links text use :learn more about bla bla".
   <dialog role="dialog">
   ```
   
-### d. ARIA realtionships
-  
+### d. ARIA realtionships  
 - **ARIA relationship attributes**
   - They take a reference to one or more elements on the page to make a link between them.
   - The difference is: 1. _What link means_.
                        2. _How represented to users_.
-           
+          
 - Attributes: 
   - `aria-labelledby`
   - `aria-describedby`
@@ -345,12 +342,10 @@ instead of using "learn more" links text use :learn more about bla bla".
   - `aria-setsize`
     
 - [Video](https://youtu.be/e1ZmfmnB6v8?t=40s) explains it.
-
 - [Collection of relationship attr](https://www.w3.org/TR/wai-aria-1.1/#attrs_relationships)
 
 
 ### e. Visible and Hidden content
-
 - For the seek of fine tuning the experience of users using assistive tech.
 - To ensure that certain parts of the DOM is either: 
   - hidden to assistive tech.
@@ -373,36 +368,24 @@ instead of using "learn more" links text use :learn more about bla bla".
 
 
 ### f. ARIA live
-
 - for in time alerts to user.
 - `aria-live="polite"`  : important but not urgent alert.
 - `aria-live="assertive"` : important and urgent alert.
 
 ### g. ARIA relevant
-
-- attributes work with `aria-live`.
-- They are:
+- These attributes work with `aria-live`:
 
   - `aria-atomic` : when true assistive tech will present the entire region as a whole.
-  
   - `aria-relevant` :indicates which type of changes should be presented to the user.
-  
     `aria-relevant="additions"` ==> means any element added to live region is presented.
-  
     `aria-relevant="text"` ==> means that any text content added to any descendant element is presented.
-  
     `aria-relevant="removals"` ==> means that removal of any text or element within the live region is presented.
-  
     `aria-relevant="all"` ==> means that additions or removals of text is presented.
-  
     `aria-relevant="additions text"` (default).
- 
- -  `aria-busy`
+  -  `aria-busy`
  
 ## 6. Style
-
 ### a. Focus style
-
 - [WebAim](https://webaim.org/standards/wcag/checklist#sc2.4.7).
 - [video shows different styling for focus using :focus pseudo selector](https://youtu.be/ZooEnrj8aMc).
 - [video shows different styling reaction between native and non native buttons](https://youtu.be/bfPGicTGBTI).
@@ -429,6 +412,5 @@ instead of using "learn more" links text use :learn more about bla bla".
   - You can use color together with text, underline, audio, and aria-live.
   - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.1).
   - You can use [Nocoffee chrome extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US) to experience color blindness vision and enhance use of color to convey info.
-  - You can use [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) and check how your UI appear for high contrast users.
+  - Use [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) and check how your UI appear for high contrast users.
   
-© 2018 GitHub, Inc.
