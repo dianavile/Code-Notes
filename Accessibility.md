@@ -88,7 +88,7 @@ _Web Content Accessibility Guidelines_ make your website and app
 ## 2. FOCUS
 __GOALS:__
 - a. __FOCUS (MANAGEMENT):__ What is focus (management)? 
-- b. __DOMANAGEMENT:__ What is focus? 
+- b. __DOMORDER__  
 - c. __TABINDEX ATTRIBUTE__ 
 - d. __SKIP LINKS__ 
 - e. __MANAGE FOCUS AT COMPONENT LEVEL__ 
@@ -124,13 +124,14 @@ Changing the  `visual` order can cause confusion among `screen readers` and `key
 <button> Be Focussed </button>
 <button> Last! </button>
 ```
--  Visual order is changed (with CSS):
+- If Visual order is changed (with CSS), it can cause confusion:
 ```
 <button style= "float: right;"> 
 I should </button>
 <button> Be Focussed </button>
 <button> Last! </button>
 ```
+- To prevent confusion, the __Reading__ and __navigation order__ (code order) SHOULD BE _logical_ and _intuïtive_.
 
 #### Sources: 
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc1.3.2)
