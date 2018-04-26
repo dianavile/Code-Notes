@@ -137,8 +137,12 @@ I should </button>
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc1.3.2)
 
 ### c. TABINDEX ATTRIBUTE
-To get tabindex value of an element: `element.tabIndex;`
-
+- Control __FOCUS BEHAVIOUR__ with __TABINDEX ATTRIBUTE__. 
+- To get tabindex value of an element: `element.tabIndex;`
+- __NOTE:__ 
+- This is `ONLY NEEDED` for `Interactional elements` (__input__, __buttons__ & __select__ elements)
+- __DO NOT__ use for `non-interactional elements` (__HTML-tags__<h>, <p> or <img>__)
+  
 ##### 1) __tabindex = "-1"__
 _ [.] __NOT__ in tab order.
 - [.] focus programmatically by `focus()`
