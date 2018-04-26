@@ -225,21 +225,35 @@ JS: document.querySelector(´#modal´).focus()
  
 ### f. KEYBOARD DESIGN PATTERNS 
 - Use `keyboard design patterns` to implement __focus inside of a component__.
-- EXAMPLE: __Radio pattern__
-- Use __ROVING FOCUS__
- - first radio button: 
-  - 1. tabindex="0" 
-  - 2. checked 
-  - 3. focus()
-
+- EXAMPLE: __Radio pattern__`Implement Keyboard Event Listeners`
+- Use __ROVING FOCUS__( `"roving tabindex"`) to make changes in: `radiogroup.js`file.
+ - __first radio button__: 
+ 1. tabindex="0" 
+ 2. checked 
+ 3. focus()
+```
+<li tabindex="0" checked> //set tab index to 0 on the currently active item
+<li tabindex="-1"> //set tab index to -1 for all children
+<li tabindex="-1">
+<li tabindex="-1">
+<li tabindex="-1">
+```
+- The component uses a `keyboard event listener` to know which keyboard the user pressed.
+- to know on which component to set next tabindex to 0
 - when moving to the next element => first element: 
 1. tabindex="-1" 
 2. remove checked 
 3. unfocus :: 
-
-next element: 1. tabindex="0" / 2. checked / 3. focus()
-  - If it is the last element `tab` move us to the first element.
-  - If it is the first element `shift` + `tab` move us to the last element.
+```
+<li tabindex="-1"> //change tabindex to -1, remove checked
+<li tabindex="0"> checked //add focus(), later remove focus() and add checked
+<li tabindex="-1">
+<li tabindex="-1">
+<li tabindex="-1">
+```
+Next element: 1. tabindex="0" / 2. checked / 3. focus()
+  - If  __last__ element `tab` move to __first__ element.
+  - If  __first__ element `shift` + `tab` move to __last__ element.
 
 #### Sources: 
 - [ARIA Authoring Best Practices 1.0 (Radio Button)](https://www.w3.org/TR/wai-aria-practices/#radiobutton)
@@ -248,7 +262,6 @@ next element: 1. tabindex="0" / 2. checked / 3. focus()
 - [ARIA- Design Patterns and Widgets](https://www.w3.org/TR/wai-aria-practices/#aria_ex)
 - [Video](https://www.youtube.com/watch?v=uCIC2LNt0bk)
 
- 
 
 ### g. OFF-SCREEN CONTENT
 - Like drawer panel.
