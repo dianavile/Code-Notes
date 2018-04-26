@@ -1,5 +1,4 @@
 # Accessibility
-
 _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 ### Table Of Contents:
@@ -222,17 +221,34 @@ JS: document.querySelector(´#modal´).focus()
 -  The __ARIA Authoring Practices__ ("_ARIA Design Patterns doc_") provides guidance in selecting which `keyboard interaction` is appropriate for complex component ("actions", such as `drop down menu`, `tree view component`. 
 
  
-### e. ROVING FOCUS
-- To implement focus inside of a component.
-- For example: Radio group:
-  - first radio button: 1. tabindex="0" / 2. checked / 3. focus()
-  - when moving to the next element => first element: 1. tabindex="-1" / 2. remove checked / 3. unfocus :: next element: 1. tabindex="0" / 2. checked / 3. focus()
+### f. Keyboard Design Patterns 
+- Use `keyboard design patterns` to implement __focus inside of a component__.
+- EXAMPLE: __Radio pattern__
+- __ROVING FOCUS__
+ - first radio button: 
+  - 1. tabindex="0" 
+  - 2. checked 
+  - 3. focus()
+
+- when moving to the next element => first element: 
+1. tabindex="-1" 
+2. remove checked 
+3. unfocus :: 
+
+next element: 1. tabindex="0" / 2. checked / 3. focus()
   - If it is the last element `tab` move us to the first element.
   - If it is the first element `shift` + `tab` move us to the last element.
-    - [Example](https://www.w3.org/TR/wai-aria-practices-1.1/examples/radio/radio-1/radio-1.html)
-  - [Video](https://www.youtube.com/watch?v=uCIC2LNt0bk)
 
-### f. Off-screen Content
+#### Sources: 
+- [ARIA Authoring Best Practices 1.0 (Radio Button)](https://www.w3.org/TR/wai-aria-practices/#radiobutton)
+- [ARIA Authoring Best Practices 1.1 (Radio Group)](https://www.w3.org/TR/wai-aria-practices-1.1/#radiobutton)
+- [Example](https://www.w3.org/TR/wai-aria-practices-1.1/examples/radio/radio-1/radio-1.html)
+- [ARIA- Design Patterns and Widgets](https://www.w3.org/TR/wai-aria-practices/#aria_ex)
+- [Video](https://www.youtube.com/watch?v=uCIC2LNt0bk)
+
+ 
+
+### g. Off-screen Content
 - Like drawer panel.
 - This can lead focus to visually disappear.
 - You can track the focus (active element) by `document.activeElement;`
@@ -452,4 +468,3 @@ instead of using "learn more" links text use :learn more about bla bla".
   - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.1).
   - You can use [Nocoffee chrome extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US) to experience color blindness vision and enhance use of color to convey info.
   - Use [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) and check how your UI appear for high contrast users.
-  
