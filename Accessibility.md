@@ -157,6 +157,10 @@ _ [.] __NOT__ in tab order.
 [.] __IN__ (front of) tab order.
 [.] If multiple elements, `lowest value`= first (in tab order).
 
+#### Sources: 
+- [tabindex on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
+- [focus navigation and tabindex attribute](https://www.w3.org/TR/html5/editing.html#sequential-focus-navigation-and-the-tabindex-attribute)
+
 ### d. SKIP LINKS
 - Allow `screen reader, keyboard, and switch devices users` to __navigate__ towards main pagecontent.
 - Skip links makes all links __hidden until focus().__
