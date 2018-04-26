@@ -87,11 +87,13 @@ _Web Content Accessibility Guidelines_ make your website and app
 ## 2. FOCUS
 __GOALS:__
 - a. __FOCUS (MANAGEMENT):__ What is focus (management)? 
-- b. __DOMORDER__  
+- b. __DOM ORDER__  
 - c. __TABINDEX ATTRIBUTE__ 
 - d. __SKIP LINKS__ 
 - e. __MANAGE FOCUS__ 
-- f. __  :__ ?
+- f. __KEYBOARD DESIGN PATTERNS__ 
+- g. __OFF-SCREEN CONTENT__
+- h. __KEYBOARD TRAP__
 
 ### a. __DEFINITION__:  focus (management)
 __FOCUS__= `the location on a page that receives input from the keyboard`. It shows _where keyboard events go in a page_.
@@ -221,10 +223,10 @@ JS: document.querySelector(´#modal´).focus()
 -  The __ARIA Authoring Practices__ ("_ARIA Design Patterns doc_") provides guidance in selecting which `keyboard interaction` is appropriate for complex component ("actions", such as `drop down menu`, `tree view component`. 
 
  
-### f. Keyboard Design Patterns 
+### f. KEYBOARD DESIGN PATTERNS 
 - Use `keyboard design patterns` to implement __focus inside of a component__.
 - EXAMPLE: __Radio pattern__
-- __ROVING FOCUS__
+- Use __ROVING FOCUS__
  - first radio button: 
   - 1. tabindex="0" 
   - 2. checked 
@@ -248,13 +250,13 @@ next element: 1. tabindex="0" / 2. checked / 3. focus()
 
  
 
-### g. Off-screen Content
+### g. OFF-SCREEN CONTENT
 - Like drawer panel.
 - This can lead focus to visually disappear.
 - You can track the focus (active element) by `document.activeElement;`
 - Overcome it by setting `display: none;` or `visibility: hidden;`
 
-### g. Keyboard Trap
+### h. KEYBOARD TRAP
 - [WebAim](https://webaim.org/standards/wcag/checklist#sc2.1.2)
 - It is desirable in modals when you want to trap keyboard focus inside the modal until you close it => return focus to the last focused element before modal open.
 - [Example](https://github.com/udacity/ud891/tree/gh-pages/lesson2-focus/07-modals-and-keyboard-traps)
