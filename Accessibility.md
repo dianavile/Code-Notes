@@ -370,22 +370,26 @@ lastTabStop.focus();
 if document.activeElement=== lastTabStop) {
 e.preventDefault();
 firstTabStop.focus();
- }
+    }
+  }
 }
 
-
-
-
-
-
-
-
+//Escape
+if (e.keyCode ===27) {
+closeModal();
+    }
+  }
 }
 
-
+function closeModal(){
+//Hide the Modal and Overlay
+modal.style.display = ´none´;
+modalOverlay.style.display = ´none´;
+  
+//Set focus back to element before modalOpen
+focusedElementBeforeModal.focus();
+}
 ```
-
-
 #### Sources: 
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc2.1.2)
 - [dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
