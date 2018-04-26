@@ -183,8 +183,8 @@ JS: document.querySelector(´#modal´).focus()
 
 ### d. SKIP LINKS
 - Allow `screen reader, keyboard, and switch devices users` to __navigate__ towards main pagecontent.
+- It bypasses all the following elements before the main content: `navigation bar`, `sublists`, `sitebars`, `hamburger menus`.
 - Skip links makes all links __hidden until focus().__
-- It bypasses all navigation items and other elements before main content.
 ```
 <!--html code-->
 <a href="#main-content" class="skip-link">Skip to main content</a>
