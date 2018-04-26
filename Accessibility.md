@@ -139,9 +139,7 @@ I should </button>
 ### c. TABINDEX ATTRIBUTE
 - Control __FOCUS BEHAVIOUR__ with __TABINDEX ATTRIBUTE__. 
 - To get tabindex value of an element: `element.tabIndex;`
-- __NOTE:__ 
-- This is `ONLY NEEDED` for `Interactional elements` (__input__, __buttons__ & __select__ elements)
-- __DO NOT__ use for `non-interactional elements` (__HTML-tags__<h>, <p> or <img>__)
+- __NOTE:__ `ONLY NEEDED` for `Interactional elements` (__input__, __buttons__ & __select__ elements),  __NOT__ for `non-interactional elements` (__HTML-tags__, such as: _headers, paragraphs or images_)
   
 ##### 1) __tabindex = "-1"__
 _ [.] __NOT__ in tab order.
@@ -166,6 +164,7 @@ JS: document.querySelector(´#modal´).focus()
 #### Sources: 
 - [tabindex on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 - [focus navigation and tabindex attribute](https://www.w3.org/TR/html5/editing.html#sequential-focus-navigation-and-the-tabindex-attribute)
+
 
 ### d. SKIP LINKS
 - Allow `screen reader, keyboard, and switch devices users` to __navigate__ towards main pagecontent.
