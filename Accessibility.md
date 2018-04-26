@@ -118,6 +118,12 @@ The DOM order matters for FOCUS MANAGEMENT: `element.tabIndex;`
 Tab order = same as DOM order, even if  `visual` order is changed (with CSS).
 Changing the  `visual` order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
 ```
+- Work with native elements is good practice for FOCUS behaviour.
+```
+<button> I should </button>
+<button> Be Focussed </button>
+<button> Last! </button>
+```
 #### Sources: 
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc1.3.2)
 
