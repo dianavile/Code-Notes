@@ -106,10 +106,11 @@ __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://w
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
 - ```Arrow keys```: to navigate inside a component
+
 ```
 Don't add focus to any content a user can Not interact with.
-Tab order = same as DOM order, even if  _visual_ order is changed (with CSS).
-Changing the  _visual_ order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
+Tab order = same as DOM order, even if  `visual` order is changed (with CSS).
+Changing the  `visual` order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
 ```
 #### Sources:
 - [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
