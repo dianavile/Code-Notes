@@ -96,7 +96,7 @@ __GOALS:__
 
 ### a. __DEFINITION__: focus
 __FOCUS__= `the location on a page that receives input from the keyboard`. It shows _where keyboard events go in a page_.
-- An __HTML user interface(UI)__ consists of _multiple interactive widgets_ (__input elements__ and __buttons__), 
+- An __HTML user interface(UI)__ consists of _multiple interactive widgets_ (__input__, __buttons__ & __select__ elements), 
 - Such as:`form controls`, `scrollable regions`, `links`, `dialog boxes`, `browser tabs`, that form a `hierarchy` of `automatic tab order + built-in keyboard event handling`. 
 
 ### b. __DEFINITION__: focus management
@@ -105,18 +105,14 @@ __FOCUS MANAGEMENT__= Move focus around the page using your [keyboard](https://w
 - ```TAB```: move focus forward
 - ```SHIFT  TAB```: move focus backwards
 - ```Arrow keys```: to navigate inside a component
-
-- [.] **ANTI-PATTERN**
-- [.] Creates confusion among `screen readers` and `keyboard users`.
-- [.] TIP: Change elements in DOM order.
 ```
 Don't add focus to any content a user can Not interact with.
 Tab order = same as DOM order, even if  _visual_ order is changed (with CSS).
-Changing the  _visual_ order can cause confusion to users who depend on keyboard navigation. 
+Changing the  _visual_ order can cause confusion among `screen readers` and `keyboard users`, who depend on keyboard navigation. 
 ```
 #### Sources:
 - [Focus Management](https://www.w3.org/TR/html5/editing.html#focus-management)
-- :Exclamation mark: Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
+- Exception: [add focus to non-interactionable content](https://www.youtube.com/watch?time_continue=155&v=ifW_oy9hajU)
 
 ### c. TABINDEX ATTRIBUTE
 To get tabindex value of an element: `element.tabIndex;`
@@ -149,10 +145,8 @@ _ [.] __NOT__ in tab order.
 <nav>
 .
 .
-.
 </nav>
 <main id="main-content" tabindex="-1">
-.
 .
 .
 </main>
@@ -172,8 +166,7 @@ _ [.] __NOT__ in tab order.
   top: 0;
   }
   ```
-#### Sources:  
-**[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
+#### Sources: **[Alternate way to skip to main content.](https://webaim.org/techniques/skipnav/#headings)**
 
 ### d. MANAGE FOCUS AT COMPONENT LEVEL
  - Like in case of drop down menu, tree view component. The keyboard interaction after getting focused is what we are talking about.
