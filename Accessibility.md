@@ -285,7 +285,10 @@ Next element: 1. tabindex="0" / 2. checked / 3. focus()
 __EXCEPTION:__ use a `temporary keyboard trap` for a __MODAL__
 - Use __WebAim__ in `Modals` to _trap keyboard focus inside the modal_ until modal is closed.
 - It => return focus to `last focused element` before modal open.
+__HTML__:
 ```
+<button class="modal toggle"> Open Modal </button>
+
 <div class="modal">
   <h1> Join our newsletter </h1>
   <p> short description about the newsletter & why to join? 
@@ -294,8 +297,28 @@ __EXCEPTION:__ use a `temporary keyboard trap` for a __MODAL__
   <label for="fullname"> Full Name </label>
   <input id="fullname" type= "text">
 </div>
+ <div class="field">
+  <label for="email"> E-mail address </label>
+  <input id="email" type= "text">
 </div>
+<button id="signup"> Sign me up!</button>
+</div>
+
+<div class="modal overlay"></div>
 ```
+__JAVASCRIPT__:
+```
+//hold previosly focussed element
+let focusedElementBeforeModal;
+
+//find the modal and its overlay
+const modal document.querySelector(´modal´);
+const modalOverlay document.querySelector(´modalOverlay´);
+
+
+```
+
+
 #### Sources: 
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc2.1.2)
 - [dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
