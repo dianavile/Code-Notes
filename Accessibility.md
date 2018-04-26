@@ -144,19 +144,21 @@ _ [.] __NOT__ in tab order.
 - [.] focus programmatically by `focus()`
 - [.] Used for __Off screen content, that appear in response to a user event()__ (ex. modals).
 ```
-<dialog id="modal" tabindex="-1"></dialog>
+HTML: <dialog id="modal" tabindex="-1"></dialog>
+JS: document.querySelector(´#modal´).focus()
 ```
 ##### 2) __tabindex = "0"__
 - [.] to insert __Unfocusable element__ in tab order.
 - [.] focus programmatically by `focus()`
 - [.] So, `keyboard events` get directed to it.
 ```
-<div id="dropdown" tabindex="0"></div>
+HTML: <div id="dropdown" tabindex="0">Settings</div>
+JS: document.querySelector(´#modal´).focus()
 ```
-##### 3) __tabindex > 0__
-[.] __IN__ (front of) tab order.
+##### 3) __tabindex > 0__ 
+[.] Jump to the (__IN__) front of the tab order.
 [.] If multiple elements, `lowest value`= first (in tab order).
-
+[.] This practice is discouraged and seen as an __anti-pattern!__
 #### Sources: 
 - [tabindex on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 - [focus navigation and tabindex attribute](https://www.w3.org/TR/html5/editing.html#sequential-focus-navigation-and-the-tabindex-attribute)
