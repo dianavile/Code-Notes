@@ -7,9 +7,9 @@
 - a. [Semantics & Assistent Technology](#3-assistent-technology)
 - b. [Affordances](#3-affordances)
 - c. [Role, Name, Value](#3-role,-name,-value)
-- d. [Semantics Basics](#3-semantics-basics)The Accessibility Tree
-- e. [Semantics Basics](#3-semantics-basics)Semantics in Native HTML
-- f. [Semantics Basics](#3-semantics-basics)Naming, Labeling and Alternative text
+- d. [The Accessibility Tree](#3-the-accessibility-tree)
+- e. [Semantics in Native HTML](#3-semantics-in-native-HTML)
+- f. [Naming, Labeling and Alternative text](#3naming,-labeling-and-alternative-text)
 
 
 ### a. Assistent Technology (screen readers)
