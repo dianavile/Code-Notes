@@ -1,5 +1,7 @@
-#Accessibility- ARIA
-## 5. ARIA
+# Accessibility- [ARIA](#5-aria)
+_Source: Accesibility - Udacity Front End Web Development Nanodegree_
+
+### Table Of Contents: ARIA
 - a. WAI-ARIA: What can ARIA (NOT) do?
 - b. ARIA labelling
 - c. Landmarks and ARIA roles
@@ -46,22 +48,18 @@
 - the [video](https://youtu.be/7vz1aakYHtw?t=50s) explains that.
 
 ### a. Role
-
 - Definition: Short hand for a particular UI pattern.
-
 - make sure that the role attribute is in the same element as tabindex attribute.
-
 ```
 <div tabindex="0" role="checkbox" aria-checked="true" class="checkbox" checked>check me</div>
 ```
 
 ### b. ARIA labelling
-
 - **aria-label** _attribute_
   - Can be used for element that has only a visual appearance.
   - override any other labelling such as `<label>`, or text content (like that for a button) except **aria-labelledby** _attribute_.
   - have the label clicking behaviour like `<label>` 
-  
+ 
 - **aria-labelledby** _attribute_
   - Overcome all other labelling methods.
   - refers to another element (which label it) by using a value corresponds to the id of the labelling element.
@@ -80,13 +78,12 @@
   <footer role="contentinfo">
   <dialog role="dialog">
   ```
-  
 ### d. ARIA realtionships  
 - **ARIA relationship attributes**
   - They take a reference to one or more elements on the page to make a link between them.
   - The difference is: 1. _What link means_.
                        2. _How represented to users_.
-          
+       
 - Attributes: 
   - `aria-labelledby`
   - `aria-describedby`
@@ -97,7 +94,6 @@
     
 - [Video](https://youtu.be/e1ZmfmnB6v8?t=40s) explains it.
 - [Collection of relationship attr](https://www.w3.org/TR/wai-aria-1.1/#attrs_relationships)
-
 
 ### e. Visible and Hidden content
 - For the seek of fine tuning the experience of users using assistive tech.
@@ -120,7 +116,6 @@
   2. `aria-label`
   3. `aria-labelledby` or `aria-describedby` reference a hidden element.
 
-
 ### f. ARIA live
 - for in time alerts to user.
 - `aria-live="polite"`  : important but not urgent alert.
@@ -128,7 +123,6 @@
 
 ### g. ARIA relevant
 - These attributes work with `aria-live`:
-
   - `aria-atomic` : when true assistive tech will present the entire region as a whole.
   - `aria-relevant` :indicates which type of changes should be presented to the user.
     `aria-relevant="additions"` ==> means any element added to live region is presented.
@@ -136,4 +130,4 @@
     `aria-relevant="removals"` ==> means that removal of any text or element within the live region is presented.
     `aria-relevant="all"` ==> means that additions or removals of text is presented.
     `aria-relevant="additions text"` (default).
-  -  `aria-busy`
+  - `aria-busy`
