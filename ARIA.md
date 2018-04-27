@@ -113,9 +113,9 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - These attributes work with `aria-live`:
   - `aria-atomic` : when true assistive tech will present the entire region as a whole.
   - `aria-relevant` :indicates which type of changes should be presented to the user.
-    `aria-relevant="additions"` ==> means any element added to live region is presented.
-    `aria-relevant="text"` ==> means that any text content added to any descendant element is presented.
-    `aria-relevant="removals"` ==> means that removal of any text or element within the live region is presented.
-    `aria-relevant="all"` ==> means that additions or removals of text is presented.
-    `aria-relevant="additions text"` (default).
+  - `aria-relevant="additions"` ==> means any element added to live region is presented.
+  - `aria-relevant="text"` ==> means that any text content added to any descendant element is presented.
+  - `aria-relevant="removals"` ==> means that removal of any text or element within the live region is presented.
+  - `aria-relevant="all"` ==> means that additions or removals of text is presented.
+  - `aria-relevant="additions text"` (default).
   - `aria-busy`
