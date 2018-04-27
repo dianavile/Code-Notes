@@ -6,3 +6,8 @@
 - ===> tokenizer 
 - ===> tokens (DOCTYPE, start tag, end tag, comments) 
 - ===> DOM (a tree structure that captures the content and properties of the HTML and all the relationships between the nodes)
+
+
+
+
+[JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
