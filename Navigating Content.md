@@ -1,8 +1,7 @@
 # Accessibility- [Navigating Content](#1-navigating-content)
 _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
-### Table Of Contents:
-## 4. Navigating Content
+### Table Of Contents: Navigating Content
 - a. Headings
 - b. Links
 - c. Form Controls
