@@ -14,7 +14,7 @@
 
 ### a. Assistent Technology (screen readers)
 __Assistent Technology__ =  all `devices`, `software`, and `tools`, that _help any person with a disability complete a task_.
-- Examples: magnifying glasses, image recognizion, robotic devices,  
+- __Examples:__ magnifying glasses, image recognizion, robotic devices, browser zoom, customed designed game controller,  
 -
 
 
