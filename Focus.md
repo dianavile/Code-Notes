@@ -60,13 +60,13 @@ I should </button>
 - __NOTE:__ `ONLY NEEDED` for `Interactional elements` (__input__, __buttons__ & __select__ elements)
 - __NOT__ for `non-interactional elements` (__HTML-tags__, such as: _headers, paragraphs or images_)
  
-- These elements should have __FOCUS__:
+- These elements Must have __FOCUS__:
   - `Header links`
   - `Call to Action button`
   - `Search Input`
   - `Form Elements`
   - `Footer Links`
-- The elements should __NOT have FOCUS__:
+- These elements should __NOT have FOCUS__, instead use __SEMANTICS__:
   - `Header`
   - `Block of text (paragraph)`
   - `Image`
