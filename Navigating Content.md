@@ -22,12 +22,9 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 #### Resources
 - [Web AIM VoiceOver](https://webaim.org/articles/voiceover/)-full VoiceOverintroduction, including most keyboard commands available.
-
-- Screen Reader Shortcuts (Windows)
-- [NVDA](https://www.nvaccess.org/)-open source screen reader for Windows. 
+- __Screen Reader Shortcuts (Windows)__ [NVDA](https://www.nvaccess.org/)-open source screen reader for Windows. 
 - [Web AIM Introduction to NVDA](https://webaim.org/articles/nvda/)- the basics of using NVDA to check accessibility.
-- Screen Reader Shortcuts (Linux)
-- [Orca](https://help.gnome.org/users/orca/stable/)-Gnome desktop manager for Linux. Poor web browsers support.
+_ __Screen Reader Shortcuts (Linux)__ [Orca](https://help.gnome.org/users/orca/stable/)-Gnome desktop-manager for Linux. 
 
 #### a. Headings
 - Use meaningful headings and links names.
