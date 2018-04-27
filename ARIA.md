@@ -2,59 +2,49 @@
 _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 ### Table Of Contents: ARIA
-- a. WAI-ARIA: What can ARIA (NOT) do?
-- b. ARIA labelling
-- c. Landmarks and ARIA roles
-- d. ARIA realtionships 
-- e. Visible and Hidden content
-- f. ARIA live
-- g. ARIA relevant
+- a. WAI-ARIA: ARIA DO´s and DONT´s
+- b. Role
+- c. ARIA labelling
+- d. Landmarks and ARIA roles
+- e. ARIA realtionships 
+- f. Visible and Hidden content
+- g. ARIA live
+- h. ARIA relevant
 
-- **WAI-ARIA**: Web Accessibility Initiative - Accessible Rich Internet Application.
+### a. ARIA DO´s and DONT´s:
+- **WAI-ARIA**: `Web Accessibility Initiative` - `Accessible Rich Internet Application.`
 - ARIA attributes need to have __explicit values__ (NO _"empty values"_).
 
-- What ARIA can do and what can not do:
-  - Can:
-  
-  :white_check_mark: modify Accessibility tree.
-  
-  - Can Not:
-  
-  :x: modify element behaviour.
-  
-  :x: modify element appearance.
-  
-  :x: add focus.
-  
-  :x: add event handling.
-  
-- ARIA give a semantic meaning to non semantic elements.
-- ARIA can also give a new semantic meaning to a native semantic element.
-  - Example:
+- ARIAS :white_check_mark: 
+  - modify Accessibility tree.
+  -  give  semantic meaning to non-semantic elements.
+  -  give new semantic meaning to native semantic element.
+  Example:
   ```
   <button role="switch" aria-checked="true" class="toggle">
     Enable
   </button>
   ```
-- ARIA can express UI patterns which doesn't exist in HTML.
-  - Example: `tree widget`
+  - express UI-patterns not existing in HTML.
+  Example: `tree widget`
+  - add labels (only accessible to assistive technology).
+  - provide semantic Relationship.
+  -provide live updates (aria-live).
+-  [video](https://youtu.be/7vz1aakYHtw?t=50s).
 
-- ARIA can add labels which is only accessible to assestive technology.
-
-- ARIA can provide semantic Relationship.
-
-- ARIA can provide live updates (aria-live).
-
-- the [video](https://youtu.be/7vz1aakYHtw?t=50s) explains that.
-
-### a. Role
-- Definition: Short hand for a particular UI pattern.
-- make sure that the role attribute is in the same element as tabindex attribute.
+- ARIAS :x:
+  -  modify element behaviour.
+  -  modify element appearance.
+  -  add focus.
+  - add event handling.
+  
+### b. Role
+- __Role__ = particular `UI pattern`.
+-  The `role attribute`= in the __same element as__ `tabindex attribute`.
 ```
 <div tabindex="0" role="checkbox" aria-checked="true" class="checkbox" checked>check me</div>
 ```
-
-### b. ARIA labelling
+### c. ARIA labelling
 - **aria-label** _attribute_
   - Can be used for element that has only a visual appearance.
   - override any other labelling such as `<label>`, or text content (like that for a button) except **aria-labelledby** _attribute_.
@@ -67,7 +57,7 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
   - can refer to elements that are hidden for assestive technologies ( hidden for example).
   - Don't have the label clicking behaviour like `<label>` and `aria-label`.
   
-### c. Landmarks and ARIA roles
+### d. Landmarks and ARIA roles
 - Landmarks may not have support in browsers' old versions. So we need to use role attribute with them.
   -Examples: 
   ```
@@ -78,7 +68,7 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
   <footer role="contentinfo">
   <dialog role="dialog">
   ```
-### d. ARIA realtionships  
+### e. ARIA realtionships  
 - **ARIA relationship attributes**
   - They take a reference to one or more elements on the page to make a link between them.
   - The difference is: 1. _What link means_.
@@ -95,14 +85,13 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - [Video](https://youtu.be/e1ZmfmnB6v8?t=40s) explains it.
 - [Collection of relationship attr](https://www.w3.org/TR/wai-aria-1.1/#attrs_relationships)
 
-### e. Visible and Hidden content
+### f. Visible and Hidden content
 - For the seek of fine tuning the experience of users using assistive tech.
 - To ensure that certain parts of the DOM is either: 
   - hidden to assistive tech.
   Or
   - Only visible to assistive tech.
 - Hidden:
-
   1. 
   ```
   <button style="visibility: hidden;">
@@ -110,18 +99,17 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
   <span hidden>
   ```
   2. `aria-hidden="true"`
-  
 - Only visible to assistive tech:
   1. element positioned absolute far off the screen. `position: absolute; left: -1000;`
   2. `aria-label`
   3. `aria-labelledby` or `aria-describedby` reference a hidden element.
 
-### f. ARIA live
+### g. ARIA live
 - for in time alerts to user.
 - `aria-live="polite"`  : important but not urgent alert.
 - `aria-live="assertive"` : important and urgent alert.
 
-### g. ARIA relevant
+### h. ARIA relevant
 - These attributes work with `aria-live`:
   - `aria-atomic` : when true assistive tech will present the entire region as a whole.
   - `aria-relevant` :indicates which type of changes should be presented to the user.
