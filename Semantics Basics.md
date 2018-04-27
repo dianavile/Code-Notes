@@ -115,11 +115,12 @@ __Alt text:__
 5. Any image meant for decoration = empty alt.          
 
 #### SOURCES: (WebAIM checklist items)
-[1.3.2](http://webaim.org/standards/wcag/checklist#sc1.3.2)
-[2.4.10](http://webaim.org/standards/wcag/checklist#sc2.4.10)
-[1.3.1](http://webaim.org/standards/wcag/checklist#sc1.3.1)
-[2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1)
-[2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
+- [Writing Usefull Alt Text](https://webaim.org/techniques/alttext/)
+- [1.3.2](http://webaim.org/standards/wcag/checklist#sc1.3.2)
+- [2.4.10](http://webaim.org/standards/wcag/checklist#sc2.4.10)
+- [1.3.1](http://webaim.org/standards/wcag/checklist#sc1.3.1)
+- [2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1)
+- [2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
 
 __JavaScript headings snippet:__
 ```
