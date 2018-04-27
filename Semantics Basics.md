@@ -16,6 +16,7 @@
 __Assistent Technology__ =  all `devices`, `software`, and `tools`, that _help any person with a disability complete a task_.
 - __Examples:__ _screen reader, braille display, magnification,voice controll, switch access, sip & puff, eyetracking, but also
 robotic devices, browser zoom, customed designed game controller and add-on chrome extension._ 
+- For all these technologies, __programmatic expressed semantics__ are needed.
 
 ### b. Affordances
 - Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
