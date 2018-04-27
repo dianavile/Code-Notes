@@ -1,17 +1,22 @@
 # Accessibility- [Semantics Basics](#3-semantics-basics)
 
 ## 3. Semantics Basics
-- a. Affordances
-- b. Labeling, Naming, and Alternative text
+- __How to create websites for users with visual disabilities?__
+- a. Assistent Technology (screen readers)
+- __GENERAL USER EXPERIENCE CONCEPTS:__
+- b. Affordances
+- c. Labeling, Naming, and Alternative text
 
 
-### a. Affordances
+### a. Assistent Technology (screen readers)
+
+### b. Affordances
 - Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
 - Screen reader can provide info for elements' **Name(label) Role State Value.**
 - Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
 
-### b. Labeling, Naming, and Alternative text
+### c. Labeling, Naming, and Alternative text
 - [WebAim](https://webaim.org/standards/wcag/checklist#g1.1)
 - Element could have a visual label (name) like for radio button or text alternative like in case of images.
 - There are 2 ways of labeling form inputs.
