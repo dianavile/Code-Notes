@@ -30,6 +30,23 @@ _ __Screen Reader Shortcuts (Linux)__ [Orca](https://help.gnome.org/users/orca/s
 - Use meaningful headings and links names.
 - Use a good heading structure from h1 to h6 (for long complex content).
 
+__JavaScript headings snippet:__
+```
+var hs = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
+for (var i = 0; i < hs.length; i++) {
+   console.log(hs[i].textContent.trim() + " " +  
+               hs[i].tagName,
+               hs[i]);
+}
+```
+#### Resources (WebAIM checklist items)
+- [Writing Usefull Alt Text](https://webaim.org/techniques/alttext/)
+- [1.3.2](http://webaim.org/standards/wcag/checklist#sc1.3.2)
+- [2.4.10](http://webaim.org/standards/wcag/checklist#sc2.4.10)
+- [1.3.1](http://webaim.org/standards/wcag/checklist#sc1.3.1)
+- [2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1)
+- [2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
+
 #### b. Links
 - Use descriptive link text 
 __Example:__ instead of using _"learn more"_ links text use `:learn more about bla bla".`
