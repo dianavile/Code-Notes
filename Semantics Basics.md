@@ -19,7 +19,9 @@ robotic devices, browser zoom, customed designed game controller and add-on chro
 - For all these technologies, __programmatic expressed semantics__ are needed.
 
 ### b. Affordances
-- Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
+- __Affordances:__ _the qualities (`properties`) of an object, that defines its use._
+- __Examples:__ _buttons, sliders, sroll-downs, playback controls, price limites_ 
+
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
 - Screen reader can provide info for elements' **Name(label) Role State Value.**
 - Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
