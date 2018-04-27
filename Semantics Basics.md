@@ -112,7 +112,8 @@ __Alt text:__
 2. Describe what the image about for screen reader.
 3. Logos =  assign the company name.
 4. Search icon = empty alt. (This will skip it from accessibility tree.)
-5. Any image meant for decoration = empty alt.          
+5. Any image meant for decoration = empty alt.
+6.  Specify each image's alt attribute in full, e.g. `alt="bees"`.
 
 #### SOURCES: (WebAIM checklist items)
 - [Writing Usefull Alt Text](https://webaim.org/techniques/alttext/)
