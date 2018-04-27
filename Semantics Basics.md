@@ -51,27 +51,27 @@ __How to access the visual information of the User Interface (UI)?__
 - `Combo box`:  value= "no preference", name: "Seat type", state= "collapsed"
 - `Button`: name= "search"
 ```
-__<main>__
-<div class= "card">
-__<form>__
-  <div class= "trip selector">
-  <div class= "row">
-  <div class= "inline control col-2">
+<main>
+//<div class= "card">
+<form>
+  //<div class= "trip selector">
+  //<div class= "row">
+  //<div class= "inline control col-2">
   <label for="seatType"> SteatType </label>
   <select name="seatType" id= "seatType">
   <option value="0">No preference</option>
   <option value="1">Aisle seat</option>
    <option value="2">Window seat</option>
   </select>
-</div>
+//</div>
 
-   <div class= "inline control submit-form col-1">
+   //<div class= "inline control submit-form col-1">
     <button type= "submit" id= "submitBtn">Search</button>
-    </div>
-  </div>
-  </div>
+    //</div>
+  //</div>
+  //</div>
   </form>
-</div>
+//</div>
 </main>
 ```
 
