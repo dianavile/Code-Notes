@@ -21,11 +21,13 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - `CTRL + Option + CMD + Shift + H`: move __backward by heading__
 
 #### Resources
-- WebAIM's article on Using VoiceOver to evaluate Web Accessibility has a full introduction to VoiceOver from the point of view of evaluating accessibility, including most keyboard commands available.
+- [Web AIM VoiceOver](https://webaim.org/articles/voiceover/)-full VoiceOverintroduction, including most keyboard commands available.
+
 - Screen Reader Shortcuts (Windows)
-If you don't have a Mac device, NVDA is a free, open source screen reader available for Windows. WebAIM's introduction to NVDA covers the basics of using NVDA to check accessibility.
+- [NVDA](https://www.nvaccess.org/)-open source screen reader for Windows. 
+- [Web AIM Introduction to NVDA](https://webaim.org/articles/nvda/)- the basics of using NVDA to check accessibility.
 - Screen Reader Shortcuts (Linux)
-If you only use Linux, Orca is available in the Gnome desktop manager, although this screen reader is much more rarely used and suffers from poor support by web browsers.
+- [Orca](https://help.gnome.org/users/orca/stable/)-Gnome desktop manager for Linux. Poor web browsers support.
 
 #### a. Headings
 - Use meaningful headings and links names.
