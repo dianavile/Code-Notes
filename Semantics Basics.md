@@ -27,10 +27,13 @@ robotic devices, browser zoom, customed designed game controller and add-on chro
 - `Yes/No option`
 - `Perform an action`
 
+### c. Role, Name, Value
 __How to access the visual information of the User Interface (UI)?__ 
 - Information need to be expressed in such a way that it is _accesible programmatically by assistence technology_.
-- Screen reader can provide info for elements' **Name(label) Role State Value.** markup is used in a way that facilitates accesibility.
+- Screen reader can provide info for elements' 
 
+**Name(label) Role State Value.** 
+- Markup is used in a way that facilitates accesibility:
 - __ROLE__= what type of Element is used?
 - __NAME__= what name an Element has? 
 - __VALUE__= what value an Element has?
@@ -41,7 +44,7 @@ __How to access the visual information of the User Interface (UI)?__
 
 - Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
 
-### c. Role, Name, Value
+
 ### d. The Accessibility Tree
 ### e. Semantics in Native HTML
 
