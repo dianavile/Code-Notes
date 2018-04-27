@@ -1,11 +1,15 @@
 # Accessibility- [Semantics Basics](#3-semantics-basics)
 
-## 3. Semantics Basics
 - __How to create websites for users with visual disabilities?__
-- a. Assistent Technology (screen readers)
-- __GENERAL USER EXPERIENCE CONCEPTS:__
+_ __How to use HTML effectively to create a good experience for all users?__
+
+## 3. Semantics Basics
+- a. Semantics & Assistent Technology (screen readers)
 - b. Affordances
-- c. Labeling, Naming, and Alternative text
+- c. Role, Name, Value
+- d. The Accessibility Tree
+- e. Semantics in Native HTML
+- f. Naming, Labeling and Alternative text
 
 
 ### a. Assistent Technology (screen readers)
@@ -16,7 +20,11 @@
 - Screen reader can provide info for elements' **Name(label) Role State Value.**
 - Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
 
-### c. Labeling, Naming, and Alternative text
+### c. Role, Name, Value
+### d. The Accessibility Tree
+### e. Semantics in Native HTML
+
+### f. Naming, Labeling and Alternative text
 - [WebAim](https://webaim.org/standards/wcag/checklist#g1.1)
 - Element could have a visual label (name) like for radio button or text alternative like in case of images.
 - There are 2 ways of labeling form inputs.
