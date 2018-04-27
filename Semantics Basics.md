@@ -40,16 +40,40 @@ __How to access the visual information of the User Interface (UI)?__
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
 
 ### d. The Accessibility Tree
-- The brrowser takes the DOM tree (`natively semantic elements` or `othered with ARIA`)  
+- The browser takes the DOM tree (`natively semantic elements` or `othered with ARIA`)  
 - ==modify it to==> __Accessibility tree__ (=all information for screenreader: `Name`, `Role`, `State` and `Value`).
 
-- __Example of Accessibility Tree__: 
+- __Example__: 
 - `Main`
 - `Form`
 - `Radio Button`: name= "round trip", state= "selected"
 - `Edit Text`: name = "full name"
 - `Combo box`:  value= "no preference", name: "Seat type", state= "collapsed"
 - `Button`: name= "search"
+```
+__<main>__
+<div class= "card">
+__<form>__
+  <div class= "trip selector">
+  <div class= "row">
+  <div class= "inline control col-2">
+  <label for="seatType"> SteatType </label>
+  <select name="seatType" id= "seatType">
+  <option value="0">No preference</option>
+  <option value="1">Aisle seat</option>
+   <option value="2">Window seat</option>
+  </select>
+</div>
+
+   <div class= "inline control submit-form col-1">
+    <button type= "submit" id= "submitBtn">Search</button>
+    </div>
+  </div>
+  </div>
+  </form>
+</div>
+</main>
+```
 
 ### e. Semantics in Native HTML
 
