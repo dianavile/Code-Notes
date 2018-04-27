@@ -19,11 +19,26 @@ robotic devices, browser zoom, customed designed game controller and add-on chro
 - For all these technologies, __programmatic expressed semantics__ are needed.
 
 ### b. Affordances
-- __Affordances:__ _the qualities (`properties`) of an object, that defines its use._
+- __Affordances:__ the qualities (`properties`) of an object, that defines its use.
 - __Examples:__ _buttons, sliders, sroll-downs, playback controls, price limites_ 
+- `Choose an option`
+- `Enter a line of text`
+- `Enter a specific date`
+- `Yes/No option`
+- `Perform an action`
+
+__How to access the visual information of the User Interface (UI)?__ 
+- Information need to be expressed in such a way that it is _accesible programmatically by assistence technology_.
+- Screen reader can provide info for elements' **Name(label) Role State Value.** markup is used in a way that facilitates accesibility.
+
+- __ROLE__= what type of Element is used?
+- __NAME__= what name an Element has? 
+- __VALUE__= what value an Element has?
+- __ __= what  an Element has?
+
 
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
-- Screen reader can provide info for elements' **Name(label) Role State Value.**
+
 - Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
 
 ### c. Role, Name, Value
