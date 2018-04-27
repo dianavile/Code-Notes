@@ -1,15 +1,15 @@
 #Accessibility- ARIA
 ## 5. ARIA
-a. WAI-ARIA: What can ARIA (NOT) do?
-b. ARIA labelling
-c. Landmarks and ARIA roles
-d. ARIA realtionships 
-e. Visible and Hidden content
-f. ARIA live
-g. ARIA relevant
+- a. WAI-ARIA: What can ARIA (NOT) do?
+- b. ARIA labelling
+- c. Landmarks and ARIA roles
+- d. ARIA realtionships 
+- e. Visible and Hidden content
+- f. ARIA live
+- g. ARIA relevant
 
 - **WAI-ARIA**: Web Accessibility Initiative - Accessible Rich Internet Application.
-- ARIA attributes need to have explicit values (can't be empty values).
+- ARIA attributes need to have __explicit values__ (NO _"empty values"_).
 
 - What ARIA can do and what can not do:
   - Can:
