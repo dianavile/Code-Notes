@@ -63,3 +63,4 @@ __Example:__ instead of using _"learn more"_ links text use `:learn more about b
 `<article>`
 `<aside>`
 `<footer>`
+- Using the proper semantic elements helps assistive technology understand how elements relate to one another.
