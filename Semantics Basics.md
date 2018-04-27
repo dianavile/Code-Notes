@@ -14,7 +14,8 @@
 
 ### a. Assistent Technology 
 __Assistent Technology__ =  all `devices`, `software`, and `tools`, that _help any person with a disability complete a task_.
-- __Examples:__ _magnifying glasses, image recognizion, robotic devices, browser zoom, customed designed game controller, braille display, voice-control, build-in screen readers, add-on chrome extension._ 
+- __Examples:__ _screen reader, braille display, magnification,voice controll, switch access, sip & puff, eyetracking, but also
+robotic devices, browser zoom, customed designed game controller and add-on chrome extension._ 
 
 ### b. Affordances
 - Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
