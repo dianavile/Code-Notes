@@ -36,13 +36,13 @@ __How to access the visual information of the User Interface (UI)?__
 - __STATE__ = What state?
 - __VALUE__= What value?
 
-**** SOURCES:
-- [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
+#### SOURCES: [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
 
 ### d. The Accessibility Tree
 - Considering the A11y tree when writing your HTML will help in making your sites more accessible.
-- The browser takes the __DOM tree__ (`natively semantic elements` or `othered with ARIA`) and ==modify it to==> 
-- __Accessibility tree__ (=all information for screenreader: `Name`, `Role`, `State` and `Value`).
+- The browser transforms __DOM tree__ (`natively semantic elements` or `othered with ARIA`) into the __Accessibility tree__ (=all information for screenreader: `Name`, `Role`, `State` and `Value`). 
+- It can be done, for much of the __DOM__ has `implicit semantic meaning`. It uses __standard HTML native elements__ that are automatically recognized by browsers on a variety of platforms.
+-Using the __proper semantic elements__ will make your life much easier when addressing accessibility concerns.
 
 - __Example__: 
 - `Main`
@@ -78,6 +78,11 @@ __How to access the visual information of the User Interface (UI)?__
 __NOTE:__ information will be _reduced to the most important information only_: `Name`, `Role`, `State` and `Value`.
 
 ### e. Semantics in Native HTML
+
+#### SOURCES:
+[WebAIM Guideline 1.1](http://webaim.org/standards/wcag/checklist#g1.1)
+[<label>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) demonstrates two options for a <label> with it's labelling.
+[<label>](https://www.w3.org/TR/html5/forms.html#category-label) The W3C list of types of elements for a <label> tag.
 
 ### f. Naming, Labeling and Alternative text
 - [WebAim](https://webaim.org/standards/wcag/checklist#g1.1)
