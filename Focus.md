@@ -55,17 +55,15 @@ I should </button>
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc1.3.2)
 
 ### c. TABINDEX ATTRIBUTE
-- Control __FOCUS BEHAVIOUR__ with __TABINDEX ATTRIBUTE__. 
-- To get tabindex value of an element: `element.tabIndex;`
+- Control __FOCUS BEHAVIOUR__ with __TABINDEX ATTRIBUTE__: `element.tabIndex;` (_tabindex value of an element_)
 - __NOTE:__ `ONLY NEEDED` for `Interactional elements` (__input__, __buttons__ & __select__ elements)
-- __NOT__ for `non-interactional elements` (__HTML-tags__, such as: _headers, paragraphs or images_)
- 
 - These elements Must have __FOCUS__:
   - `Header links`
   - `Call to Action button`
   - `Search Input`
   - `Form Elements`
   - `Footer Links`
+- __NOT__ needed for `non-interactional elements` (__HTML-tags__, such as: _headers, paragraphs or images_)
 - These elements should __NOT have FOCUS__, instead use __SEMANTICS__:
   - `Header`
   - `Block of text (paragraph)`
