@@ -6,7 +6,7 @@
 ## 3. Semantics Basics
 - a. [Semantics & Assistent Technology](#3-assistent-technology)
 - b. [Affordances](#3-affordances)
-- c. [Role, Name, Value](#3-role,-name,-value)
+- c. [Role, Name, State, Value](#3-role, name, state, value)
 - d. [The Accessibility Tree](#3-the-accessibility-tree)
 - e. [Semantics in Native HTML](#3-semantics-in-native-HTML)
 - f. [Naming, Labeling and Alternative text](#3naming,-labeling-and-alternative-text)
@@ -30,22 +30,19 @@ robotic devices, browser zoom, customed designed game controller and add-on chro
 ### c. Role, Name, Value
 __How to access the visual information of the User Interface (UI)?__ 
 - Information need to be expressed in such a way that it is _accesible programmatically by assistence technology_.
-- Screen reader can provide info for elements' 
+- Markup is used in a way that `facilitates accesibility`, so a _Screen reader can provide info for Elements_': 
+- __ROLE__= What type of Element is used?
+- __NAME__= What name (__LABEL__) an Element has? 
+- __STATE__ = What state an Element has?
+- __VALUE__= What value an Element has?
 
-**Name(label) Role State Value.** 
-- Markup is used in a way that facilitates accesibility:
-- __ROLE__= what type of Element is used?
-- __NAME__= what name an Element has? 
-- __VALUE__= what value an Element has?
-- __ __= what  an Element has?
-
-
+**** SOURCES:
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
-
-- Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
 
 
 ### d. The Accessibility Tree
+- Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
+
 ### e. Semantics in Native HTML
 
 ### f. Naming, Labeling and Alternative text
