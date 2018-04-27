@@ -1,9 +1,8 @@
 # Accessibility- [FOCUS](#2-focus)
 _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
-### Table Of Contents:
 ## 2. FOCUS
-__GOALS:__
+### Table Of Contents:
 - a. __FOCUS (MANAGEMENT):__ What is focus (management)? 
 - b. __DOM ORDER__  
 - c. __TABINDEX ATTRIBUTE__ 
