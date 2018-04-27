@@ -48,7 +48,8 @@ for (var i = 0; i < hs.length; i++) {
 - [2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1)
 - [2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
 
--Besides Headers, also take into account `Screen Readers` and `VoiceControl`.
+-Besides `Headers`, also take into account `Screen Readers` and `VoiceControl`.
+- Other navigational options are: `links`, `form controls`and `landmarks`.
 
 #### b. Links
 - Use descriptive link text 
