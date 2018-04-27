@@ -29,6 +29,7 @@ _ __Screen Reader Shortcuts (Linux)__ [Orca](https://help.gnome.org/users/orca/s
 #### a. Headings
 - Use meaningful headings and links names.
 - Use a good heading structure from h1 to h6 (for long complex content).
+- Look through the HTML of a page and identify each heading's number. They look like: `<h#>`
 
 __JavaScript headings snippet:__
 ```
