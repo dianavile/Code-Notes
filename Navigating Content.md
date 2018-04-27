@@ -64,3 +64,7 @@ __Example:__ instead of using _"learn more"_ links text use `:learn more about b
 `<aside>`
 `<footer>`
 - Using the proper semantic elements helps assistive technology understand how elements relate to one another.
+
+#### Takeaway
+- Make sure to use __meaningful headers, link text and page structure__.
+- Do not try to control the experience of a screen reader user. It will need to more confusion and less positive user experience. Besides, they will use the available information and their tools.
