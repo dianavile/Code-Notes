@@ -78,11 +78,17 @@ __How to access the visual information of the User Interface (UI)?__
 __NOTE:__ information will be _reduced to the most important information only_: `Name`, `Role`, `State` and `Value`.
 
 ### e. Semantics in Native HTML
+```
+<label>
+<input type="radio" checkedName= "tType"  value= "0">
+Round Trip
+</Label>
+```
 
 #### SOURCES:
-[WebAIM Guideline 1.1](http://webaim.org/standards/wcag/checklist#g1.1)
-[<label>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) demonstrates two options for a <label> with it's labelling.
-[<label>](https://www.w3.org/TR/html5/forms.html#category-label) The W3C list of types of elements for a <label> tag.
+- [WebAIM Guideline 1.1](http://webaim.org/standards/wcag/checklist#g1.1)
+- [label](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) demonstrates two !label" options with it's labelling.
+- [label](https://www.w3.org/TR/html5/forms.html#category-label) The W3C list of types of elements for a "label" tag.
 
 ### f. Naming, Labeling and Alternative text
 - [WebAim](https://webaim.org/standards/wcag/checklist#g1.1)
