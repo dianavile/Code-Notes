@@ -40,8 +40,9 @@ __How to access the visual information of the User Interface (UI)?__
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
 
 ### d. The Accessibility Tree
-- The browser takes the DOM tree (`natively semantic elements` or `othered with ARIA`)  
-- ==modify it to==> __Accessibility tree__ (=all information for screenreader: `Name`, `Role`, `State` and `Value`).
+- Considering the A11y tree when writing your HTML will help in making your sites more accessible.
+- The browser takes the __DOM tree__ (`natively semantic elements` or `othered with ARIA`) and ==modify it to==> 
+- __Accessibility tree__ (=all information for screenreader: `Name`, `Role`, `State` and `Value`).
 
 - __Example__: 
 - `Main`
@@ -74,6 +75,7 @@ __How to access the visual information of the User Interface (UI)?__
 //</div>
 </main>
 ```
+__NOTE:__ information will be _reduced to the most important information only_: `Name`, `Role`, `State` and `Value`.
 
 ### e. Semantics in Native HTML
 
