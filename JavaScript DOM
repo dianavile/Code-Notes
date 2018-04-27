@@ -1,6 +1,6 @@
-# **JavaScript DOM**
+#JavaScript DOM
 
-- ### When you request a website, it will respond with HTML. 
+### When you request a website, it responds with HTML. 
 - These bytes recieved are run through complicated and documented `parsing process` 
 - ===> determine different characters (eg., start tag character, atribute) 
 - ===> tokenizer 
