@@ -2,10 +2,10 @@
 Here I put all things I am learning per subject, in order to keep track of the information overload:)
 
 ## Content
-- __1) WEBFOUNDATION__
-- __2) WEBPROGRAMMING- JAVASCRIPT__
-- __3) EXPLORE JAVASCRIPT- OBJECTS, TOOLS & TESTING__
-- __4) FRONT END APPLICATIONS__
-- __5) BUILD WITH REACT__
-- __6) EXTRA__
-- __7) CAREER__
+- 1) [WEBFOUNDATION]()
+- 2) [WEBPROGRAMMING-JAVASCRIPT]()
+- 3) [EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING]()
+- 4) [FRONT END APPLICATIONS]()
+- 5) [BUILD WITH REACT]()
+- 6) [EXTRA]()
+- 7) [CAREER]()
