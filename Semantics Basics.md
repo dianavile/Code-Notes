@@ -4,16 +4,19 @@
 - __How to use HTML effectively to create a good experience for all users?__
 
 ## 3. Semantics Basics
-- a. Semantics & Assistent Technology (screen readers)
-- b. Affordances
-- c. Role, Name, Value
-- d. The Accessibility Tree
-- e. Semantics in Native HTML
-- f. Naming, Labeling and Alternative text
+- a. [Semantics & Assistent Technology](#3-assistent-technology)
+- b. [Affordances](#3-affordances)
+- c. [Role, Name, Value](#3-role,-name,-value)
+- d. [Semantics Basics](#3-semantics-basics)The Accessibility Tree
+- e. [Semantics Basics](#3-semantics-basics)Semantics in Native HTML
+- f. [Semantics Basics](#3-semantics-basics)Naming, Labeling and Alternative text
 
 
 ### a. Assistent Technology (screen readers)
-__Assistent Technology__ =  all `devices`, `software`, and `tools`, that help any person with a disability complete a task.
+__Assistent Technology__ =  all `devices`, `software`, and `tools`, that _help any person with a disability complete a task_.
+- Examples: magnifying glasses, image recognizion, robotic devices,  
+-
+
 
 ### b. Affordances
 - Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
