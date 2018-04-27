@@ -49,7 +49,7 @@ for (var i = 0; i < hs.length; i++) {
 #### b. Links
 - Use descriptive link text 
 __Example:__ instead of using _"learn more"_ links text use `:learn more about bla bla".`
-- [2.4.9](http://webaim.org/standards/wcag/checklist#sc2.4.9)
+- Most of the time, a link just needs to be a link! [2.4.9](http://webaim.org/standards/wcag/checklist#sc2.4.9)
 
 #### c. Form Controls
 - [link Anti-patterns video](https://youtu.be/SiblO4dfYBg)
