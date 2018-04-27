@@ -41,12 +41,7 @@ for (var i = 0; i < hs.length; i++) {
 }
 ```
 #### Resources (WebAIM checklist items)
-- [Writing Usefull Alt Text](https://webaim.org/techniques/alttext/)
-- [1.3.2](http://webaim.org/standards/wcag/checklist#sc1.3.2)
-- [2.4.10](http://webaim.org/standards/wcag/checklist#sc2.4.10)
-- [1.3.1](http://webaim.org/standards/wcag/checklist#sc1.3.1)
-- [2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1)
-- [2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
+- [Writing Usefull Alt Text](https://webaim.org/techniques/alttext/), [1.3.2](http://webaim.org/standards/wcag/checklist#sc1.3.2),[2.4.10](http://webaim.org/standards/wcag/checklist#sc2.4.10), [1.3.1](http://webaim.org/standards/wcag/checklist#sc1.3.1), [2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1), [2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
 
 -Besides `Headers`, also take into account `Screen Readers` and `VoiceControl`.
 - Other navigational options are: `links`, `form controls`and `landmarks`.
@@ -54,6 +49,7 @@ for (var i = 0; i < hs.length; i++) {
 #### b. Links
 - Use descriptive link text 
 __Example:__ instead of using _"learn more"_ links text use `:learn more about bla bla".`
+- [2.4.9](http://webaim.org/standards/wcag/checklist#sc2.4.9)
 
 #### c. Form Controls
 - [link Anti-patterns video](https://youtu.be/SiblO4dfYBg)
