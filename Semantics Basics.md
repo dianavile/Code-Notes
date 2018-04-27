@@ -90,7 +90,8 @@ Round Trip
 - [label](https://www.w3.org/TR/html5/forms.html#category-label) The W3C list of types of elements for a "label" tag.
 
 ### f. Naming, Labeling and Alternative text
-- There are 2 ways of labeling form inputs.
+- Using proper labeling not only helps accessibility but it makes the element easier to target for all users!
+- There are 2 ways of __labeling form inputs__.
 - Element could have a: 
 1. `visual label (name)` _name="radio button"_ or a
 ```
