@@ -1,7 +1,7 @@
 # Accessibility- [Semantics Basics](#3-semantics-basics)
 
 - __How to create websites for users with visual disabilities?__
-_ __How to use HTML effectively to create a good experience for all users?__
+- __How to use HTML effectively to create a good experience for all users?__
 
 ## 3. Semantics Basics
 - a. Semantics & Assistent Technology (screen readers)
@@ -13,6 +13,7 @@ _ __How to use HTML effectively to create a good experience for all users?__
 
 
 ### a. Assistent Technology (screen readers)
+__Assistent Technology__ =  all `devices`, `software`, and `tools`, that help any person with a disability complete a task.
 
 ### b. Affordances
 - Definition: the qualities or properties of an object that define its possible uses or make clear how it can or should be used.
