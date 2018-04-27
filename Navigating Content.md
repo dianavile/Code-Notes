@@ -27,9 +27,9 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 _ __Screen Reader Shortcuts (Linux)__ [Orca](https://help.gnome.org/users/orca/stable/)-Gnome desktop-manager for Linux. 
 
 #### a. Headings
-- Use meaningful headings and links names.
+- Use __meaningful headings__ and __links names__.
 - Use a good heading structure from `<h1>...<h6>`(for long complex content).
-- in __DEV TOOL:__ Look through the HTML of a page and identify each heading's number. They look like: `<h#>`
+- in __DEV TOOL:__ Look through the HTML of a page and identify each heading's number: `<h#>`
 
 __JavaScript headings snippet:__
 ```
@@ -47,6 +47,8 @@ for (var i = 0; i < hs.length; i++) {
 - [1.3.1](http://webaim.org/standards/wcag/checklist#sc1.3.1)
 - [2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1)
 - [2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
+
+-Besides Headers, also take into account `Screen Readers` and `VoiceControl`.
 
 #### b. Links
 - Use descriptive link text 
