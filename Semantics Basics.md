@@ -113,3 +113,20 @@ __Alt text:__
 3. Logos =  assign the company name.
 4. Search icon = empty alt. (This will skip it from accessibility tree.)
 5. Any image meant for decoration = empty alt.          
+
+#### SOURCES: (WebAIM checklist items)
+[1.3.2](http://webaim.org/standards/wcag/checklist#sc1.3.2)
+[2.4.10](http://webaim.org/standards/wcag/checklist#sc2.4.10)
+[1.3.1](http://webaim.org/standards/wcag/checklist#sc1.3.1)
+[2.4.1](http://webaim.org/standards/wcag/checklist#sc2.4.1)
+[2.4.6](http://webaim.org/standards/wcag/checklist#sc2.4.6)
+
+__JavaScript headings snippet:__
+```
+var hs = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
+for (var i = 0; i < hs.length; i++) {
+   console.log(hs[i].textContent.trim() + " " +  
+               hs[i].tagName,
+               hs[i]);
+}
+```
