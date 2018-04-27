@@ -84,34 +84,31 @@ __NOTE:__ information will be _reduced to the most important information only_: 
 Round Trip
 </Label>
 ```
-
 #### SOURCES:
 - [WebAIM Guideline 1.1](http://webaim.org/standards/wcag/checklist#g1.1)
 - [label](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) demonstrates two !label" options with it's labelling.
 - [label](https://www.w3.org/TR/html5/forms.html#category-label) The W3C list of types of elements for a "label" tag.
 
 ### f. Naming, Labeling and Alternative text
-- [WebAim](https://webaim.org/standards/wcag/checklist#g1.1)
-- Element could have a visual label (name) like for radio button or text alternative like in case of images.
 - There are 2 ways of labeling form inputs.
+- Element could have a: 
+1. `visual label (name)` _name="radio button"_ or a
 ```
 <label>
   <input type="radio">
   Check me
 </label>
 ```
+2. `text alternative` _images_.
 ```
 <input type="radio" id="radio-button">
 <label for="radio-button">Check me</label>
 ```
- - Using these labeling allow user to toggle the input element by also clicking the label.
- - alt text: 1. An alternative to the image if not loaded.
-             2. describe what the image about for screen reader.
-             3. For logos you can assign the company name for alt attribute.
-             4. For search icon you can leave alt with no value. This will skip it from accessibility tree.
-             5. Any image that is meant for decoration should have an empty alt.           
+- Using these labeling allows users to `toggle the input element` by also _clicking the label_.
 
-* [Semantics Basics](#3-semantics-basics)
-* [Navigating Content](#4-navigating-content)
-* [ARIA](#5-aria)
-* [Style](#6-style)
+__Alt text:__ 
+1. Use an alternative text to the image, if not loaded.
+2. Describe what the image about for screen reader.
+3. Logos =  assign the company name.
+4. Search icon = empty alt. (This will skip it from accessibility tree.)
+5. Any image meant for decoration = empty alt.          
