@@ -309,3 +309,4 @@ focusedElementBeforeModal.focus();
 - [WebAIM checklist items](http://webaim.org/standards/wcag/checklist#sc2.1.2)
 - [dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
 - [Example](https://github.com/udacity/ud891/tree/gh-pages/lesson2-focus/07-modals-and-keyboard-traps)
+- [Slug](https://developer.mozilla.org/en-US/docs/Glossary/Slug)
