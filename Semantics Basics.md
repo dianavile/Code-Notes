@@ -6,10 +6,10 @@
 ## 3. Semantics Basics
 - a. [Semantics & Assistent Technology](#3-assistent-technology)
 - b. [Affordances](#3-affordances)
-- c. [Role, Name, State, Value](#3-role, name, state, value)
+- c. [Role Name State Value](#3-role-name-state-value)
 - d. [The Accessibility Tree](#3-the-accessibility-tree)
 - e. [Semantics in Native HTML](#3-semantics-in-native-HTML)
-- f. [Naming, Labeling and Alternative text](#3naming,-labeling-and-alternative-text)
+- f. [Naming Labeling and Alternative text](#3naming-labeling-and-alternative-text)
 
 
 ### a. Assistent Technology 
@@ -30,18 +30,26 @@ robotic devices, browser zoom, customed designed game controller and add-on chro
 ### c. Role, Name, Value
 __How to access the visual information of the User Interface (UI)?__ 
 - Information need to be expressed in such a way that it is _accesible programmatically by assistence technology_.
-- Markup is used in a way that `facilitates accesibility`, so a _Screen reader can provide info for Elements_': 
-- __ROLE__= What type of Element is used?
-- __NAME__= What name (__LABEL__) an Element has? 
-- __STATE__ = What state an Element has?
-- __VALUE__= What value an Element has?
+- Markup is used in a way that `facilitates accesibility`, so a _Screen reader can provide info for __Elements___': 
+- __ROLE__= _What type? ex. Edit Text
+- __NAME__= What name(label)? ex. your e-mail address
+- __STATE__ = What state?
+- __VALUE__= What value?
 
 **** SOURCES:
 - [WebAim](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
 
-
 ### d. The Accessibility Tree
-- Browser takes DOM tree (natively semantic elements or othered with ARIA)  ==modify it to==> Accessibility tree( containing all information for screen reader Name Role State Value).
+- The brrowser takes the DOM tree (`natively semantic elements` or `othered with ARIA`)  
+- ==modify it to==> __Accessibility tree__ (=all information for screenreader: `Name`, `Role`, `State` and `Value`).
+
+- __Example of Accessibility Tree__: 
+- `Main`
+- `Form`
+- `Radio Button`: name= "round trip", state= "selected"
+- `Edit Text`: name = "full name"
+- `Combo box`:  value= "no preference", name: "Seat type", state= "collapsed"
+- `Button`: name= "search"
 
 ### e. Semantics in Native HTML
 
