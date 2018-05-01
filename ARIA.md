@@ -15,7 +15,7 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - **WAI-ARIA**: `Web Accessibility Initiative` - `Accessible Rich Internet Application.`
 - ARIA attributes need to have __explicit values__ (NO _"empty values"_).
 
-- ARIAS :white_check_mark: 
+- ARIAS DO´s :white_check_mark: 
   - modify Accessibility tree.
   -  give  semantic meaning to non-semantic elements.
   -  give new semantic meaning to native semantic element.
@@ -32,7 +32,7 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
   -provide live updates (aria-live).
 -  [video](https://youtu.be/7vz1aakYHtw?t=50s).
 
-- ARIAS :x:
+- ARIAS DONT´s :x:
   -  modify element behaviour.
   -  modify element appearance.
   -  add focus.
