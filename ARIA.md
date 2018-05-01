@@ -49,6 +49,11 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 ```
 <div tabindex="0" role="checkbox" aria-checked="true" class="checkbox" checked>check me</div>
 ```
+#### Resources 
+ -[ARIA 1.0 roles](https://www.w3.org/TR/wai-aria-1.0/#roles).
+ -[ARIA 1.1 roles (draft)](https://www.w3.org/TR/wai-aria-1.1/#roles).
+ -[ARIA 1.1 practices guide (draft)](https://www.w3.org/TR/wai-aria-practices-1.1/).
+
 ### c. ARIA labelling
 - **aria-label** _attribute_
   - Used for element with visual appearance only. 
