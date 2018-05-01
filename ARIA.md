@@ -11,6 +11,11 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - g. ARIA live
 - h. ARIA relevant
 
+#### Resources 
+[ARIA 1.0 spec](https://www.w3.org/TR/wai-aria/)
+[ARIA 1.1 spec](https://www.w3.org/TR/wai-aria-1.1/)
+[Example](http://udacity.github.io/ud891/lesson5-semantics-aria/02-why-aria/index.html)
+
 ### a. ARIA DO´s and DONT´s:
 - **WAI-ARIA**: `Web Accessibility Initiative` - `Accessible Rich Internet Application.`
 - ARIA attributes need to have __explicit values__ (NO _"empty values"_).
@@ -25,18 +30,18 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
     Enable
   </button>
   ```
-  - express UI-patterns not existing in HTML.
+  -Express UI-patterns (not existing in HTML).
   Example: `tree widget`
-  - add labels (only accessible to assistive technology).
-  - provide semantic Relationship.
-  -provide live updates (aria-live).
--  [video](https://youtu.be/7vz1aakYHtw?t=50s).
+  -Add labels (only accessible to assistive technology).
+  -Provide semantic Relationship.
+  -Provide live updates (aria-live).
+  -[video](https://youtu.be/7vz1aakYHtw?t=50s).
 
 - ARIAS DONT´s :x:
-  -  modify element behaviour.
-  -  modify element appearance.
-  -  add focus.
-  - add event handling.
+  -  Modify element behaviour.
+  -  Modify element appearance.
+  -  Add focus.
+  -  Add event handling.
   
 ### b. Role
 - __Role__ = particular `UI pattern`.
@@ -46,9 +51,9 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 ```
 ### c. ARIA labelling
 - **aria-label** _attribute_
-  - Can be used for element that has only a visual appearance.
-  - override any other labelling such as `<label>`, or text content (like that for a button) except **aria-labelledby** _attribute_.
-  - have the label clicking behaviour like `<label>` 
+  - Used for element with visual appearance only. 
+  - Override other labelling (`<label>`) or text content (`button `) except **aria-labelledby** _attribute_.
+  - add click behaviour to `<label>` 
  
 - **aria-labelledby** _attribute_
   - Overcome all other labelling methods.
