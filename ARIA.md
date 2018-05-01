@@ -67,6 +67,11 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
   - can refer to elements that are hidden for assestive technologies ( hidden for example).
   - Don't have the label clicking behaviour like `<label>` and `aria-label`.
   
+#### Name the Elements
+- In each case, provide the label for the first, or outermost, element.
+- If the element would be hidden from the accessibility tree, choose "No label".
+- HTML labelling techniques, and ARIA roles and attributes, must be used correctly in order to be effective.
+
 ### d. Landmarks and ARIA roles
 - Landmarks may not have support in browsers' old versions. So we need to use role attribute with them.
   -Examples: 
