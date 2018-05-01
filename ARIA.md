@@ -12,9 +12,9 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - h. ARIA relevant
 
 #### Resources 
-[ARIA 1.0 spec](https://www.w3.org/TR/wai-aria/)
-[ARIA 1.1 spec](https://www.w3.org/TR/wai-aria-1.1/)
-[Example](http://udacity.github.io/ud891/lesson5-semantics-aria/02-why-aria/index.html)
+- [ARIA 1.0 spec](https://www.w3.org/TR/wai-aria/)
+- [ARIA 1.1 spec](https://www.w3.org/TR/wai-aria-1.1/)
+- [Example](http://udacity.github.io/ud891/lesson5-semantics-aria/02-why-aria/index.html)
 
 ### a. ARIA DO´s and DONT´s:
 - **WAI-ARIA**: `Web Accessibility Initiative` - `Accessible Rich Internet Application.`
