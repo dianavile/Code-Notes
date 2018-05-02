@@ -116,17 +116,21 @@ Mute
 - [Exercise](https://github.com/udacity/ud891)
 
 ### d. Responsive design for multiple-devices:
-  - Meta viewport tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
-  - In meta viewport tag: don't use `user-scalable=no` ==> prevent user from zooming the screen.
-  - Use relative CSS units.
-  - Use appropriate size touch targets:
+- On older browsers (Mobile Safari) developers would add user-scaleable=no because it disables the 350ms click delay in that browser.  - As of Safari 9.1 this is no longer the case, and using `width=device-width` in your viewport will handle removing that click delay.
+- Meta viewport tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
+- In meta viewport tag: don't use `user-scalable=no` ==> prevent user from zooming the screen.
+- Use relative CSS units.
+- Use appropriate size touch targets:
     - Minimum touch target size: 48 px.
     - If touch target (`icons`) <48 px, add padding.
     - To avoid overlapping, leave margin around touch target. Minimum 32px.
 
 #### Resources 
   - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.4).
-  
+  - [Udacity course on Responsive Web Design Fundamentals](https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893)
+  - [Material Design Accessibility recommendations for touch targets](https://material.io/guidelines/usability/accessibility.html#accessibility-layout)
+  - [Responsive web design basics on Web Fundamentals]()
+ 
 ### e. Mobile Screen Readers:
 Mobile Screen Readers
 
