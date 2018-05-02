@@ -36,8 +36,16 @@ __BOLD__:
 
 ## d. LIST
 - Create an unordered list `<ul>`
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
 - Create an ordered list `<ol>`
-
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
 ## e. IMAGES
 ## f. LINKS
 ## g. BLOCKQUOTES
