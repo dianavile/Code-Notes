@@ -131,10 +131,8 @@ Mute
   - [Responsive web design basics on Web Fundamentals](https://developers.google.com/web/fundamentals/design-and-ux/responsive/#set-the-viewport)
   - [Material Design Accessibility recommendations for touch targets](https://material.io/guidelines/usability/accessibility.html#accessibility-layout)
  
-### e. Mobile Screen Readers:
+### e. Mobile Screen Readers: 
 Mobile Screen Readers
-Enable mobile Screen Reader in iOS: iOS tutorial
-Enable mobile Screen Reader in Android: Android tutorial 
 
 ### f. Color & Contrast Requierements
 -  Don't convey info with color alone, as 1 of 20 men and 1 in 200 women suffer from some sort of color blindness.
