@@ -27,14 +27,17 @@ __GOALS:__
 ## c. EMPHASIS
 To emphasize a text in markdown, use the following:
 _ITALIC_:
-- **:  *This text is italic* 
-- _ _: _This text is italic__
+- *:  *This text is italic* 
+- _: _This text is italic__
 __BOLD__:
-- **This text is bold**
-- __This text is bold__
-(**NOTE:** **Combine** them as __you__ like**)
+- **: **This text is bold**
+- __: __This text is bold__
+(**NOTE:** Combine them as __you__ like**)
 
 ## d. LIST
+- Create an unordered list `<ul>`
+- Create an ordered list `<ol>`
+
 ## e. IMAGES
 ## f. LINKS
 ## g. BLOCKQUOTES
