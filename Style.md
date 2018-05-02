@@ -75,6 +75,7 @@ Click me!
 ### c. Styling with Aria
 - Styling with ARIA ==> use ARIA attribute as an attribute selector. To set the aria state properly.
 - When building custom controls be sure to include tabindex so keyboard users can easily interact with the elements.
+ - __not toggled:__
 ```
 <div class="toggle"
 role= "button"
@@ -84,6 +85,17 @@ tabindex="0">
 Mute
 </div>
 ```
+ - __toggled:__
+```
+<div class="toggle pressed"
+role= "button"
+aria-labelledby="muteLbl"
+aria-pressed="true"
+tabindex="0">
+Mute
+</div>
+```
+
 #### Resources 
 - [CSS attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) 
 
