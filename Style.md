@@ -1,6 +1,11 @@
 # Accessibility- [Style](#6-style)
 _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
+#### Goals 
+- How frequently is this piece of User Interface (UI) used?
+- How badly does this accessibility issue affect users?
+- How expensive is going to be to fix the issue?
+
 ### a. Working with focus styles
 - The pseudo code `focus` only matchend when an element has __focus__:
 ```
