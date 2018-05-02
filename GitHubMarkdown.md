@@ -15,9 +15,34 @@ __GOALS:__
 - f. __EMOJI__ 
 
 ## a. USERNAME @MENTIONS 
+- Type a @ symbol followe by a username to notify the person to view the comment.
+- This is called an "@mention", as you are mentioning an `individual`.
+- You can also "@mention" `teams` within an _organization_.
+
 ## b. ISSUE REFERENCES 
+Any number refering to an `Issue` or `Pull Request` is automatically converted into a link:
+- #1
+- defunkt#1
+- defunkt/github-flavored-markdown#1
+
 ## c. TASK LISTS 
+- [x] @mentions, #refs, [links](),]]formatting]], and <del>tags</del> supported.
+- [x] list syntax required (any unordered list or ordered list supported).
+- [x] this is a complete item.
+- [] this is an incomplete item.
+
 ## d. FENCED CODE BLOCKS
+- You can create a code block with ` ``` `to create a clde block without the leading spaces.
+```
+javascript
+function test(){
+console.log("look ma`,  no spaces");
+}
+```
+- Add an optional language identifier and your code with get syntax highlighting.
+function test (){
+console.log("look ma`, no spaces");
+}
 
 ## e. TABLES
 In GitHub you can create a table by 
@@ -30,17 +55,9 @@ First Header     I Second Header
 Content cell1   I Content cell2
 Content column2 I Content column2
 ```
-First Header     I Second Header
----------------- I -------------
-Content cell1    I Content cell2
-Content column2  I Content column2
 
 ## f. EMOJI
 GitHub supports emoji!
 :+1: :sparkles: :camel: :tada:
 :rocket: :metal: :octocat:
 See all [available & supported emoji](http://www.emoji-cheat-sheet.com)
-
-
-
-
