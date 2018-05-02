@@ -132,6 +132,8 @@ We are head of in...!
 Could not connect!
 </div>
 ```
+#### Resources 
+- [Example ARIA Live](http://udacity.github.io/ud891/lesson5-semantics-aria/19-aria-live/)
 
 ### h. ARIA relevant
 - The following __attributes__ work with `aria-live`:
