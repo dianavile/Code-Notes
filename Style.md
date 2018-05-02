@@ -69,7 +69,7 @@ Click me!
 #### Resources 
 - [`:moz-focusring` pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-focusring).
 - [Proposing CSS input modality article](http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html).
-- [Input modality shim](https://github.com/alice/modality).
+- [Input modality shim](https://github.com/alice/modality)(https://github.com/WICG/focus-visible).
 - [video_ Styling native/non-native buttons](https://youtu.be/bfPGicTGBTI).
 
 ### c. Styling with Aria
