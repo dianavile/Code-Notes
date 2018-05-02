@@ -141,14 +141,14 @@ Could not connect!
 ### h. ARIA relevant
 - The following __attributes__ work with `aria-live`:
 - They finetune _what is communicated to the user when the live region changes_:
-1)__ARIA-ATOMIC:__
+#### 1)__ARIA-ATOMIC:__
   - `aria-atomic`: true assistive tech presents the _entire region as a whole_.
-2)__ARIA-RELEVANT:__
+#### 2)__ARIA-RELEVANT:__
   - `aria-relevant`:indicates _type of changes needed to be presented_ to the user.
   - `aria-relevant="additions"` ==> _any element added to live region_ is presented.
   - `aria-relevant="text"` ==> _any text content added to any descendant element_ is presented.
   - `aria-relevant="removals"` ==> _removal of any text/ element within the live region_ is presented.
   - `aria-relevant="all"` ==> _text additions or -removals_ is presented.
   - `aria-relevant="additions text"` _(default)_.
-3)__ARIA-BUSY:__
+#### 3)__ARIA-BUSY:__
   - `aria-busy`
