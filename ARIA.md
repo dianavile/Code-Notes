@@ -121,8 +121,12 @@ for in time alerts to user.
 - ARIA live has three important values:
 - `aria-live="off"(default)`: updates to region is not represented to user, unless assistence technology is currently focused to that region.  
 - `aria-live="polite"` : (background change) alert = important, not urgent.
+```
+<div class="chat-history" arialive="polite">
+We are head of in...!
+</div>
+```
 - `aria-live="assertive"`: alert = important & urgent.
-
 ```
 <div class="alertbar" arialive="assertive">
 Could not connect!
