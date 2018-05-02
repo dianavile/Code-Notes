@@ -73,7 +73,7 @@ Markdown allows to use backslash escapes to generate literal characters which wo
 - `#`= hash mark
 - `+` = plus sign
 - `-` = minus sign (hyphen)
-- `.`. = dot
+- `.` = dot
 - `!` = exclamation mark.
 
 
