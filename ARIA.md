@@ -9,7 +9,7 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - e. ARIA realtionships 
 - f. Visible and Hidden content
 - g. ARIA live
-- h. ARIA relevant
+- h. ARIA relevant  (Atomic Relevant Busy)
 
 #### Resources 
 - [ARIA 1.0 spec](https://www.w3.org/TR/wai-aria/)
@@ -138,7 +138,7 @@ Could not connect!
 #### Resources 
 - [Example ARIA Live](http://udacity.github.io/ud891/lesson5-semantics-aria/19-aria-live/)
 
-### h. ARIA relevant
+### h. ARIA relevant: (Atomic Relevant Busy)
 - The following __attributes__ work with `aria-live`:
 - They finetune _what is communicated to the user when the live region changes_:
 
