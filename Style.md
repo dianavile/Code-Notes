@@ -75,17 +75,26 @@ Click me!
 ### c. Styling with Aria
 - Styling with ARIA ==> use ARIA attribute as an attribute selector. To set the aria state properly.
 - When building custom controls be sure to include tabindex so keyboard users can easily interact with the elements.
-
+```
+<div class="toggle"
+role= "button"
+aria-labelledby="muteLbl"
+aria-pressed="false"
+tabindex="0">
+Mute
+</div>
+```
 #### Resources 
 - [CSS attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) 
 
 ### d. Responsive design for multiple-devices:
-  - meta viewport tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
+  - Meta viewport tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
   - In meta viewport tag: don't use `user-scalable=no` ==> prevent user from zooming the screen.
   - Use relative CSS units.
-  - Use appropriate size touch targets. (Minimum touch target size is 48 px).
-  - If touch target (`icons`) is smaller, add padding to it.
-  - To avoid overlapping, make sure to leave margin around touch target (minimum 32px).
+  - Use appropriate size touch targets:
+    - Minimum touch target size: 48 px.
+    - If touch target (`icons`) <48 px, add padding.
+    - To avoid overlapping, leave margin around touch target. Minimum 32px.
 
 #### Resources 
   - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.4).
