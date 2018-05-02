@@ -153,6 +153,7 @@ Could not connect!
 <input type="number" id="year" value="1983">
 </span>
 ```        
+- __NOTE:__ Only need to be specified if __true__, if false= by default.
 
 #### 2) __ARIA-RELEVANT:__
   - `aria-relevant`:indicates _type of changes needed to be presented_ to the user.
@@ -161,5 +162,7 @@ Could not connect!
   - `aria-relevant="removals"` ==> _removal of any text/ element within the live region_ is presented.
   - `aria-relevant="all"` ==> _text additions or -removals_ is presented.
   - `aria-relevant="additions text"` _(default)_.
+
+
 #### 3) __ARIA-BUSY:__
   - `aria-busy`
