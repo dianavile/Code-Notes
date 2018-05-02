@@ -22,9 +22,9 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 #### ARIAS DO´s 
   - modify Accessibility tree.
-  -  give  semantic meaning to non-semantic elements.
-  -  give new semantic meaning to native semantic element.
-  Example:
+  - give semantic meaning to non-semantic elements.
+  - give new semantic meaning to native semantic element.
+  - __Example:__
   ```
   <button role="switch" aria-checked="true" class="toggle">
     Enable
