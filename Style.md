@@ -156,7 +156,7 @@ Mute
    - Check how UI appear for high contrast users 
 #### Resources 
   - [Exercise](https://github.com/udacity/ud891)
-  - [Chrome Accessibility Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)   
+    - [Chrome Accessibility Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)   
     - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.1).
     - [Nocoffee chrome extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US). 
     - [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) 
