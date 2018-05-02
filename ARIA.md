@@ -142,8 +142,7 @@ Could not connect!
 - The following __attributes__ work with `aria-live`:
 - They finetune _what is communicated to the user when the live region changes_:
 
-#### 1) __ARIA-ATOMIC:__
-  - `aria-atomic`: true assistive tech presents the _entire region as a whole_.
+#### 1) __ARIA-ATOMIC:__ true assistive tech presents the _entire region as a whole_.( `aria-atomic`)
 ```
 <span  aria-labelledby= "birthdayLbL" 
        aria-live= "polite" 
@@ -155,8 +154,7 @@ Could not connect!
 ```        
 - __NOTE:__ Only need to be specified if __true__, if false= by default.
 
-#### 2) __ARIA-RELEVANT:__
-  - `aria-relevant`:indicates _type of changes needed to be presented_ to the user.
+#### 2) __ARIA-RELEVANT:__indicates _type of changes needed to be presented_ to the user. ( `aria-relevant`)
   - `aria-relevant="additions"` ==> _any element added to live region_ is presented.
   - `aria-relevant="text"` ==> _any text content added to any descendant element_ is presented.
   - `aria-relevant="removals"` ==> _removal of any text/ element within the live region_ is presented.
