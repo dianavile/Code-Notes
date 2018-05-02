@@ -155,12 +155,11 @@ Could not connect!
 - __NOTE:__ Only need to be specified if __true__, if false= by default.
 
 #### 2) __ARIA-RELEVANT:__indicates _type of changes needed to be presented_ to the user. ( `aria-relevant`)
-  - `aria-relevant="additions"` ==> _any element added to live region_ is presented.
-  - `aria-relevant="text"` ==> _any text content added to any descendant element_ is presented.
-  - `aria-relevant="removals"` ==> _removal of any text/ element within the live region_ is presented.
-  - `aria-relevant="all"` ==> _text additions or -removals_ is presented.
+  - `aria-relevant="additions"` ==> _any element added to live region_ .
+  - `aria-relevant="text"` ==> _any text content added to any descendant element_.
+  - `aria-relevant="removals"` ==> _removal of any text/ element within the live region_.
   - `aria-relevant="additions text"` _(default)_.
-
+  - `aria-relevant="all"` ==> _text additions or -removals_. (All is relevant)
 
 #### 3) __ARIA-BUSY:__
-  - `aria-busy`
+  - `aria-busy` ==> _temporarily ignore changes to the element_.
