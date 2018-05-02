@@ -75,6 +75,8 @@ Click me!
 ### c. Styling with Aria
 - Styling with ARIA ==> use ARIA attribute as an attribute selector. To set the aria state properly, so it is visually reflected.
 - When building custom controls be sure to include tabindex so keyboard users can easily interact with the elements.
+- A huge benefit to styling with ARIA: it provides visual feedback, which can act as a safeguard when testing and debugging code.
+
  - __HTML not toggled:__
 ```
 <div class="toggle"
