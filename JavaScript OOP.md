@@ -2,7 +2,7 @@
 _Source: Object Oriented Programming JavaScript - Udacity Front End Web Development Nanodegree_
 
 #### Goals:
-- JavaScript Intro
+- JavaScript object fundamentals
 - Object: Create, access, and modify objects.
 - First-class functions:JavaScript functions = first-class functions.
 - JavaScript's abstractions over traditional classes and inheritance.
@@ -16,7 +16,7 @@ _Source: Object Oriented Programming JavaScript - Udacity Front End Web Developm
 - 
 
 ### Table Of Contents:
-- a. JavaScript Intro
+- a. JavaScript object fundamentals
 - b. Objects
 - c. Firs-class functions
 - d. Abstactions
