@@ -138,18 +138,21 @@ Mute
 -  Don't convey info with color alone, as 1 of 20 men and 1 in 200 women suffer from some sort of color blindness.
 - Use `color` together with `text`, `underline`, `audio`, and `aria-live`.
 
- - __Color Contrast:__ 
+- __Color Contrast:__ 
    - Body text (less than 18.66px) ==> Contrast ratio minimum `4.5:1`
    - Large Text (more than 18.66px) or (24px) ==> Contrast ratio minimum `3:1`  
-   - [WebAim Minimum](https://webaim.org/standards/wcag/checklist#sc1.4.3).
+#### Resources 
+   - [WebAim 1.4.3 Minimum](https://webaim.org/standards/wcag/checklist#sc1.4.3).
 
  - __Color Contrast ratio:__ 
    - Body text (less than 18.66px) ==> Contrast ratio minimum `7:1`
    - Large Text (more than 18.66px) or (24px) ==> Contrast ratio minimum `4.5:1`  
-   - [WebAim Enhanced](https://webaim.org/standards/wcag/checklist#sc1.4.6).
+ #### Resources 
+   - [WebAim1.4.6 Enhanced](https://webaim.org/standards/wcag/checklist#sc1.4.6).
 
  - __Accessibility Audit:__ 
-   - to check contrast ratios/see recommendations/try Live at Dev tools 
+  #### Resources 
+   - Check contrast ratios/see recommendations/try Live at Dev tools 
    - [Chrome Accessibility Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) 
     - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.1).
     - Experience color blindness vision, enhance use of color to convey info 
