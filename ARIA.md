@@ -121,6 +121,12 @@ Or
 - `aria-live="polite"` : alert = important, not urgent.
 - `aria-live="assertive"`: alert = important & urgent.
 
+```
+<div class="alertbar" arialive="assertive">
+Could not connect!
+</div>
+```
+
 ### h. ARIA relevant
 - The following __attributes__ work with `aria-live`:
   - `aria-atomic`: true assistive tech presents the _entire region as a whole_.
