@@ -104,7 +104,6 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 ### f. Visible and Hidden content
 - __Goal:__ finetune the user experience of users using assistive technology, to ensure that certain parts of the DOM is either: 
 - __Hidden:__
-  1. 
   ```
   <button style="visibility: hidden;">
   <div style="display: none;">
@@ -112,23 +111,23 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
   ```  
 Or
 - __Only visible to assistive tech:__
-2. `aria-hidden="true"`
-  1. element positioned absolute far off the screen. `position: absolute; left: -1000;`
-  2. `aria-label`
-  3. `aria-labelledby` or `aria-describedby` reference a hidden element.
+`aria-hidden="true"`
+1. element positioned absolute far off the screen. `position: absolute; left: -1000;`
+2. `aria-label`
+3. `aria-labelledby` or `aria-describedby` reference a hidden element.
 
 ### g. ARIA live
 - for in time alerts to user.
-- `aria-live="polite"`  : important but not urgent alert.
-- `aria-live="assertive"` : important and urgent alert.
+- `aria-live="polite"` : alert = important, not urgent.
+- `aria-live="assertive"`: alert = important & urgent.
 
 ### h. ARIA relevant
-- These attributes work with `aria-live`:
-  - `aria-atomic` : when true assistive tech will present the entire region as a whole.
-  - `aria-relevant` :indicates which type of changes should be presented to the user.
-  - `aria-relevant="additions"` ==> means any element added to live region is presented.
-  - `aria-relevant="text"` ==> means that any text content added to any descendant element is presented.
-  - `aria-relevant="removals"` ==> means that removal of any text or element within the live region is presented.
-  - `aria-relevant="all"` ==> means that additions or removals of text is presented.
-  - `aria-relevant="additions text"` (default).
+- The following __attributes__ work with `aria-live`:
+  - `aria-atomic`: true assistive tech presents the _entire region as a whole_.
+  - `aria-relevant`:indicates _type of changes needed to be presented_ to the user.
+  - `aria-relevant="additions"` ==> _any element added to live region_ is presented.
+  - `aria-relevant="text"` ==> _any text content added to any descendant element_ is presented.
+  - `aria-relevant="removals"` ==> _removal of any text/ element within the live region_ is presented.
+  - `aria-relevant="all"` ==> _text additions or -removals_ is presented.
+  - `aria-relevant="additions text"` _(default)_.
   - `aria-busy`
