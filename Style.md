@@ -151,12 +151,12 @@ Mute
    - [WebAim1.4.6 Enhanced](https://webaim.org/standards/wcag/checklist#sc1.4.6).
 
  - __Accessibility Audit:__ 
-  #### Resources 
    - Check contrast ratios/see recommendations/try Live at Dev tools 
-   - [Chrome Accessibility Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) 
+   - Experience color blindness vision, enhance use of color to convey info 
+   - Check how UI appear for high contrast users 
+#### Resources 
+  - [Exercise](https://github.com/udacity/ud891)
+  - [Chrome Accessibility Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)   
     - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.1).
-    - Experience color blindness vision, enhance use of color to convey info 
-  [Nocoffee chrome extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US). 
-    - Check how UI appear for high contrast users 
-  [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) 
-  
+    - [Nocoffee chrome extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US). 
+    - [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) 
