@@ -59,6 +59,17 @@ box-shadow: 0 o 1px 2 px #5b9dd9;
 - [video- Styling for focus :focus pseudo selector](https://youtu.be/ZooEnrj8aMc).
 
 ### b. Input Modality:
+```
+<div class="btn"
+role= "button"
+tabindex="0">
+Click me!
+</div>
+```
+#### Resources 
+- [`:moz-focusring` pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-focusring).
+- [Proposing CSS input modality article](http://radar.oreilly.com/2015/08/proposing-css-input-modailty.html).
+- [Input modality shim](https://github.com/alice/modality).
 - [video_ Styling native/non-native buttons](https://youtu.be/bfPGicTGBTI).
 
 ### c. Styling with Aria
