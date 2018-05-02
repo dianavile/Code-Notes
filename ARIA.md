@@ -1,6 +1,19 @@
 # Accessibility- [ARIA](#5-aria)
 _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
+#### Goals:
+- What is ARIA?
+- How to modify the role attribute?
+- How to use the ARIA spec to dive into the WAI-ARIA information for the attribute? 
+- How to add specific information for a particular ARIA property?
+- How to use ARIA extended labeling options (to provide screenreader only label string)?
+- How ARIA can specify semantic relationships beyond the label? (Ex: `ARIA owns` to modify accesibility three)
+- Examine the Default Semantics of Native HTML elements. Not all are override by ARIA.
+- ARIA has a set of landmark and document structured roles to help users navigate and understand the page structure.
+- How to hide things from Assistence Technology (`aria-hidden`)?
+- How to show thinkgs only for Assistence Technology (`aria-hidden true`)?
+- How to explore ARIA-live regions?
+
 ### Table Of Contents: ARIA
 - a. WAI-ARIA: ARIA DO´s and DONT´s
 - b. Role
@@ -23,7 +36,7 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 #### ARIAS DO´s 
   - modify Accessibility tree.
   - give semantic meaning to non-semantic elements.
-  - give new semantic meaning to native semantic element.
+  - give new semantic meaning to native semantic element (role, name, elements).
   - __Example:__
   ```
   <button role="switch" aria-checked="true" class="toggle">
@@ -43,7 +56,7 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
   -  Add focus.
   -  Add event handling.
   
-### b. Role
+### b. Role 
 - __Role__ = particular `UI pattern`.
 -  The `role attribute`= in __same element as__ `tabindex attribute`.
 ```
