@@ -111,6 +111,7 @@ Mute
  ```
  #### Resources 
 - [CSS attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) 
+- [Exercise](https://github.com/udacity/ud891)
 
 ### d. Responsive design for multiple-devices:
   - Meta viewport tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
