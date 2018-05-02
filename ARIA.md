@@ -117,8 +117,10 @@ Or
 3. `aria-labelledby` or `aria-describedby` reference a hidden element.
 
 ### g. ARIA live
-- for in time alerts to user.
-- `aria-live="polite"` : alert = important, not urgent.
+for in time alerts to user.
+- ARIA live has three important values:
+- `aria-live="off"(default)`: updates to region is not represented to user, unless assistence technology is currently focused to that region.  
+- `aria-live="polite"` : (background change) alert = important, not urgent.
 - `aria-live="assertive"`: alert = important & urgent.
 
 ```
