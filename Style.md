@@ -132,7 +132,7 @@ Mute
   - [Material Design Accessibility recommendations for touch targets](https://material.io/guidelines/usability/accessibility.html#accessibility-layout)
  
 ### e. Mobile Screen Readers: 
-Mobile Screen Readers
+- [Exercise Mobile Screen Readers](http://udacity.github.io/ud891/lesson6-styling/04-mobile-screenreader/index.html)
 
 ### f. Color & Contrast Requierements
 -  Don't convey info with color alone, as 1 of 20 men and 1 in 200 women suffer from some sort of color blindness.
