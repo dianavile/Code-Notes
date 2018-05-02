@@ -18,21 +18,22 @@ __GOALS:__
 ## b. ISSUE REFERENCES 
 ## c. TASK LISTS 
 ## d. FENCED CODE BLOCKS
+
 ## e. TABLES
 In GitHub you can create a table by 
 - assembling a list of words 
 - divide them with hyphens (-) for first row 
 - separate each column with a pipe `I`
 ```
-First Header    I Second Header
---------------- I -------------
-conten cell 1   I conten cell 2
-conten column 2 I conten column 2
+First Header     I Second Header
+---------------- I -------------
+content cell 1   I content cell 2
+content column 2 I content column 2
 ```
-First Header    I Second Header
---------------- I -------------
-conten cell 1   I conten cell 2
-conten column 2 I conten column 2
+First Header     I Second Header
+---------------- I -------------
+content cell 1   I content cell 2
+content column 2 I content column 2
 
 ## f. EMOJI
 GitHub supports emoji!
