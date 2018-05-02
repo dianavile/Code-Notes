@@ -29,6 +29,10 @@ First Header    I Second Header
 conten cell 1   I conten cell 2
 conten column 2 I conten column 2
 ```
+First Header    I Second Header
+--------------- I -------------
+conten cell 1   I conten cell 2
+conten column 2 I conten column 2
 
 ## f. EMOJI
 GitHub supports emoji!
