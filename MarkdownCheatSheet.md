@@ -1,5 +1,5 @@
 # Markdown- [Markdown Cheatsheet](#1-markdown-syntax)
-_Source: Accesibility - Udacity Front End Web Development Nanodegree_
+_Source: GitHub Hacknight - Woman Who Code_
 
 ### Table Of Contents:
 ## 1. Markdown Syntax
@@ -25,6 +25,15 @@ __GOALS:__
 ###### This is an `<h6>` tag
 
 ## c. EMPHASIS
+To emphasize a text in markdown, use the following:
+_ITALIC_:
+- **:  *This text is italic* 
+- _ _: _This text is italic__
+__BOLD__:
+- **This text is bold**
+- __This text is bold__
+(**NOTE:** **Combine** them as __you__ like**)
+
 ## d. LIST
 ## e. IMAGES
 ## f. LINKS
