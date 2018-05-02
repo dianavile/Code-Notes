@@ -1,4 +1,5 @@
-#Style
+# Accessibility- [Style](#6-style)
+_Source: Accesibility - Udacity Front End Web Development Nanodegree_
 
 ### a. Working with focus styles
 - The pseudo code `focus` only matchend when an element has __focus__:
@@ -8,7 +9,6 @@
 outline: 1 pc dotted #fff; 
 }
 ```
-
 __NOTE__: This is a __MAJOR__ _anti-pattern_
 - Without a focus indicator, a user does not know which keyboard element to interact with.
 
@@ -36,7 +36,6 @@ box-shadow: 0 0 8px 3 px;
 rgba (255, 255, 255, 0.8);
 }
 ```
-
 3) Delete default focus indicator, use focus style
 ```
 .radio:focus {
@@ -60,19 +59,13 @@ box-shadow: 0 o 1px 2 px #5b9dd9;
 - [video- Styling for focus :focus pseudo selector](https://youtu.be/ZooEnrj8aMc).
 
 
-Input Modality
-Styling with Aria
-Responsive design for multiple-devices
-Mobile Screen Readers
-Seque to Color & Contrast
-Contrast Requierements
-
- 
-
+### b. Input Modality:
 - [video_ Styling native/non-native buttons](https://youtu.be/bfPGicTGBTI).
 
-- Styling with ARIA ==> using ARIA attribute as an attribute selector. This made a good verification that I set the aria state properly.
-- Responsive website:
+### c. Styling with Aria
+- Styling with ARIA ==> use ARIA attribute as an attribute selector. This made a good verification that I set the aria state properly.
+
+### d. Responsive design for multiple-devices:
   - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.4).
   - meta viewport tag: `<meta name="viewport" content="width=device-width, initial-scale=1">`
   - In meta viewport tag: don't use `user-scalable=no` ==> prevent user from zooming the screen.
@@ -80,19 +73,30 @@ Contrast Requierements
   - Use appropriate size touch targets.Minimum touch target size is 48 px.
   - If the touch target(like icons) is smaller, add padding to it.
   - To avoid overlapping make sure to leave margin around touch target with minimum 32px.
-- Color Contrast:
-  - [WebAim Minimum](https://webaim.org/standards/wcag/checklist#sc1.4.3).
-  -It states that: Body text (less than 18.66px) ==> Contrast ratio minimum `4.5:1`
-                   Large Text (more than 18.66px) or (24px) ==> Contrast ratio minimum `3:1`
-                   
-  - [WebAim Enhanced](https://webaim.org/standards/wcag/checklist#sc1.4.6).
-   -It states that: Body text (less than 18.66px) ==> Contrast ratio minimum `7:1`
-                    Large Text (more than 18.66px) or (24px) ==> Contrast ratio minimum `4.5:1`
- - You can use {Chrome Accessibility Extension}(https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) to make Accessibility Audit to check contrast ratios and see recommendations and try them live at Dev tools.
-- 1 of 20 men and 1 in 200 women suffer from some sort of color blindness.
-  - Don't convey info with color alone.
-  - You can use color together with text, underline, audio, and aria-live.
+
+### e. Mobile Screen Readers:
+Mobile Screen Readers
+
+### f. Color & Contrast Requierements
+-  Don't convey info with color alone, as 1 of 20 men and 1 in 200 women suffer from some sort of color blindness.
+- Use `color` together with `text`, `underline`, `audio`, and `aria-live`.
+
+ - __Color Contrast:__ 
+   - Body text (less than 18.66px) ==> Contrast ratio minimum `4.5:1`
+   - Large Text (more than 18.66px) or (24px) ==> Contrast ratio minimum `3:1`  
+[WebAim Minimum](https://webaim.org/standards/wcag/checklist#sc1.4.3).
+
+ - __Color Contrast ratio:__ 
+   - Body text (less than 18.66px) ==> Contrast ratio minimum `7:1`
+   - Large Text (more than 18.66px) or (24px) ==> Contrast ratio minimum `4.5:1`  
+ - [WebAim Enhanced](https://webaim.org/standards/wcag/checklist#sc1.4.6).
+
+ - __Accessibility Audit:__ 
+ - to check contrast ratios/see recommendations/try Live at Dev tools 
+ - [Chrome Accessibility Extension](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en) 
   - [WebAim](https://webaim.org/standards/wcag/checklist#sc1.4.1).
-  - You can use [Nocoffee chrome extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US) to experience color blindness vision and enhance use of color to convey info.
-  - You can use [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) and check how your UI appear for high contrast users.
+    - Experience color blindness vision, enhance use of color to convey info 
+  [Nocoffee chrome extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US). 
+  - Check how your UI appear for high contrast users with 
+  [High Contrast chrome extension](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph?hl=en) 
   
