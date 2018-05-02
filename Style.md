@@ -73,7 +73,7 @@ Click me!
 - [video_ Styling native/non-native buttons](https://youtu.be/bfPGicTGBTI).
 
 ### c. Styling with Aria
-- Styling with ARIA ==> use ARIA attribute as an attribute selector. To set the aria state properly.
+- Styling with ARIA ==> use ARIA attribute as an attribute selector. To set the aria state properly, so it is visually reflected.
 - When building custom controls be sure to include tabindex so keyboard users can easily interact with the elements.
  - __HTML not toggled:__
 ```
@@ -98,6 +98,13 @@ Mute
  - __CSS toggled:__
  ```
 .toggle.pressed{
+// transition to
+// pressed state
+}
+ ```
+  - __CSS toggled- with aria attr:__
+ ```
+.toggle[aria-pressed= "true"]{
 // transition to
 // pressed state
 }
