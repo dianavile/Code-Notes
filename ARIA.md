@@ -176,3 +176,5 @@ Could not connect!
 
 #### 3) __ARIA-BUSY:__
   - `aria-busy` ==> _temporarily ignore changes to the element_.
+  
+ARIA is to make the job as web developer easier and to include as many users as posible. 
