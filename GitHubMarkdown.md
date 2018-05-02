@@ -26,14 +26,14 @@ In GitHub you can create a table by
 - separate each column with a pipe `I`
 ```
 First Header     I Second Header
----------------- I -------------
-content cell 1   I content cell 2
-content column 2 I content column 2
+--------------- I -------------
+Content cell1   I Content cell2
+Content column2 I Content column2
 ```
 First Header     I Second Header
 ---------------- I -------------
-content cell 1   I content cell 2
-content column 2 I content column 2
+Content cell1    I Content cell2
+Content column2  I Content column2
 
 ## f. EMOJI
 GitHub supports emoji!
