@@ -46,8 +46,35 @@ __BOLD__:
 3. Item 3
    * Item 3a
    * Item 3b
+   
 ## e. IMAGES
+- Format: ![Alt text]()
+- |[Github logo](/images/logo.png)
+
 ## f. LINKS
+- http://github.com - automatic!
+- |[Github](http://github.com)
+
 ## g. BLOCKQUOTES
+As Steve Jobs said:
+> Every one should learn to code.
+> It learns you to think!
+
+## h. BACKSLASH ESCAPES
+Markdown allows to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown´s formatting syntax. It provides backslash escapes for the following characters:
+- `*literal asterisk*`= *\literal askerisk\*
+- `\`= backslash
+- ` `= backtick
+- `*`= asterisk
+- `_`= underscore
+- `{}`= curly braces
+- `[]`= square brackets
+- `()`= parenthesis
+- `#`= hash mark
+- `+` = plus sign
+- `-` = minus sign (hyphen)
+- `.`. = dot
+- `!` = exclamation mark.
+
 
 
