@@ -3,10 +3,10 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 
 
 ### Table Of Contents:
-- a. What is an Array?
-- b. Create an Array
-- c. Store different types of data
-- d. Array Properties and Methods
+- a. __What is an Array?__
+- b. __Create an Array__
+- c. __Store different types of data__
+- d. __Array Properties and Methods__
 - e. 
 - f. 
 - g. 
@@ -58,7 +58,7 @@ var donuts = ["glazed", "powdered", "jelly"];
 var mixedData = ["abcd", 1, true, undefined, null, "all the things"];
 ```
   * __Another array `nested array`__ 
-- You can even store an array in an array to create a nested array!
+- Store an array in an array to create a nested array!
 // creates a `arraysInArrays` array with three arrays:
 ```
 var arraysInArrays = [[1, 2, 3], ["Julia", "James"], [true, false, true, false]];
@@ -73,6 +73,6 @@ var arraysInArrays = [
 ```
 
 #### Resources 
-- []()
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 #### Take Away
