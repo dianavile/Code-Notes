@@ -8,8 +8,8 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
 - e. __Array Property: .length__: to find length of an array
-- f. __Array Property: push__: to modify an array
-- g. __Array Property: pop__: to modify an array
+- f. __Array Property: push()__: to add elements to the end of an array.
+- g. __Array Property: pop()__: to remove elements to the end of an array.
 - h. __Array Property: slice__: 
 
 ### a. What is an Array?
@@ -70,6 +70,7 @@ var arraysInArrays = [
 ];
 ```
 ### d. __Array Properties and Methods__
+built-in methods
 
 ### e. __Array Property: .length__ (=find length of an array)
 - Find the __length of an array__ by using its length property.
@@ -86,10 +87,36 @@ Example
 ```
 returns 34.
 
-### f. __Array Property: push__ (=to modify an array)
+### f. __Array Property: push()__ (=to "add" elements to the end of an array.)
+- The two most common methods for modifying an array are `push()` and `pop()`.
+
+Push
+You can use the push() method to add elements to the end of an array.
+
+For example: Represent the spread of donuts using an array
+```
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
+```
+// Push donuts onto the __end of the array__ using the push() method.
+// pushes "powdered" onto the end of the `donuts` array
+```
+donuts.push("powdered"); 
+```
+// the `push()` method returns 7 because the `donuts` array now has 7 elements
+Returns: 7
+```
+donuts array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"]
+```
+```
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
+donuts.push("powdered"); 
+```
+__NOTE:__ 
+  1) with the `push() method` you need to pass the value of the element you want to add to the end of the array. 
+  2) The `push() method` returns the length of the array after an element has been added.
 
 
-### g. __Array Property: pop__ (=to modify an array)
+### g. __Array Property: pop__ (=to "remove" elements from the end of an array)
 
 ### h. __Array Property: slice__
 
