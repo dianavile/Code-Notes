@@ -159,7 +159,7 @@ Returns: ["chocolate frosted"]
 ```
 donuts array: ["glazed", "chocolate cruller", "creme de leche", "Boston creme", "glazed cruller"]
 ```
-- i. __Array Loops__
+ ### i. __Array Loops__
 Use a `loop`= to _efficiently access and manipulate each element in the array without writing repetitive code for each element_.
 ```
 var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
@@ -186,25 +186,26 @@ for (var i = 0; i < donuts.length; i++) {
 donuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
 
-The forEach() loop
-
-Arrays have a set of special methods to help you iterate over and perform operations on collections of data. You can view the MDN Documentation list of Array methods here, but a couple big ones to know are the forEach() and map() methods.
-
-The forEach() method gives you an alternative way to iterate over an array, and manipulate each element in the array with an inline function expression.
-
+### j. __The forEach() loop__
+- Arrays have __special methods__ to help `iterate over` and `perform operations` on collections of data.
+- The `forEach() method` gives an alternative way to iterate over an array, and manipulate each element in the array with an inline function expression.
+```
 var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
-
+```
+- //donut corresponds to the element in the array itself. 
+```
 donuts.forEach(function(donut) {
   donut += " hole";
   donut = donut.toUpperCase();
   console.log(donut);
 });
-Prints:
-JELLY DONUT HOLE
-CHOCOLATE DONUT HOLE
-GLAZED DONUT HOLE
-
-Notice that the forEach() method iterates over the array without the need of an explicitly defined index. In the example above, donut corresponds to the element in the array itself. This is different from a for or while loop where an index is used to access each element in the array:
+```
+__Prints:__
+- JELLY DONUT HOLE
+- CHOCOLATE DONUT HOLE
+- GLAZED DONUT HOLE
+__NOTE:__ the forEach() method iterates over the array __without an explicitly defined__ index. 
+- This is different from a `for` or `while loop`, where an __index is used to access _each element_ in the array__:
 ```
 for (var i = 0; i < donuts.length; i++) {
   donuts[i] += " hole";
@@ -213,10 +214,12 @@ for (var i = 0; i < donuts.length; i++) {
 }
 ```
 __Parameters__
-The function that you pass to the forEach() method can take up to three parameters. In the video, these are called element, index, and array, but you can call them whatever you like.
-
-The forEach() method will call this function once for each element in the array (hence the name forEach.) Each time, it will call the function with different arguments. The element parameter will get the value of the array element. The index parameter will get the index of the element (starting with zero). The array parameter will get a reference to the whole array, which is handy if you want to modify the elements.
-
+- The function that you pass to the forEach() method can take up to three parameters (`element`, `index`, and `array`).
+- The `forEach() method` __call this function__ _once for each element in the array_ (forEach.) 
+- Each time, it call the function with different arguments. 
+- The `element` parameter get = the `value` of the array element. 
+- The `index` parameter get = the `index` of the element (starting with zero). 
+- The `array` parameter get = `reference to the whole array` (to modify the elements).
 __Example:__
 ```
 words = ["cat", "in", "hat"];
@@ -228,8 +231,6 @@ Prints:
 - Word 0 in cat,in,hat is cat
 - Word 1 in cat,in,hat is in
 - Word 2 in cat,in,hat is hat
-
-
 
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
