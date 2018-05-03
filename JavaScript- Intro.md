@@ -2,9 +2,9 @@
 _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 
 #### Goals:
-- JavaScript
-- The JavaScript Console
-- Developer Tools on Different Browsers
+- __JavaScript__
+- __The JavaScript Console__
+- __Developer Tools on Different Browsers__
 - 
 
 ### Table Of Contents:
@@ -20,8 +20,8 @@ _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 ### a. What is JavaScript?
 - __HTML__ and __CSS__ are `markup languages`, that _describe and define elements within a document_. 
 - __JavaScript__ is a `programming language`, used to _communicate instructions to a machine_ to:
-1) control the behavior of a machine 
-2) express algorithms.
+    1) _control the behavior of a machine_ 
+    2) _express algorithms_.
 
 ### b. The JavaScript Console
 The __JavaScript Console__ is a development tools to debug JavaScript directly into the web browser.
@@ -40,21 +40,21 @@ Every modern web browser includes its own set of developer tools:
 - Safari
 - Opera
 
-#### Google Chrome
-The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. Use the DevTools to iterate, debug and profile your site. 
+#### [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+- The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. 
+- Use the DevTools to `iterate`, `debug` and `profile` a site. 
+- __Open Chrome DevTools:__
+  1) `right-click` on any page element, select `Inspect`. 
+  2) open the `Chrome settings menu` in the top-right corner of your browser window and select `More Tools > Developer Tools`. 
+  3) Use shortcuts: `Command + Option + i` (Mac) OR `Ctrl + Shift + i`/ `F12` (Windows/Linux).
 
-To open Chrome DevTools, either right-click on any page element and select Inspect or open the Chrome settings menu in the top-right corner of your browser window and select More Tools > Developer Tools. Alternatively, you can use the shortcuts:
-Command + Option + i (Mac)
-Ctrl + Shift + i (Windows/Linux).
-
-[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
-
-#### Mozilla Firefox
-Firefox Developer Tools allow you to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. Also, you can download a version of of Firefox called Firefox Developer Edition that is tailored for developers, featuring the latest Firefox features and experimental developer tools. To learn more, click here.
-
-To open Firefox Developer Tools, either right-click on any page element and select Inspect Element or open the Firefox settings menu in the top-right corner of your browser window and select Developer. Alternatively, you can use the shortcuts:
-Command + Option + i (Mac)
-Ctrl + Shift + i (Windows/Linux).
+#### [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
+- Firefox Developer Tools allow to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. 
+- Download a version of Firefox called `Firefox Developer Edition` tailored for developers, featuring the latest Firefox features and experimental developer tools. 
+- __Firefox Developer Tools:__
+  1) `right-click` on any page element, select `Inspect`. 
+  2) open the `Firefox settings menu` in the top-right corner of your browser window and select `Developer`. 
+  3) Use shortcuts: `Command + Option + i` (Mac) OR `Ctrl + Shift + i`/ `F12` (Windows/Linux).
 
 #### Internet Explorer
 If you use Internet Explorer, then you can access F12 developer tools by simply pressing F12. The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent. Below, we've linked to documentation for each version, but if you've upgraded to Microsoft Edge, then check the next section.
@@ -65,8 +65,8 @@ Internet Explorer 10
 Internet Explorer 11
 
 #### Microsoft Edge
-Microsoft Edge introduces great new improvements to the F12 developer tools seen in Internet Explorer. The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on GitHub.
-Just like Internet Explorer, to open developer tools in Microsoft Edge simply press F12.
+Microsoft Edge introduces great new improvements to the F12 developer tools seen in Internet Explorer. The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on GitHub. 
+open developer tools in Microsoft Edge press F12.
 To learn more, click here.
 
 #### Safari
@@ -86,3 +86,6 @@ Alternatively, you can target a specific element by right-clicking in the page a
 
 #### Resources 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
+- [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+- [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
+
