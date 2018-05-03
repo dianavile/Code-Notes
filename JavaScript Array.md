@@ -43,12 +43,12 @@ fruits[4];
 // 'lychee'
 
 ### c. Store different types of data
-- Arrays[] can store many different types of data, not only strings!
 // Create a `donuts` array with three strings
   * __A `string`__
 ```
 var donuts = ["glazed", "powdered", "jelly"];
 ```  
+- Arrays[] can store many different types of data, not only strings!
 // creates a `mixedData` array with mixed data types
   * __A `number`__
   * __A `boolean`__
