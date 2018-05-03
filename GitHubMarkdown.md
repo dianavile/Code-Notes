@@ -32,7 +32,7 @@ Any number refering to an `Issue` or `Pull Request` is automatically converted i
 - [] this is an incomplete item.
 
 ## d. FENCED CODE BLOCKS
-- You can create a code block with ` ``` `to create a clde block without the leading spaces.
+- You can create a code block with ` ``` `to create a code block without the leading spaces.
 ```
 javascript
 function test(){
