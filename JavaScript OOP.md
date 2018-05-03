@@ -1,6 +1,8 @@
-# JavaScript-[JS-OOP](Object-Oriented Programming-JavaScript)
+# JavaScript-[JS-OOP](Object-Oriented Programming-JavaScript) :scream_cat: 
 _Source: JS Object-Oriented Programming JavaScript - Udacity Front End Web Development Nanodegree_
 
+
+WORKING ON IT!!
 #### Goals:
 - JavaScript object fundamentals
 - Object 
@@ -68,8 +70,6 @@ const bicycle = {
 bicycle.wheels.width;
 ```
 
-
-
 ### c. Firs-class functions (JavaScript functions = first-class functions)
 ### d. Abstactions (over traditional classes and inheritance.)
 
@@ -84,8 +84,6 @@ bicycle.wheels.width;
 - How to read existing properties in an object? 
 - How to modifying existing properties?
 - How to add and remove properties?
-
-
 
 
 ### Creating and modifying objects
