@@ -14,6 +14,7 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - i. __Array Loops__
 - j. __For Loop__
 - k. __Map__
+- l. __2D Grid(nested array)__
 
 ### a. What is an Array?
 - An __array__ `[]` = _ordered collection of elements, enclosed by square brackets []._
@@ -251,6 +252,61 @@ var improvedDonuts = donuts.map(function(donut) {
 donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
 improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
+
+ ### l. __2D Grid(nested array)__
+- Use an array of arrays that has the name of each donut associated with its position in the box.
+
+- //Create a two dimensional grid with rows and columns.
+- __Example:__
+```
+var donutBox = [
+  ["glazed", "chocolate glazed", "cinnamon"],
+  ["powdered", "sprinkled", "glazed cruller"],
+  ["chocolate cruller", "Boston creme", "creme de leche"]
+];
+```
+- //Loop over the donut box and display each donut (along with position in the box!) 
+_ //__step 1:__ Write a `for loop` to _loop over each row of the box of donuts_:
+```
+var donutBox = [
+  ["glazed", "chocolate glazed", "cinnamon"],
+  ["powdered", "sprinkled", "glazed cruller"],
+  ["chocolate cruller", "Boston creme", "creme de leche"]
+];
+```
+- // here, donutBox.length refers to the number of rows of donuts
+```
+for (var row = 0; row < donutBox.length; row++) {
+  console.log(donutBox[row]);
+}
+```
+_ Prints:
+- ["glazed", "chocolate glazed", "cinnamon"]
+- ["powdered", "sprinkled", "glazed cruller"]
+- ["chocolate cruller", "Boston creme", "creme de leche"]
+
+_ //__step 2:__ Each row is an array of donuts. Set up an `inner-loop` to _loop over each cell in the arrays_.
+```
+for (var row = 0; row < donutBox.length; row++) {
+```
+- // here, donutBox[row].length refers to the length of the donut array currently being looped over
+```
+  for (var column = 0; column < donutBox[row].length; column++) {
+    console.log(donutBox[row][column]);
+  }
+}
+```
+- __Prints:__
+- "glazed"
+- "chocolate glazed"
+- "cinnamon"
+- "powdered"
+- "sprinkled"
+- "glazed cruller"
+- "chocolate cruller"
+- "Boston creme"
+- "creme de leche"
+
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
