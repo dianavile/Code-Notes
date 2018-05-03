@@ -1,4 +1,4 @@
-# JavaScript-[Data Types-JS](-Data-Types-JavaScript):screaming cat:
+# JavaScript-[Data Types-JS](-Data-Types-JavaScript)
 _Source: Data Types JavaScript - Udacity Front End Web Development Nanodegree_
 
 WORKING ON IT!
