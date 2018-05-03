@@ -80,10 +80,13 @@ To access Safari's Web Development Tools, enable the Develop menu in Safari’s 
 
 ### d. Console.log
 `console.log` is used to display content to the JavaScript console. 
-Run the following code in the console:
+__Perform the log action on the debugging console:__
+- Run the following code in the console:
 ```
 console.log("hiya friend!");
 ```
+- __Prints:__ "hiya friend!"
+- The message logged is "hiya friend!". hiya friend! is a `string` (=a _sequence of characters_).
 
 #### Resources 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
