@@ -20,7 +20,7 @@ _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
     2) _express algorithms_.
 
 ### b. The JavaScript Console
-The __JavaScript Console__ is a development tools to debug JavaScript directly into the web browser.
+The __JavaScript Console__ is a development tools to `iterate`, `debug` and `profile` JavaScript code directly into the web browser.
 ```
 "Diana"
 alert("Hello "Diana"! How are you?!");
@@ -68,8 +68,9 @@ Every modern web browser includes its own set of developer tools:
 
 #### 5 [Safari Web Inspector](https://developer.apple.com/safari/tools/)
 For any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. 
-
-To access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. Once enabled, you can right-click on any page element and select Inspect Element to open Web Development Tools or use the shortcut Command + Option + i.
+- __Safari's Web Development Tools:__
+  1) Enable the Develop menu in `Safari’s Advanced preferences`. Then  `right-click` on any page element, select `Inspect Element`. 
+  2) Use shortcuts: `Command + Option + i` (Mac).
 
 #### 6 [Opera Dragonfly](https://www.opera.com/dragonfly/)
 - Fast, lean and powerful, Opera comes pre-packed with a fully-featured suite of developer tools. 
