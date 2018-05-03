@@ -48,6 +48,13 @@ fruits[4];
 ```
 var donuts = ["glazed", "powdered", "jelly"];
 ```
+### c. Store different types of data
+- Arrays[] can store many different types of data, not just strings!
+  * A number
+  * A string
+  * A boolean
+  * Another array
+
 
 #### Resources 
 - []()
