@@ -8,9 +8,9 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
 - e. __Array Property: .length__: to find length of an array
-- f. __Array Property: push()__: to add elements to the end of an array.
-- g. __Array Property: pop()__: to remove elements to the end of an array.
-- h. __Array Property: slice__: 
+- f. __Array push() method__: to add elements to the end of an array.
+- g. __Array pop() method__: to remove elements to the end of an array.
+- h. __Array slice method__: 
 
 ### a. What is an Array?
 - An __array__ `[]` = _ordered collection of elements, enclosed by square brackets []._
@@ -140,6 +140,23 @@ Returns: "powdered"
 
 
 ### h. __Array Property: slice__
+Splice
+splice() is another handy method that allows you to add and remove elements from anywhere within an array.
+
+While push() and pop() limit you to adding and removing elements from the end of an array, splice() lets you specify the index location to add new elements, as well as the number of elements you'd like to delete (if any).
+
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
+donuts.splice(1, 1, "chocolate cruller", "creme de leche"); // removes "chocolate frosted" at index 1 and adds "chocolate cruller" and "creme de leche" starting at index 1
+Returns: ["chocolate frosted"]
+donuts array: ["glazed", "chocolate cruller", "creme de leche", "Boston creme", "glazed cruller"]
+
+The first argument represents the starting index from where you want to change the array, the second argument represents the numbers of elements you want to remove, and the remaining arguments represent the elements you want to add.
+
+
+Using the splice() method adds and removes elements from any location in an array.
+splice() is an incredibly powerful method that allows you to manipulate your arrays in a variety of ways. Any combination of adding or removing elements from an array can all be done in one simple line of code.
+
+Take a look at the MDN documentation to see a long list of example code snippets demonstrating the power of splice() and then try the next set of programming quizzes.
 
 
 #### Resources 
