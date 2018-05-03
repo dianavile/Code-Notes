@@ -5,7 +5,7 @@ _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 - __JavaScript__
 - __The JavaScript Console__
 - __Developer Tools on Different Browsers__
-- __Console.log
+- __Console.log__
 
 ### Table Of Contents:
 - a. What is JavaScript?
@@ -29,12 +29,6 @@ This creates a _JavaScript alert box_ in the web browser, on the current web pag
 
 ### c. Developer Tools on Different Browsers
 Every modern web browser includes its own set of developer tools:
-- Google Chrome
-- Mozilla Firefox
-- Internet Explorer
-- Microsoft Edge
-- Safari
-- Opera
 
 #### 1 [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 - The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. 
