@@ -75,7 +75,7 @@ var arraysInArrays = [
 - d. __Array Properties and Methods__
 
 - e. __Array.length__
-You can find the length of an array by using its length property.
+Find the length of an array by using its length property.
 ```
 var donuts = ["glazed", "powdered", "sprinkled"];
 console.log(donuts.length);
