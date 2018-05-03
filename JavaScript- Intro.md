@@ -40,7 +40,7 @@ Every modern web browser includes its own set of developer tools:
 - Safari
 - Opera
 
-#### [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+#### 1 [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 - The Chrome DevTools are a set of web authoring and debugging tools built into Google Chrome. 
 - Use the DevTools to `iterate`, `debug` and `profile` a site. 
 - __Open Chrome DevTools:__
@@ -48,41 +48,39 @@ Every modern web browser includes its own set of developer tools:
   2) open the `Chrome settings menu` in the top-right corner of your browser window and select `More Tools > Developer Tools`. 
   3) Use shortcuts: `Command + Option + i` (Mac) OR `Ctrl + Shift + i`/ `F12` (Windows/Linux).
 
-#### [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
+#### 2 [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
 - Firefox Developer Tools allow to examine, edit, and debug HTML, CSS, and JavaScript on the desktop and on mobile. 
 - Download a version of Firefox called `Firefox Developer Edition` tailored for developers, featuring the latest Firefox features and experimental developer tools. 
-- __Firefox Developer Tools:__
+- __Open Firefox Developer Tools:__
   1) `right-click` on any page element, select `Inspect`. 
   2) open the `Firefox settings menu` in the top-right corner of your browser window and select `Developer`. 
   3) Use shortcuts: `Command + Option + i` (Mac) OR `Ctrl + Shift + i`/ `F12` (Windows/Linux).
 
-#### Internet Explorer
-If you use Internet Explorer, then you can access F12 developer tools by simply pressing F12. The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent. Below, we've linked to documentation for each version, but if you've upgraded to Microsoft Edge, then check the next section.
+#### 3 Internet Explorer
+- The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent.
+[Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
+[Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
+[Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
+[Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
+- __Open Internet Explorer Developer Tools:__`F12`
 
-Internet Explorer 8
-Internet Explorer 9
-Internet Explorer 10
-Internet Explorer 11
+#### 4 Microsoft Edge
+- __Microsoft Edge__ introduces improvements to the F12 developer tools in Internet Explorer. 
+- The new tools are built in `TypeScript`, and are always running, so no reloads are required. 
+- F12 developer tools documentation available on [GitHub](https://github.com/MicrosoftDocs/edge-developer). 
+- __Open Microsoft Edge Developer Tools:__`F12`
 
-#### Microsoft Edge
-Microsoft Edge introduces great new improvements to the F12 developer tools seen in Internet Explorer. The new tools are built in TypeScript, and are always running, so no reloads are required. In addition, F12 developer tools documentation is now fully available on GitHub. 
-open developer tools in Microsoft Edge press F12.
-To learn more, click here.
-
-#### Safari
+#### 5 Safari Web Inspector
 For any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. 
 
 To access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. Once enabled, you can right-click on any page element and select Inspect Element to open Web Development Tools or use the shortcut Command + Option + i.
 
-#### Opera
-Fast, lean and powerful, Opera comes pre-packed with a fully-featured suite of developer tools. Named Opera Dragonfly, it is designed to make your job easier. To learn more, click here.
-
-Launch Opera Dragonfly with the following keyboard shortcuts:
-
-Command + Option + i (Mac)
-Ctrl + Shift + i (Windows/Linux).
-Alternatively, you can target a specific element by right-clicking in the page and selecting Inspect Element.
-
+#### 6 Opera Dragonfly
+- Fast, lean and powerful, Opera comes pre-packed with a fully-featured suite of developer tools. 
+- Opera Dragonfly is designed to make your job easier. 
+- __Open Opera Dragonfly:__
+  1) `right-click` on any page element, select `Inspect Element`. 
+  2) Use shortcuts: `Command + Option + i` (Mac) OR `Ctrl + Shift + i`/ `F12` (Windows/Linux).
 
 #### Resources 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
