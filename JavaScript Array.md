@@ -156,7 +156,7 @@ var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
 donuts.splice(1, 1, "chocolate cruller", "creme de leche"); 
 ```
 // removes "chocolate frosted" at index 1 and adds "chocolate cruller" and "creme de leche" starting at index 1
-Returns: ["chocolate frosted"]
+- Returns: ["chocolate frosted"]
 ```
 donuts array: ["glazed", "chocolate cruller", "creme de leche", "Boston creme", "glazed cruller"]
 ```
@@ -172,8 +172,8 @@ donuts[1] += " hole";
 donuts[2] += " hole";
 donuts array: ["jelly donut hole", "chocolate donut hole", "glazed donut hole"]
 ```
-//or `Loop through an array`
-//use a variable to represent the index in the array, and loop over that index to perform whatever manipulations desired.
+- //or `Loop through an array`
+- //use a variable to represent the index in the array, and loop over that index to perform whatever manipulations desired.
 ```
 var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
 ```
@@ -251,7 +251,6 @@ var improvedDonuts = donuts.map(function(donut) {
 donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
 improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
-
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
