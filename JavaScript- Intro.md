@@ -134,6 +134,3 @@ __What makes JavaScript so special in this case?__
 - This allows browsers to `run`and `execute Javascript code`
 - The __JavaScript Console__ allows to use `strings`, and `execute Javascript code lines` in real time directly in the browser.
 - With JavaScript in JavaScript Console, you can add __styles and animations__ to a web page.
-
-
-
