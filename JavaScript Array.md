@@ -72,7 +72,7 @@ var arraysInArrays = [
 ```
 ### d. __Array Properties and Methods__
 
-### e. __.length__
+### e. __Array Property: .length__
 - Find the __length of an array__ by using its length property.
 - To access the length property, type the name of the array, followed by a period .
 - The length property will then return the number of elements in the array.
@@ -87,11 +87,11 @@ Example
 ```
 returns 34.
 
-### f. __push__
+### f. __Array Property: push__
 
-### g. __pop__
+### g. __Array Property: pop__
 
-### h. __slice__
+### h. __Array Property: slice__
 
 
 #### Resources 
