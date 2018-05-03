@@ -2,7 +2,7 @@
 _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 
 #### Goals:
-- 
+- JavaScript
 - 
 - 
 - 
@@ -14,7 +14,7 @@ _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 - 
 
 ### Table Of Contents:
-- a. 
+- a. What is JavaScript?
 - b. 
 - c. 
 - d. 
@@ -22,6 +22,12 @@ _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 - f. 
 - g. 
 - h. 
+
+### a. What is JavaScript?
+- __HTML__ and __CSS__ are `markup languages`, that _describe and define elements within a document_. 
+- __JavaScript__ is a `programming language`, used to _communicate instructions to a machine_ to:
+1) control the behavior of a machine 
+2) express algorithms.
 
 #### Resources 
 - []()
