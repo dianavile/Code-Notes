@@ -5,17 +5,13 @@ _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 - __JavaScript__
 - __The JavaScript Console__
 - __Developer Tools on Different Browsers__
-- 
+- __Console.log
 
 ### Table Of Contents:
 - a. What is JavaScript?
 - b. The JavaScript Console
 - c. Developer Tools on Different Browsers
-- d. 
-- e. 
-- f. 
-- g. 
-- h. 
+- d. Console.log
 
 ### a. What is JavaScript?
 - __HTML__ and __CSS__ are `markup languages`, that _describe and define elements within a document_. 
@@ -70,17 +66,24 @@ Every modern web browser includes its own set of developer tools:
 - F12 developer tools documentation available on [GitHub](https://github.com/MicrosoftDocs/edge-developer). 
 - __Open Microsoft Edge Developer Tools:__`F12`
 
-#### 5 Safari Web Inspector
+#### 5 [Safari Web Inspector](https://developer.apple.com/safari/tools/)
 For any Mac users, Safari includes Web Inspector, a powerful tool that makes it easy to modify, debug, and optimize a website for peak performance and compatibility on both platforms. 
 
 To access Safari's Web Development Tools, enable the Develop menu in Safari’s Advanced preferences. Once enabled, you can right-click on any page element and select Inspect Element to open Web Development Tools or use the shortcut Command + Option + i.
 
-#### 6 Opera Dragonfly
+#### 6 [Opera Dragonfly](https://www.opera.com/dragonfly/)
 - Fast, lean and powerful, Opera comes pre-packed with a fully-featured suite of developer tools. 
 - Opera Dragonfly is designed to make your job easier. 
 - __Open Opera Dragonfly:__
   1) `right-click` on any page element, select `Inspect Element`. 
   2) Use shortcuts: `Command + Option + i` (Mac) OR `Ctrl + Shift + i`/ `F12` (Windows/Linux).
+
+### d. Console.log
+`console.log` is used to display content to the JavaScript console. 
+Run the following code in the console:
+```
+console.log("hiya friend!");
+```
 
 #### Resources 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
@@ -91,4 +94,5 @@ To access Safari's Web Development Tools, enable the Develop menu in Safari’s 
 - [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
 - [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - [Microsoft Edge]( https://docs.microsoft.com/en-gb/microsoft-edge/devtools-guide)
-
+- [Safari Web Inspector](https://developer.apple.com/safari/tools/)
+- [Opera Dragonfly](https://www.opera.com/dragonfly/)
