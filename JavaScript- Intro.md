@@ -1,4 +1,4 @@
-# JavaScript-[Intro-JS](-Intro-to-JavaScript):scream_cat:
+:scream_cat: # JavaScript-[Intro-JS](-Intro-to-JavaScript)
 _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 
 ### Table Of Contents:
