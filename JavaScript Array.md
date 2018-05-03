@@ -88,9 +88,8 @@ Example
 returns 34.
 
 ### f. __push() method__ (=to "add" elements to the end of an array.)
-- The two most common methods for modifying an array are 
+- The two most common methods for __modifying an array__ are 
   1) `push()` to add an element to the end of an Array[] 
-  2) `pop()` to remove an element from the end of an Array[].
 - __Example:__ _Represent the spread of donuts using an array_
 ```
 var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
@@ -112,7 +111,33 @@ __NOTE:__
   1) with the `push() method` you need to pass the value of the element you want to add to the end of the array. 
   2) The `push() method` returns the length of the array after an element has been added.
 
-### g. __Array Property: pop__ (=to "remove" elements from the end of an array)
+### g. __pop() method__ (=to "remove" elements from the end of an array)
+  2) `pop()` to remove an element from the end of an Array[].
+  - __Example:__
+```
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
+```
+```
+donuts.pop(); // pops "powdered" off the end of the `donuts` array
+donuts.pop(); // pops "sprinkled" off the end of the `donuts` array
+donuts.pop(); // pops "cinnamon sugar" off the end of the `donuts` array
+```
+Returns: "cinnamon sugar"
+```
+donuts array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"]
+```
+__NOTE:__ 
+- With the pop() method there is __NO__ need to _pass a value_ 
+- pop() will __always remove the last element from the end of the array.__ 
+- pop() _returns the element that has been removed_ in case you need to use it.
+
+```
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
+donuts.pop(); 
+```
+// the `pop()` method returns "powdered" because "powdered" was the last element on the end of `donuts` array
+Returns: "powdered"
+
 
 ### h. __Array Property: slice__
 
