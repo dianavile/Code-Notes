@@ -7,10 +7,12 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - b. __Create an Array__
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
-- e. __Array Property: .length__ 
-- f. __Array push() method__ 
-- g. __Array pop() method__
-- h. __Array slice/splice() method__
+- e. __Property: .length__ 
+- f. __push() method__ 
+- g. __pop() method__
+- h. __slice/splice() method__
+- i. __Array Loops__
+- j. __For Loop__
 
 ### a. What is an Array?
 - An __array__ `[]` = _ordered collection of elements, enclosed by square brackets []._
@@ -156,6 +158,33 @@ donuts.splice(1, 1, "chocolate cruller", "creme de leche");
 Returns: ["chocolate frosted"]
 ```
 donuts array: ["glazed", "chocolate cruller", "creme de leche", "Boston creme", "glazed cruller"]
+```
+- i. __Array Loops__
+Use a `loop`= to _efficiently access and manipulate each element in the array without writing repetitive code for each element_.
+```
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+```
+// Manually= make all the same donut types, but only sell them as donut holes instead
+```
+donuts[0] += " hole";
+donuts[1] += " hole";
+donuts[2] += " hole";
+donuts array: ["jelly donut hole", "chocolate donut hole", "glazed donut hole"]
+```
+//or `Loop through an array`
+//use a variable to represent the index in the array, and loop over that index to perform whatever manipulations desired.
+```
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+```
+// the variable `i` is used to step through each element in the array
+// As i is incremented, step over each element in the array starting from 0 until donuts.length 
+//__NOTE:__- 1 (donuts.length is out of bounds).
+``` 
+for (var i = 0; i < donuts.length; i++) {
+    donuts[i] += " hole";
+    donuts[i] = donuts[i].toUpperCase();
+}
+donuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
