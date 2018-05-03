@@ -177,8 +177,7 @@ donuts array: ["jelly donut hole", "chocolate donut hole", "glazed donut hole"]
 var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
 ```
 // the variable `i` is used to step through each element in the array
-// As i is incremented, step over each element in the array starting from 0 until donuts.length 
-//__NOTE:__- 1 (donuts.length is out of bounds).
+// As i is incremented, step over each element in the array starting from 0 until donuts.length - 1 (donuts.length is out of bounds).
 ``` 
 for (var i = 0; i < donuts.length; i++) {
     donuts[i] += " hole";
@@ -195,6 +194,7 @@ donuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 #### Take Away
 - An `array[]` = _ordered collection of elements, enclosed by []._
 - It stores __multiple values into a single, organized data structure.__ 
--  `push()` method add elements to the end of an array
--  `pop()` method remove elements from the end of an array
--  `splice()` method add and remove elements from anywhere within an array
+- `push()`method add elements to the end of an array
+- `pop()`method remove elements from the end of an array
+- `splice()`method add and remove elements from anywhere within an array.
+
