@@ -1,17 +1,11 @@
 # JavaScript-[Intro-JS](-Intro-to-JavaScript)
 _Source: Intro to JavaScript - Udacity Front End Web Development Nanodegree_
 
-#### Goals:
-- __JavaScript__
-- __The JavaScript Console__
-- __Developer Tools on Different Browsers__
-- __Console.log__
-
 ### Table Of Contents:
-- a. What is JavaScript?
-- b. The JavaScript Console
-- c. Developer Tools on Different Browsers
-- d. Console.log
+- __a. What is JavaScript?__
+- __b. The JavaScript Console__
+- __c. Developer Tools on Different Browsers__
+- __d- Console.log__
 
 ### a. What is JavaScript?
 - __HTML__ and __CSS__ are `markup languages`, that _describe and define elements within a document_. 
