@@ -101,6 +101,8 @@ for (var i = 0; i < 10; i++) {
 __How to use the console as a sandbox to test a new line of JavaScript in the browser?__
 - Open [this site](https://daringfireball.net/projects/markdown/) in Dev Tools.
 - Paste the following code: `document.getElementsByTagName("h1")[0].style.color = "#ff0000";`
+- __What happened when you ran that line of code in the JavaScript console?__
+- The heading changed to RED.
 
 
 #### Resources 
