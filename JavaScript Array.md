@@ -13,6 +13,7 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - h. __slice/splice() method__
 - i. __Array Loops__
 - j. __For Loop__
+- k. __Map__
 
 ### a. What is an Array?
 - An __array__ `[]` = _ordered collection of elements, enclosed by square brackets []._
@@ -185,7 +186,6 @@ for (var i = 0; i < donuts.length; i++) {
 }
 donuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
-
 ### j. __The forEach() loop__
 - Arrays have __special methods__ to help `iterate over` and `perform operations` on collections of data.
 - The `forEach() method` gives an alternative way to iterate over an array, and manipulate each element in the array with an inline function expression.
@@ -231,17 +231,43 @@ Prints:
 - Word 0 in cat,in,hat is cat
 - Word 1 in cat,in,hat is in
 - Word 2 in cat,in,hat is hat
+_ __NOTE___
+ - Using forEach() will not be useful if you want to __permanently modify__ the original array. 
+ - forEach() always returns undefined. 
+ 
+ ### k. __The map() method__
+- Use the map() method, to create a new array from an existing array.
+- To take an array, perform an operation on each element of the array, and return a new array.
+- The map() method accepts one argument (=a `function expression`, to manipulate each element in the array). 
+- No longer `iterate over the indices`, because the map() does all that already.
+```
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+var improvedDonuts = donuts.map(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  return donut;
+});
+donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
+improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
+```
 
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 - [Pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 - [Splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- [forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 #### Take Away
 - An `array[]` = _ordered collection of elements, enclosed by []._
 - It stores __multiple values into a single, organized data structure.__ 
-- `push()`method add elements to the end of an array
-- `pop()`method remove elements from the end of an array
-- `splice()`method add and remove elements from anywhere within an array.
-
+- `push()`method: add elements to the end of an array
+- `pop()`method: remove elements from the end of an array
+- `splice()`method: add and remove elements from anywhere within an array.
+- `forEach() method` __call the function__ _once for each element in the array_ (forEach.), with different arguments:
+  - `element` parameter get = the `value` of the array element. 
+  - `index` parameter get = the `index` of the element (starting with zero). 
+  - `array` parameter get = `reference to the whole array` (to modify the elements).
+- `map()` method: create a new array from an existing array.
