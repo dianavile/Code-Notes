@@ -7,12 +7,10 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - b. __Create an Array__
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
-- e. __Array.length__
-
-
-- f. 
-- g. 
-- h. 
+- e. __.length__
+- f. __push__
+- g. __pop__
+- h. __slice__
 
 ### a. What is an Array?
 - An __array__ `[]` = `ordered collection of elements, enclosed by square brackets (i.e., [ and ]).`
@@ -72,9 +70,9 @@ var arraysInArrays = [
   [true, false, true, false]
 ];
 ```
-- d. __Array Properties and Methods__
+### d. __Array Properties and Methods__
 
-- e. __.length__
+### e. __.length__
 - Find the __length of an array__ by using its length property.
 - To access the length property, type the name of the array, followed by a period .
 - The length property will then return the number of elements in the array.
@@ -88,6 +86,13 @@ Example
 "supercalifragilisticexpialidocious".length 
 ```
 returns 34.
+
+### f. __push__
+
+### g. __pop__
+
+### h. __slice__
+
 
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
