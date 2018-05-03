@@ -8,9 +8,9 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
 - e. __Array Property: .length__: to find length of an array
-- f. __Array push() method__: to add elements to the end of an array.
-- g. __Array pop() method__: to remove elements to the end of an array.
-- h. __Array slice method__: 
+- f. __Array push() method__: to __add__ elements to the __end__ of an array.
+- g. __Array pop() method__: to __remove__ elements to the __end__ of an array.
+- h. __Array slice/splice() method__: __add and remove__ elements from __anywhere within__ an array.
 
 ### a. What is an Array?
 - An __array__ `[]` = _ordered collection of elements, enclosed by square brackets []._
@@ -139,11 +139,10 @@ donuts.pop();
 Returns: "powdered"
 
 
-### h. __Array Property: slice__
-Splice
-splice() is another handy method that allows you to add and remove elements from anywhere within an array.
+### h. __Array: splice() method__
+- The `splice()` method = to `add and remove elements from anywhere within an array`.
 
-While push() and pop() limit you to adding and removing elements from the end of an array, splice() lets you specify the index location to add new elements, as well as the number of elements you'd like to delete (if any).
+splice() lets you specify the index location to add new elements, as well as the number of elements you'd like to delete (if any).
 
 var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
 donuts.splice(1, 1, "chocolate cruller", "creme de leche"); // removes "chocolate frosted" at index 1 and adds "chocolate cruller" and "creme de leche" starting at index 1
@@ -163,3 +162,6 @@ Take a look at the MDN documentation to see a long list of example code snippets
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 #### Take Away
+-  `push()` method add elements to the end of an array
+-  `pop()` method remove elements from the end of an array
+
