@@ -1,6 +1,7 @@
-# JavaScript-[Data Types-JS](-Data-Types-JavaScript)
+# JavaScript-[Data Types-JS](-Data-Types-JavaScript) :screaming cat:
 _Source: Data Types JavaScript - Udacity Front End Web Development Nanodegree_
 
+WORKING ON IT!
 ### Table Of Contents:
 - a. Data and Data Types
 - b. Define and manipulate data types
