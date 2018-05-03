@@ -103,7 +103,18 @@ __How to use the console as a sandbox to test a new line of JavaScript in the br
 - Paste the following code: `document.getElementsByTagName("h1")[0].style.color = "#ff0000";`
 - __What happened when you ran that line of code in the JavaScript console?__
 - The heading changed to RED.
+- Styling elements on the page is great, can also be don by modifying the CSS. 
 
+__What makes JavaScript so special in this case?__ 
+- Refresh the page, then paste this line of code in the JavaScript console.
+`document.body.addEventListener('click', function () {
+     var myParent = document.getElementById("Banner"); 
+     var myImage = document.createElement("img");
+     myImage.src = 'https://thecatapi.com/api/images/get?format=src&type=gif';
+     myParent.appendChild(myImage);
+     myImage.style.marginLeft = "160px";
+});`
+- When you click, an image (cat gif)is added to the webpage 🐱! An image is added to the page.
 
 #### Resources 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
