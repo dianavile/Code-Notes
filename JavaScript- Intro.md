@@ -98,6 +98,11 @@ for (var i = 0; i < 10; i++) {
 - This means: any code written inside the __curly brackets__ `{...}` will be repeated 10 times. 
 -  In this case, `console.log` is printing out the value of `i` each time the loop runs.
 
+__How to use the console as a sandbox to test a new line of JavaScript in the browser?__
+- Open [this site](https://daringfireball.net/projects/markdown/) in Dev Tools.
+- Paste the following code: `document.getElementsByTagName("h1")[0].style.color = "#ff0000";`
+
+
 #### Resources 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
 - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
