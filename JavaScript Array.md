@@ -7,10 +7,10 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - b. __Create an Array__
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
-- e. __Array Property: .length__: to find length of an array
-- f. __Array push() method__: to __add__ elements to the __end__ of an array.
-- g. __Array pop() method__: to __remove__ elements to the __end__ of an array.
-- h. __Array slice/splice() method__: __add and remove__ elements from __anywhere within__ an array.
+- e. __Array Property: .length__ 
+- f. __Array push() method__ 
+- g. __Array pop() method__
+- h. __Array slice/splice() method__
 
 ### a. What is an Array?
 - An __array__ `[]` = _ordered collection of elements, enclosed by square brackets []._
@@ -72,7 +72,7 @@ var arraysInArrays = [
 ### d. __Array Properties and Methods__
 built-in methods
 
-### e. __Array Property: .length__ (=find length of an array)
+### e. __Array Property: .length__ (=to find length of an array)
 - Find the __length of an array__ by using its length property. `.lenght`
 - To access the length property, type the name of the array, followed by a period .
 - The length property will then return the number of elements in the array.
@@ -111,7 +111,7 @@ __NOTE:__
   1) with the `push() method` you need to pass the value of the element you want to add to the end of the array. 
   2) The `push() method` returns the length of the array after an element has been added.
 
-### g. __pop() method__ (=to "remove" elements from the end of an array)
+### g. __pop() method__ (=to "remove" elements from the end of an array) 
   2) `pop()` to remove an element from the end of an Array[] = `arr.pop()`
   - __Example:__
 ```
@@ -138,7 +138,7 @@ donuts.pop();
 // the `pop()` method returns "powdered" because "powdered" was the last element on the end of `donuts` array
 - Returns: "powdered"
 
-### h. __Array: splice() method__
+### h. __Array: splice() method__: (to add and remove elements from _anywhere within_ an array).
 - The `splice()` method = to `add and remove elements from anywhere within an array`.
 - It specify the index location to add new elements
 - It specify the number of elements to delete (if any).
