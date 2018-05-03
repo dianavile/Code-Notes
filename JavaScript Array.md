@@ -7,10 +7,10 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - b. __Create an Array__
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
-- e. __.length__
-- f. __push__
-- g. __pop__
-- h. __slice__
+- e. __.length__: to find length of an array
+- f. __push__: to modify an array
+- g. __pop__: to modify an array
+- h. __slice__: 
 
 ### a. What is an Array?
 - An __array__ `[]` = _ordered collection of elements, enclosed by square brackets []._
