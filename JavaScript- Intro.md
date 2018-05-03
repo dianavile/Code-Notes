@@ -75,7 +75,27 @@ __Perform the log action on the debugging console:__
 console.log("hiya friend!");
 ```
 - __Prints:__ "hiya friend!"
-- The message logged is "hiya friend!". hiya friend! is a `string` (=a _sequence of characters_).
+- The __message logged__ is "hiya friend!". 
+- hiya friend! is a `string` (=a _sequence of characters_).
+
+- Write a block of JavaScript code that __`loops`__ through the numbers 0 through 9 and prints them out to the console:
+```
+for (var i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
+- __Prints:__ 
+"0
+1
+2
+3
+4
+5
+6
+7
+8
+9"
+
 
 #### Resources 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
