@@ -14,9 +14,10 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 
 ### a. What is an Array?
 - An __array__ `[]` = `ordered collection of elements, enclosed by square brackets (i.e., [ and ]).`
-- It is one of the most useful data structures in JavaScript, because it stores
-- __multiple values into a single, organized data structure.__ 
+- It is one of the most useful data structures in JavaScript, because it stores __multiple values into a single, organized data structure.__ 
 
+### b. Create an Array
+- You can define a new array by listing values _separated with commas_ `,` between _square brackets_ `[]`.
 - __Example:__  variable "myArray", assigned to an empty array:
 ```
 const myArray = [];
@@ -40,9 +41,6 @@ fruits[0];
 fruits[4];
 ```
 // 'lychee'
-
-### b. Create an Array
-- You can define a new array by listing values _separated with commas_ `,` between _square brackets_ `[]`.
 
 ### c. Store different types of data
 - Arrays[] can store many different types of data, not only strings!
