@@ -193,7 +193,8 @@ donuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 - [Splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 #### Take Away
-- An `array[]` = _ordered collection of elements, enclosed by []._It stores __multiple values into a single, organized data structure.__ 
+- An `array[]` = _ordered collection of elements, enclosed by []._
+- It stores __multiple values into a single, organized data structure.__ 
 -  `push()` method add elements to the end of an array
 -  `pop()` method remove elements from the end of an array
 -  `splice()` method add and remove elements from anywhere within an array
