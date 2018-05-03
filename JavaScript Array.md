@@ -44,20 +44,21 @@ fruits[4];
 
 ### c. Store different types of data
 - Arrays[] can store many different types of data, not only strings!
-   * __A `string`__
 // Create a `donuts` array with three strings
+  * __A `string`__
 ```
 var donuts = ["glazed", "powdered", "jelly"];
 ```  
+// creates a `mixedData` array with mixed data types
   * __A `number`__
   * __A `boolean`__
- // creates a `mixedData` array with mixed data types
 ```
 var mixedData = ["abcd", 1, true, undefined, null, "all the things"];
 ```
+// creates a `arraysInArrays` array with three arrays:
   * __Another array `nested array`__ 
 - Store an array in an array to create a nested array!
-// creates a `arraysInArrays` array with three arrays:
+
 ```
 var arraysInArrays = [[1, 2, 3], ["Julia", "James"], [true, false, true, false]];
 ```
