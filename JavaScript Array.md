@@ -7,7 +7,9 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 - b. __Create an Array__
 - c. __Store different types of data__
 - d. __Array Properties and Methods__
-- e. 
+- e. __Array.length__
+
+
 - f. 
 - g. 
 - h. 
@@ -69,6 +71,14 @@ var arraysInArrays = [
   ["Julia", "James"], 
   [true, false, true, false]
 ];
+```
+- d. __Array Properties and Methods__
+
+- e. __Array.length__
+You can find the length of an array by using its length property.
+```
+var donuts = ["glazed", "powdered", "sprinkled"];
+console.log(donuts.length);
 ```
 
 #### Resources 
