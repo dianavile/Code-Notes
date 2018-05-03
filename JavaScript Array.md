@@ -50,13 +50,13 @@ fruits[4];
 ```
 var donuts = ["glazed", "powdered", "jelly"];
 ```  
-// creates a `mixedData` array with mixed data types
+// Create a `mixedData` array with mixed data types
   * __A `number`__
   * __A `boolean`__
 ```
 var mixedData = ["abcd", 1, true, undefined, null, "all the things"];
 ```
-// creates a `arraysInArrays` array with three arrays:
+// Create a `arraysInArrays` array with three arrays:
   * __Another array `nested array`__: store an array in an array to create a `nested array`
 ```
 var arraysInArrays = [[1, 2, 3], ["Julia", "James"], [true, false, true, false]];
@@ -87,18 +87,15 @@ Example
 ```
 returns 34.
 
-### f. __Array Property: push()__ (=to "add" elements to the end of an array.)
-- The two most common methods for modifying an array are `push()` and `pop()`.
-
-Push
-You can use the push() method to add elements to the end of an array.
-
-For example: Represent the spread of donuts using an array
+### f. __push() method__ (=to "add" elements to the end of an array.)
+- The two most common methods for modifying an array are 
+  1) `push()` to add an element to the end of an Array[] 
+  2) `pop()` to remove an element from the end of an Array[].
+- __Example:__ _Represent the spread of donuts using an array_
 ```
 var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
 ```
-// Push donuts onto the __end of the array__ using the push() method.
-// pushes "powdered" onto the end of the `donuts` array
+// Push donuts onto the __end of the array__ using the push() method= pushes "powdered" onto the end of the `donuts` array
 ```
 donuts.push("powdered"); 
 ```
@@ -114,7 +111,6 @@ donuts.push("powdered");
 __NOTE:__ 
   1) with the `push() method` you need to pass the value of the element you want to add to the end of the array. 
   2) The `push() method` returns the length of the array after an element has been added.
-
 
 ### g. __Array Property: pop__ (=to "remove" elements from the end of an array)
 
