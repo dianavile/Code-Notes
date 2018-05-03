@@ -1,11 +1,11 @@
-# JavaScript-[OOP-JS](#7-Object-Oriented Programming-JavaScript)
+# JavaScript-[OOP-JS](Object-Oriented Programming-JavaScript)
 _Source: Object Oriented Programming JavaScript - Udacity Front End Web Development Nanodegree_
 
 #### Goals:
 - JavaScript object fundamentals
-- Object: Create, access, and modify objects.
-- First-class functions:JavaScript functions = first-class functions.
-- JavaScript's abstractions over traditional classes and inheritance.
+- Object 
+- First-class functions
+- JavaScript's abstractions 
 - 
 - 
 - 
@@ -13,9 +13,9 @@ _Source: Object Oriented Programming JavaScript - Udacity Front End Web Developm
 
 ### Table Of Contents:
 - a. JavaScript object fundamentals
-- b. Objects
-- c. Firs-class functions
-- d. Abstactions
+- b. Objects: Create, access, and modify objects.
+- c. Firs-class functions (JavaScript functions = first-class functions)
+- d. Abstactions (over traditional classes and inheritance.)
 - e. 
 - f. 
 - g. 
@@ -26,7 +26,11 @@ Each property consists of a key/value pair,
 and can reference either 
 - a primitive (e.g., strings, numbers, booleans, etc.) 
 - or another object. 
-Unlike elements in an array, which are accessed by a numeric index, properties in objects are accessed by their key name using either square bracket notation or dot notation. For a closer look at object fundamentals, check out Intro to JavaScript linked below.
+Unlike elements in an array[], which are accessed by a numeric index, 
+properties in objects are accessed by their key name using either {}square bracket notation or . dot notation.
+
+Object fundamentals
+
 
 
 #### Resources 
