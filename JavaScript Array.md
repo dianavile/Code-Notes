@@ -4,9 +4,9 @@ _Source: Array JavaScript - Udacity Front End Web Development Nanodegree_
 
 ### Table Of Contents:
 - a. What is an Array?
-- b. Creating an Array
-- c. 
-- d. 
+- b. Create an Array
+- c. Store different types of data
+- d. Array Properties and Methods
 - e. 
 - f. 
 - g. 
@@ -46,7 +46,7 @@ fruits[4];
 
 ### c. Store different types of data
 - Arrays[] can store many different types of data, not only strings!
-  * __A `string`__
+   * __A `string`__
 // Create a `donuts` array with three strings
 ```
 var donuts = ["glazed", "powdered", "jelly"];
@@ -57,9 +57,9 @@ var donuts = ["glazed", "powdered", "jelly"];
 ```
 var mixedData = ["abcd", 1, true, undefined, null, "all the things"];
 ```
-  * Another array [nested array]
+  * __Another array `nested array`__ 
 - You can even store an array in an array to create a nested array!
-// creates a `arraysInArrays` array with three arrays
+// creates a `arraysInArrays` array with three arrays:
 ```
 var arraysInArrays = [[1, 2, 3], ["Julia", "James"], [true, false, true, false]];
 ```
