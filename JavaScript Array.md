@@ -73,7 +73,7 @@ var arraysInArrays = [
 built-in methods
 
 ### e. __Array Property: .length__ (=find length of an array)
-- Find the __length of an array__ by using its length property.
+- Find the __length of an array__ by using its length property. `.lenght`
 - To access the length property, type the name of the array, followed by a period .
 - The length property will then return the number of elements in the array.
 ```
@@ -89,7 +89,7 @@ returns 34.
 
 ### f. __push() method__ (=to "add" elements to the end of an array.)
 - The two most common methods for __modifying an array__ are 
-  1) `push()` to add an element to the end of an Array[] 
+  1) `push()` to add an element to the end of an Array[] = `arr.push(element1[, ...[, elementN]])`
 - __Example:__ _Represent the spread of donuts using an array_
 ```
 var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
@@ -112,7 +112,7 @@ __NOTE:__
   2) The `push() method` returns the length of the array after an element has been added.
 
 ### g. __pop() method__ (=to "remove" elements from the end of an array)
-  2) `pop()` to remove an element from the end of an Array[].
+  2) `pop()` to remove an element from the end of an Array[] = `arr.pop()`
   - __Example:__
 ```
 var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
@@ -136,32 +136,35 @@ var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "
 donuts.pop(); 
 ```
 // the `pop()` method returns "powdered" because "powdered" was the last element on the end of `donuts` array
-Returns: "powdered"
-
+- Returns: "powdered"
 
 ### h. __Array: splice() method__
 - The `splice()` method = to `add and remove elements from anywhere within an array`.
-
-splice() lets you specify the index location to add new elements, as well as the number of elements you'd like to delete (if any).
-
+- It specify the index location to add new elements
+- It specify the number of elements to delete (if any).
+- The __first argument__ represents the `starting index` from where to change the array
+- The __second argument__ represents the `elements to remove`
+- The __remaining arguments__ represent the `elements to add`.
+- Using the splice() method adds and removes elements from any location in an array.
+- splice() is an incredibly powerful method that allows you to manipulate your arrays in a variety of ways. 
+- Any combination of adding or removing elements from an array can all be done in one simple line of code.
+```
 var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
-donuts.splice(1, 1, "chocolate cruller", "creme de leche"); // removes "chocolate frosted" at index 1 and adds "chocolate cruller" and "creme de leche" starting at index 1
+donuts.splice(1, 1, "chocolate cruller", "creme de leche"); 
+```
+// removes "chocolate frosted" at index 1 and adds "chocolate cruller" and "creme de leche" starting at index 1
 Returns: ["chocolate frosted"]
+```
 donuts array: ["glazed", "chocolate cruller", "creme de leche", "Boston creme", "glazed cruller"]
-
-The first argument represents the starting index from where you want to change the array, the second argument represents the numbers of elements you want to remove, and the remaining arguments represent the elements you want to add.
-
-
-Using the splice() method adds and removes elements from any location in an array.
-splice() is an incredibly powerful method that allows you to manipulate your arrays in a variety of ways. Any combination of adding or removing elements from an array can all be done in one simple line of code.
-
-Take a look at the MDN documentation to see a long list of example code snippets demonstrating the power of splice() and then try the next set of programming quizzes.
-
-
+```
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- [Pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+- [Splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 #### Take Away
+- An `array[]` = _ordered collection of elements, enclosed by []._It stores __multiple values into a single, organized data structure.__ 
 -  `push()` method add elements to the end of an array
 -  `pop()` method remove elements from the end of an array
-
+-  `splice()` method add and remove elements from anywhere within an array
