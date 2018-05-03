@@ -58,13 +58,13 @@ Every modern web browser includes its own set of developer tools:
 
 #### 3 Internet Explorer
 - The features vary between versions, but starting at Internet Explorer 8 remain pretty consistent.
-[Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
-[Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
-[Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
-[Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
+- [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
+- [Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
+- [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
+- [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
 - __Open Internet Explorer Developer Tools:__`F12`
 
-#### 4 Microsoft Edge
+#### 4 [Microsoft Edge]( https://docs.microsoft.com/en-gb/microsoft-edge/devtools-guide)
 - __Microsoft Edge__ introduces improvements to the F12 developer tools in Internet Explorer. 
 - The new tools are built in `TypeScript`, and are always running, so no reloads are required. 
 - F12 developer tools documentation available on [GitHub](https://github.com/MicrosoftDocs/edge-developer). 
@@ -86,4 +86,9 @@ To access Safari's Web Development Tools, enable the Develop menu in Safari’s 
 - [Chrome Dev Tools Keyboard Shortcuts](https://developers.google.com/web/tools/chrome-devtools/shortcuts)
 - [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 - [Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools)
+- [Internet Explorer 8](https://msdn.microsoft.com/en-us/library/dd565628.aspx)
+- [Internet Explorer 9](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/samples/gg589512(v=vs.85))
+- [Internet Explorer 10](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673549(v=vs.85))
+- [Internet Explorer 11](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg182636(v=vs.85))
+- [Microsoft Edge]( https://docs.microsoft.com/en-gb/microsoft-edge/devtools-guide)
 
