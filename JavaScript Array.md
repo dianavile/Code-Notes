@@ -44,17 +44,33 @@ fruits[4];
 ### b. Create an Array
 - You can define a new array by listing values _separated with commas_ `,` between _square brackets_ `[]`.
 
-// creates a `donuts` array with three strings
+### c. Store different types of data
+- Arrays[] can store many different types of data, not only strings!
+  * __A `string`__
+// Create a `donuts` array with three strings
 ```
 var donuts = ["glazed", "powdered", "jelly"];
+```  
+  * __A `number`__
+  * __A `boolean`__
+ // creates a `mixedData` array with mixed data types
 ```
-### c. Store different types of data
-- Arrays[] can store many different types of data, not just strings!
-  * A number
-  * A string
-  * A boolean
-  * Another array
-
+var mixedData = ["abcd", 1, true, undefined, null, "all the things"];
+```
+  * Another array [nested array]
+- You can even store an array in an array to create a nested array!
+// creates a `arraysInArrays` array with three arrays
+```
+var arraysInArrays = [[1, 2, 3], ["Julia", "James"], [true, false, true, false]];
+```
+- Nested arrays can be particularly hard to read, so it's common to write them on one line, using a newline after each comma:
+```
+var arraysInArrays = [
+  [1, 2, 3], 
+  ["Julia", "James"], 
+  [true, false, true, false]
+];
+```
 
 #### Resources 
 - []()
