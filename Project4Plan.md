@@ -31,6 +31,12 @@
 
 ### START TO CODE  
   9. Start the project.
+
+### DEBUG CODE
+10. Debug the code.
+
+### REVIEW CODE CODE
+ 11. Review the code:[Review JavaScript code](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
   
 #### RESOURCES
 VIDEOS:
