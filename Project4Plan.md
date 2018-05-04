@@ -3,16 +3,16 @@
 ### LEARN
   1. [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).==> Take notes.
   2. [OOP course](https://classroom.udacity.com/courses/ud292).==> Take [notes](https://docs.google.com/document/d/1F9DY2TtWbI29KSEIot1WXRqqao7OCd7OOC2W3oubSmc/pub?%20embedded=true#h.x3l4yzzbeosv).
-      Scopes
-      Closures
-      The ´this´keyword
-      Prototype Chain
-      Object Decorator Pattern
-      Functional Classes
-      Prototypal Classes
-      Pseudoclassical Patterns
-      Superclass and Subclasses
-      Pseudoclassical Subclasses
+  - Scopes
+  - Closures
+  - The ´this´keyword
+  - Prototype Chain
+  - Object Decorator Pattern
+  - Functional Classes
+  - Prototypal Classes
+  - Pseudoclassical Patterns
+  - Superclass and Subclasses
+  - Pseudoclassical Subclasses
 
 ### READ
   3. Read [Project Guidelines]() carefully ==> Take notes.
