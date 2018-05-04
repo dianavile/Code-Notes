@@ -1,8 +1,8 @@
 ### Project 4 Planning:
 
 ### LEARN
-  1. [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).
-  2. [OOP course](https://classroom.udacity.com/courses/ud292).
+  1. [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).==> Take notes.
+  2. [OOP course](https://classroom.udacity.com/courses/ud292).==> Take notes.
 
 ### READ
   3. Read project instructions carefully ==> Take notes.
