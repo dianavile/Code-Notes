@@ -33,7 +33,7 @@
   9. Start the project.
 
 ### DEBUG CODE
-  10. Download StartersCode.
+  10. Download [StartersCode](https://github.com/udacity/frontend-nanodegree-arcade-game).
   11. Debug the code.
 
 ### REVIEW CODE CODE
