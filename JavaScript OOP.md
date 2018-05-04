@@ -1,10 +1,8 @@
-# JavaScript-[JS-OOP](Object-Oriented Programming) :scream_cat: 
-_Source: JS Object-Oriented Programming JavaScript - Udacity Front End Web Development Nanodegree_
-
-WORKING ON IT!!
-Object-Oriented JavaScript
+# JavaScript-[JS-OOP](Object-in-depth) :scream_cat: 
+_Source: JS Object-in-depth JavaScript - Udacity Front End Web Development Nanodegree_
 
 ### Table Of Contents:
+Object-in-Depth JavaScript
 - a. JavaScript object fundamentals
 - b. Objects: Create, access, and modify objects.
 - c. Firs-class functions (JavaScript functions = first-class functions)
@@ -25,6 +23,10 @@ Object-Oriented JavaScript
 1. [Objects In Depth](#objects-in-depth).
 2. [Functions at runtime](#functions-at-runtime).
 3. [Classes and Objects](#classes-and-objects).
+
+
+WORKING ON IT!!
+
 
 ### a. JavaScript object fundamentals
 In JavaScript, an `object`= an _unordered collection of properties._ 
