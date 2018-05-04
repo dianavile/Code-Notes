@@ -18,7 +18,7 @@
 
 ### READ
   3. Read [Project Guidelines]() carefully ==> Take notes.
-  4. Read project rubric carefully ==> Take notes.
+  4. Read [project rubric](https://review.udacity.com/#!/projects/2696458597/rubric) carefully ==> Take notes.
   5. Read JS files comments carefully ==> Take notes.
   6. Read [Trello road map](https://trello.com/b/LhvG0w4X/fend-help-board) ==> Take notes.
   7. Read [Understanding the project-Davide](https://github.com/davide2894/frontend-nanodegree-arcade-game/blob/master/understanding-the-project.md)==> Take notes.
