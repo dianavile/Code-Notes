@@ -31,13 +31,18 @@
 
 ### START TO CODE  
   9. Start the project.
+  - JS1
+  - JS2
+  - JS3
+  - HTML
+  - CSS
 
 ### DEBUG CODE
   10. Download [StartersCode](https://github.com/udacity/frontend-nanodegree-arcade-game).
   11. Debug the code.
 
 ### REVIEW CODE CODE
-  12. Review the code:[Review JavaScript code](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
+  12. Review the code: [Review JavaScript code](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
   
 #### RESOURCES
 VIDEOS:
