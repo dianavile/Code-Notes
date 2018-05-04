@@ -4,6 +4,7 @@
   1. [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).==> Take [notes](https://classroom.udacity.com/nanodegrees/nd001/parts/4942f4d7-a48d-4794-9eb0-404b3ed3cfe1/modules/269645859775463/lessons/2696458597239847/concepts/e23270c3-149f-45f6-803c-ff7162d10649).
   - HTML5 Canvas Basics
   - From Pixel to Animation
+  - [Canvas Rendering](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
   2. [OOP course](https://classroom.udacity.com/courses/ud292).==> Take [notes](https://docs.google.com/document/d/1F9DY2TtWbI29KSEIot1WXRqqao7OCd7OOC2W3oubSmc/pub?%20embedded=true#h.x3l4yzzbeosv).
   - Scopes
   - Closures
