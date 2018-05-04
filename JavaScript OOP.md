@@ -9,161 +9,6 @@ Object-Oriented JavaScript
 - b. Objects: Create, access, and modify objects.
 - c. Firs-class functions (JavaScript functions = first-class functions)
 - d. Abstactions (over traditional classes and inheritance.)
-
-
-a. Scopes
-Lexical Scoping in JavaScript:
-Execution Contexts ('in-memory scopes') in JavaScript:
-
-b. Closures
-Closures in JavaScript
-'this' keyword
-Passing a reference to 'this' with .call()
-'extend()' vs. 'Object.create()'
-Functional Class Definitions
-Prototypical Class Definitions
-Pseudoclassical Class Definitions
-Superclass and Subclass Definitions (Functional Class stye)
-Superclass and Subclass Definitions (Pseudoclassical Class style)
-Bonus (advanced) example of closures
-[Code examples for OOJS](https://github.com/batmanimal/object-oriented-js)
-
-Scopes
-Lexical Scoping in JavaScript:
-'The region in your source code where you can refer to variables by name without getting access errors.'
-New lexical scopes are created every time you make a new function definition (NOT in if statements).
-Variables defined within a lexical scope cannot be accessed outside that scope.
-Remember to use the var keyword when you make a new variable in a scope (it is not required by the language, but you should always do it! If you do not use var, the variable will be placed in the global namespace - don’t use this 'feature' to accomplish that, it’s bad).
-
-The global scope is shared between (.js) files.
-
-Execution Contexts ('in-memory scopes') in JavaScript:
-A new execution context is created each time you run a function.
-
-Closures
-Closures in JavaScript
-'A closure is any function that remains available after any outer scopes have returned.'
-The most useful feature of closures is variable access, functions within an inner scope have access to variables defined in an outer scope:
-function foo() {
- var fooVar = ‘A Variable!’;
-
- function bar() {
-   console.log(fooVar); // fooVar is available here
- }
-}
-'this' keyword
-generally_this_is_bound_to_v2.png
-
-
-Passing a reference to 'this' with .call()
-Either pass in an object and invoke the function or override by using .call() to literally pass in the reference you want to use for this
-
-method_call_v2.png
-
-'extend()' vs. 'Object.create()'
-`extend()`= an _example function that copies all properties one-time_ 
-
-Object.create()
-creates an ongoing lookup to the parent object
-
-Note: extend() doesn't exist in vanilla JS. 
-Many libraries include this functionality because it's so useful (jQuery for instance, http://api.jquery.com/jquery.extend).
-
-extend_vs_object_create_v2.png
-
-Functional Class Definitions
-functional_class_v1.png
-
-Prototypical Class Definitions
-prototypical_class_v1.png
-
-Pseudoclassical Class Definitions
-pseudoclassical_class_v1.png
-
-Superclass and Subclass Definitions (Functional Class stye)
-superclass_functional_v2.png
-
-Superclass and Subclass Definitions (Pseudoclassical Class style)
-superclass_pseudoclassical_v2.png
-
-Here is the code for inherit if you want to copy it:
-// pseudoclassical inheritance
-// subClass will inherit from superClass
-```
-inherit = function(subClass,superClass) {
-   subClass.prototype = Object.create(superClass.prototype); // delegate to prototype
-   subClass.prototype.constructor = subClass; // set constructor on prototype
-}
-inherit(Van,Car);
-```
-[Pseudoclassical inheritance in JavaScript](http://phrogz.net/js/classes/OOPinJS2.html)
-Example:
-```
-Van.inheritsFrom( Car );
-```
-
-Bonus (advanced) example of closures
-Regarding the fooVar example above, we might ask: is fooVar frozen in time? That is, if fooVar were changed and accessed in a later call of bar(), would fooVar hold the original value or would it have the new value because fooVar is an ongoing lookup? The answer is that it will change because the lookup is ongoing. We can test this in the console of a browser with the use of setTimeout, printing the time and nesting some scopes in an extended version of the fooVar example above. Don’t worry if you don’t understand this, but if you’re curious, this will show you that the variables (eg. fooVar) in the execution context remain 'live', ie. they can be modified and will affect any scopes that have them in their closures. The intended way to understand this is to read the output first and then see what the code was doing to produce it, matching the printed statements to the code.
-
-
-// zero padding by profitehlolz found on stack overflow:
-// http://stackoverflow.com/questions/1267283/how-can-i-create-a-zerofilled-value-using-javascript
-```
-function zeropad(n, p, c) {
-   var pad_char = typeof c !== 'undefined' ? c : '0';
-   var pad = new Array(1 + p).join(pad_char);
-   return (pad + n).slice(-pad.length);
-}
-
-function getTime(currentdate) {
-   return currentdate.getHours() + ':'
-       + zeropad(currentdate.getMinutes(),2) + ':'
-       + zeropad(currentdate.getSeconds(),2);
-}
-console.log('TEST ' + getTime(new Date()));
-
-var globalVar = 'globalVar ' + getTime(new Date());
-
-function foo() {
-   var fooVar = 'Foo Variable!', fooDate = new Date();
-   console.log('Time in foo = ' + getTime(fooDate));
-
-   function modGlobalVar() {
-        globalVar = 'globalVar ' + getTime(new Date());
-   }
-
-   function bar() {
-       console.log('----------');
-       console.log('Time in bar = ' + getTime(fooDate));
-       console.log('fooVar in bar = ' + fooVar); // fooVar is available here
-       console.log('globalVar in bar = ' + globalVar);
-       console.log('==========');
-   }
-   bar();
-   console.log('\nThis test shows that fooVar can be changed after bar is defined and run.\n');
-   fooVar = 'Foo Variable has been changed!';
-   setTimeout(modGlobalVar,         2500); // modify globalVar before bar is called again
-   setTimeout(bar,                 5000);
-}
-foo();
-```
-Produces this output (in Chrome’s JavaScript console):
-TEST 10:48:04
-Time in foo = 10:48:04
-----------
-Time in bar = 10:48:04
-fooVar in bar = Foo Variable!
-globalVar in bar = globalVar 10:48:04
-==========
-
-This test shows that fooVar can be changed after bar is defined and run.
-----------
-Time in bar = 10:48:04
-fooVar in bar = Foo Variable has been changed!
-globalVar in bar = globalVar 10:48:07
-==========
-
- 
  
 #### Goals:
 - JavaScript object fundamentals
@@ -335,9 +180,7 @@ object === object1;//true. Also any change in object1 will make the same change 
 object === object2;//false.
 ```
 ### Invoke object method
-
-- invoke methods different ways
-
+- Invoke methods different ways:
 ```
 const developer = {
   sayHello: function () {
@@ -347,8 +190,7 @@ const developer = {
 developer.sayHello();//Hi there!
 developer['sayHello']();//Hi there!
 ```
-
-- passing arguments into methods
+- Pass arguments into methods:
 
 ```
 const developer = {
@@ -360,6 +202,4 @@ const developer = {
 
 developer.favoriteLanguage('JavaScript');//My name is Andrew and my favorite programming language is JavaScript.
 ```
-- Naming properties functions ( rather than using anonymous functions) is valid and is useful for debugging.
-
-
+- Naming properties functions (rather than using anonymous functions) is valid and is useful for debugging.
