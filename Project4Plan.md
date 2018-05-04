@@ -2,7 +2,7 @@
 
 ### LEARN
   1. [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).==> Take notes.
-  2. [OOP course](https://classroom.udacity.com/courses/ud292).==> Take notes.
+  2. [OOP course](https://classroom.udacity.com/courses/ud292).==> Take [notes](https://docs.google.com/document/d/1F9DY2TtWbI29KSEIot1WXRqqao7OCd7OOC2W3oubSmc/pub?%20embedded=true#h.x3l4yzzbeosv).
       Scopes
       Closures
       The ´this´keyword
@@ -15,7 +15,7 @@
       Pseudoclassical Subclasses
 
 ### READ
-  3. Read [Project Guidelines](https://docs.google.com/document/d/1F9DY2TtWbI29KSEIot1WXRqqao7OCd7OOC2W3oubSmc/pub? embedded=true#h.x3l4yzzbeosv) carefully ==> Take notes.
+  3. Read [Project Guidelines]() carefully ==> Take notes.
   4. Read project rubric carefully ==> Take notes.
   5. Read JS files comments carefully ==> Take notes.
   6. Read [Trello road map](https://trello.com/b/LhvG0w4X/fend-help-board) ==> Take notes.
