@@ -2,6 +2,8 @@
 
 ### LEARN
   1. [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).==> Take notes.
+  - HTML5 Canvas Basics
+  - From Pixel to Animation
   2. [OOP course](https://classroom.udacity.com/courses/ud292).==> Take [notes](https://docs.google.com/document/d/1F9DY2TtWbI29KSEIot1WXRqqao7OCd7OOC2W3oubSmc/pub?%20embedded=true#h.x3l4yzzbeosv).
   - Scopes
   - Closures
