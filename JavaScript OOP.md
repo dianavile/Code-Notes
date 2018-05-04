@@ -1,10 +1,14 @@
-# JavaScript-[JS-OOP](Object-Oriented Programming-JavaScript) :scream_cat: 
+# JavaScript-[JS-OOP](Object-Oriented Programming) :scream_cat: 
 _Source: JS Object-Oriented Programming JavaScript - Udacity Front End Web Development Nanodegree_
 
 WORKING ON IT!!
-
 Object-Oriented JavaScript
 
+### Table Of Contents:
+- a. JavaScript object fundamentals
+- b. Objects: Create, access, and modify objects.
+- c. Firs-class functions (JavaScript functions = first-class functions)
+- d. Abstactions (over traditional classes and inheritance.)
 
 
 a. Scopes
