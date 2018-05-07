@@ -8,11 +8,11 @@ __Source:__ _Accesibility - Udacity Front End Web Development Nanodegree_
 - How to access the DOM with JavaScript?
 
 ### Table Of Contents
-- __The DOM__ 
-- __Create the DOM__ 
-- __Access the DOM__ 
+- a) __The DOM__ 
+- b) __Create the DOM__ 
+- c) __Access the DOM__ 
 
-### THE DOM: What is the Document Object Model (DOM)?
+### a) THE DOM: What is the Document Object Model (DOM)?
 - The __DOM__= `"Document Object Model"` 
 - It is _`provided by the browser`_
 - It is a __tree-like structure__ _`representation of the HTML document`_. 
@@ -20,7 +20,7 @@ __Source:__ _Accesibility - Udacity Front End Web Development Nanodegree_
 
 - :exclamation: __NOTE:__  The DOM is __NOT__ _part of the JavaScript language_. It __ONLY__ reference the _document object model in one place_, the `"Global Object"` section. __ECMAScript__ is the language specification JavaScript is based on. 
 
-### Create the DOM: How the DOM gets created? 
+### b) Create the DOM: How the DOM gets created? 
 - When you request a website, it responds with HTML: 
 - These bytes recieved are run through a `parsing process` 
 - ===> it determine characters (eg., start tag character, atribute) 
@@ -35,7 +35,7 @@ So to reiterate the process, it's:
 - `nodes`
 - `DOM`
 
-### Access the DOM: How to access the DOM with JavaScript?
+### c) Access the DOM: How to access the DOM with JavaScript?
 _ There are various ways to access the DOM with JavaScript:
 
 1) SELECT AN ELEMENT BY ID
@@ -70,7 +70,6 @@ __ELEMENT INTERFACE__
 The element interface inherits all properties AND methods from the Node. It is a descendent iself of the node, as well as its elements.
 
 Example:
-
 
 #### Resources
 - [JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
