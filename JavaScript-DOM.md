@@ -1,9 +1,9 @@
 #JavaScript DOM-The Document Object Model
 
-
-The DOM: What is the Document Object Model (DOM)?
-Create the DOM: How the DOM gets created? 
-Access the DOM: How to access the DOM with JavaScript?
+#### Contents
+- __The DOM:__ What is the Document Object Model (DOM)?
+- __Create the DOM:__ How the DOM gets created? 
+- __Access the DOM:__ How to access the DOM with JavaScript?
 
 ###THE DOM: What is the Document Object Model (DOM)?
 - The DOM stands for `"Document Object Model"` 
@@ -74,13 +74,12 @@ The element interface inherits all properties AND methods from the Node. It is a
 Example:
 
 
-
-
 created together with @ArtNerd 
 
-[JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
+#### Resources
+- [JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
 
-
+#### Take Away
 Creating Content with JavaScript
 Working with Browser Events
 Performance
