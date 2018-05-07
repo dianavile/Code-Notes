@@ -10,7 +10,7 @@ Here I put all things I am learning per subject, in order to keep track:)
 - __6) EXTRA__
 - __7) CAREER__
 
-__1) WEBFOUNDATION__
+###__1) WEBFOUNDATION__
 _ __HTML__
 - 1.1 HTML Syntax
 - 1.2 HTML Syntax Problem Set
@@ -31,7 +31,7 @@ _ __READme´s__
 - 1.13 Writing READme´s
 - 1.14 Project: Build a Portfolio Website (responsive design)
 
-__2) WEBPROGRAMMING-JAVASCRIPT__
+### __2) WEBPROGRAMMING-JAVASCRIPT__
 _ __JAVASCRIPT__
 - 2.1 JS What is JavaScript?
 - 2.2 JS Datatypes & Variables
@@ -53,7 +53,8 @@ _ __JAVASCRIPT__
 - 2.17 Working on anothers Dev. repository
 - 2.18 Staying in Sync with a remote repository
 
-__3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
+### __3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
+
 __4) FRONT END APPLICATIONS__
 __5) BUILD WITH REACT__
 __6) EXTRA__
