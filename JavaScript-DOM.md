@@ -1,6 +1,6 @@
 # JavaScript DOM- [DOM](#2.19-DOM)
 _Source: Accesibility - Udacity Front End Web Development Nanodegree_
-_created together with [@ArtNerdnet](https://github.com/artnerdnet)_
+- Created together with [@ArtNerdnet](https://github.com/artnerdnet)
 
 #### Goals:
 - What is the Document Object Model (DOM)?
