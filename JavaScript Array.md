@@ -252,11 +252,30 @@ var improvedDonuts = donuts.map(function(donut) {
 donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
 improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
- ### l. __2D Grid(nested array)__
-- Use an array of arrays that has the name of each donut associated with its position in the box.
+ ### l. __2D Grid(nested array)__= Multi-dimensional arrays
+- Arrays can be nested= an array can contain another array as an element. 
+- Using this characteristic of JavaScript arrays, `multi-dimensional arrays` can be created.
 
-- //Create a two dimensional grid with rows and columns.
+The following code creates a __two-dimensional array.__
+```
+var a = new Array(4);
+for (i = 0; i < 4; i++) {
+  a[i] = new Array(4);
+  for (j = 0; j < 4; j++) {
+    a[i][j] = '[' + i + ', ' + j + ']';
+  }
+}
+```
+This example creates an array with the following rows:
+```
+Row 0: [0, 0] [0, 1] [0, 2] [0, 3]
+Row 1: [1, 0] [1, 1] [1, 2] [1, 3]
+Row 2: [2, 0] [2, 1] [2, 2] [2, 3]
+Row 3: [3, 0] [3, 1] [3, 2] [3, 3]
+```
 - __Example:__
+- Use an array of arrays that has the name of each donut associated with its position in the box.
+- //Create a two dimensional grid with rows and columns.
 ```
 var donutBox = [
   ["glazed", "chocolate glazed", "cinnamon"],
@@ -306,27 +325,6 @@ for (var row = 0; row < donutBox.length; row++) {
 - "Boston creme"
 - "creme de leche"
 
- ### Nested Array = Multi-dimensional arrays
-- Arrays can be nested= an array can contain another array as an element. 
-- Using this characteristic of JavaScript arrays, `multi-dimensional arrays` can be created.
-
-The following code creates a __two-dimensional array.__
-```
-var a = new Array(4);
-for (i = 0; i < 4; i++) {
-  a[i] = new Array(4);
-  for (j = 0; j < 4; j++) {
-    a[i][j] = '[' + i + ', ' + j + ']';
-  }
-}
-```
-This example creates an array with the following rows:
-```
-Row 0: [0, 0] [0, 1] [0, 2] [0, 3]
-Row 1: [1, 0] [1, 1] [1, 2] [1, 3]
-Row 2: [2, 0] [2, 1] [2, 2] [2, 3]
-Row 3: [3, 0] [3, 1] [3, 2] [3, 3]
-```
 
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
