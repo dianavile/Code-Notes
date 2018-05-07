@@ -5,7 +5,7 @@
 - __Create the DOM:__ How the DOM gets created? 
 - __Access the DOM:__ How to access the DOM with JavaScript?
 
-###THE DOM: What is the Document Object Model (DOM)?
+### THE DOM: What is the Document Object Model (DOM)?
 - The DOM stands for `"Document Object Model"` 
 - The document object is provided by the browser
 - It is a representation of the HTML document. 
