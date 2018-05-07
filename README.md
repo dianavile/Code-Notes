@@ -11,28 +11,32 @@ Here I put all things I am learning per subject, in order to keep track:)
 - __7) CAREER__
 
 ###__1) WEBFOUNDATION__
-_ __HTML__
+__HTML__
 - 1.1 HTML Syntax
 - 1.2 HTML Syntax Problem Set
 - 1.3 Project: Article to Mockup
-- __CSS__
+
+__CSS__
 - 1.4 CSS Syntax
 - 1.5 CSS Syntax Problem Set
-_ __CODE TRICKS__
+
+__CODE TRICKS__
 - 1.6 Write Code Fast
 - 1.7 Project: Animal Trading Card
-- __RESPONSIVE DESIGN__
+
+__RESPONSIVE DESIGN__
 - 1.8 Responsive Design
 - 1.9 Starting Small (from small devices (mobile) to large devices (desktop)
 - 1.10 Building up (Media Queries)
 - 1.11 Common Responsive Patterns
 - 1.12 Optimizations
-_ __READme´s__
+
+__READme´s__
 - 1.13 Writing READme´s
 - 1.14 Project: Build a Portfolio Website (responsive design)
 
 ### __2) WEBPROGRAMMING-JAVASCRIPT__
-_ __JAVASCRIPT__
+__JAVASCRIPT__
 - 2.1 JS What is JavaScript?
 - 2.2 JS Datatypes & Variables
 - 2.3 Js Conditionals
@@ -41,7 +45,8 @@ _ __JAVASCRIPT__
 - 2.6 JS Arrays
 - 2.7 Js Objects
 - 2.8 JS Syntax
-- __VERSION CONTROL__
+
+__VERSION CONTROL__
 - 2.9 Shell Workshop
 - 2.10 Version Control
 - 2.11 Create a Git Repo
