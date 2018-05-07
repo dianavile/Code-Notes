@@ -1,5 +1,5 @@
 # JavaScript DOM- [DOM](#2.19-DOM)
-_Source: Accesibility - Udacity Front End Web Development Nanodegree_
+_ __Source:__ Accesibility - Udacity Front End Web Development Nanodegree_
 - Created together with [@ArtNerdnet](https://github.com/artnerdnet)
 
 #### Goals:
