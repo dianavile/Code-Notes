@@ -86,7 +86,7 @@ __JS Intermediate__
 - 3.12 Professional Developer-Fu
 - 3.13 PROJECT: Classical Arcade Game Clone
 
-__4) FRONT END APPLICATIONS__
-__5) BUILD WITH REACT__
-__6) EXTRA__
-__7) CAREER__
+### __4) FRONT END APPLICATIONS__
+### __5) BUILD WITH REACT__
+### __6) EXTRA__
+### __7) CAREER__
