@@ -335,7 +335,7 @@ Row 3: [3, 0] [3, 1] [3, 2] [3, 3]
 - [Splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 - [forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-- [nested array-Multi-dimensional arrays](Multi-dimensional arrays)
+- [2D Grid/nested array/Multi-dimensional arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
 
 #### Take Away
 - An `array[]` = _ordered collection of elements, enclosed by []._
