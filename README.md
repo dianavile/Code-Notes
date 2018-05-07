@@ -10,7 +10,8 @@ Here I put all things I am learning per subject, in order to keep track:)
 - __6) EXTRA__
 - __7) CAREER__
 
-###__1) WEBFOUNDATION__
+### __1) WEBFOUNDATION__
+
 __HTML__
 - 1.1 HTML Syntax
 - 1.2 HTML Syntax Problem Set
