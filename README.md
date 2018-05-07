@@ -2,14 +2,13 @@
 Here I put all things I am learning per subject, in order to keep track:)
 
 ## Content
-__1) WEBFOUNDATION__
-__2) WEBPROGRAMMING-JAVASCRIPT__
-__3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
-__4) FRONT END APPLICATIONS__
-__5) BUILD WITH REACT__
-__6) EXTRA__
-__7) CAREER__
-
+- __1) WEBFOUNDATION__
+- __2) WEBPROGRAMMING-JAVASCRIPT__
+- __3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
+- __4) FRONT END APPLICATIONS__
+- __5) BUILD WITH REACT__
+- __6) EXTRA__
+- __7) CAREER__
 
 __1) WEBFOUNDATION__
 - 1.1 HTML Syntax
@@ -28,6 +27,21 @@ __1) WEBFOUNDATION__
 - 1.14 Project: Build a Portfolio Website (responsive design)
 
 __2) WEBPROGRAMMING-JAVASCRIPT__
+- 2.1 JS What is JavaScript?
+- 2.2 JS Datatypes & Variables
+- 2.3 Js Conditionals
+- 2.4 JS Loops
+- 2.5 JS Functions
+- 2.6 JS Arrays
+- 2.7 Js Objects
+- 2.8 JS Syntax
+- 2.9 
+- 2.10 
+- 2.11 
+- 2.12 
+- 2.13 
+- 2.14 
+
 __3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
 __4) FRONT END APPLICATIONS__
 __5) BUILD WITH REACT__
