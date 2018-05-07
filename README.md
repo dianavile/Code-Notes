@@ -90,3 +90,4 @@ __JS Intermediate__
 ### __5) BUILD WITH REACT__
 ### __6) EXTRA__
 ### __7) CAREER__
+- [Linnkedin Profile](https://blog.udacity.com/2015/01/essential-tips-stand-linkedin-profile.html)
