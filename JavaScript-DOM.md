@@ -37,7 +37,6 @@ So to reiterate the process, it's:
 - `nodes`
 - `DOM`
 
-
 ### Access the DOM: How to access the DOM with JavaScript?
 _ There are various ways to access the DOM with JavaScript:
 
@@ -61,26 +60,25 @@ After looking at both .getElementById() and .getElementsByClassName(), the new .
 ```
 document.getElementsByTagName('p');
 ```
-There are a few important things to keep in mind about these two methods:
-1) both methods use the document object
-2) both return multiple items
-3) the list that's returned is not an array
+__Important things to keep in mind:__
+1) both methods use the `document object`
+2) both `return multiple items`
+3) the __returned list__=`__NOT__ an array[]`
 
-Node
+__Node__
 A Node acts like a blueprint containing all the data (properties) and the functionality (methods). This is called an interface. Based on the interface we know the properties and methods that are going to be applied to the individual items, which we call nodes.
 
-ELEMENT INTERFACE
+__ELEMENT INTERFACE__
 The element interface inherits all properties AND methods from the Node. It is a descendent iself of the node, as well as its elements.
 
 Example:
 
 
 
-[JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
-
 
 created together with @ArtNerd 
 
+[JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
 
 
 Creating Content with JavaScript
