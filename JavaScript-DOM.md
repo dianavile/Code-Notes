@@ -3,28 +3,24 @@ _Source: Accesibility - Udacity Front End Web Development Nanodegree_
 - created together with @ArtNerd 
 
 #### Goals:
+- What is the Document Object Model (DOM)?
+- How the DOM gets created? 
+- How to access the DOM with JavaScript?
 
 ### Table Of Contents
-- __The DOM:__ What is the Document Object Model (DOM)?
-- __Create the DOM:__ How the DOM gets created? 
-- __Access the DOM:__ How to access the DOM with JavaScript?
+- __The DOM__ 
+- __Create the DOM__ 
+- __Access the DOM__ 
 
 ### THE DOM: What is the Document Object Model (DOM)?
-- The DOM stands for `"Document Object Model"` 
-- The document object is provided by the browser
-- It is a representation of the HTML document. 
-- It is:
-1) a __tree-like structure__, 
-2) a representation of the HTML document, 
-3) the relationship between elements, 
-4) and contains the content and properties of the elements.
-- __NOTE:__The DOM is __NOT__: part of the JavaScript language.
-- __ECMAScript__ is the language specification JavaScript is based on. It __ONLY__ references the _document object model in one place_, in its "Global Object" section:
+- The __DOM__= `"Document Object Model"` 
+- It is _`provided by the browser`_
+- It is a __tree-like structure__ _`representation of the HTML document`_. 
+- It contains all __nodes__ `relationship between elements`,  (=the element `content` and `properties`).
 
-The DOM is:
-- constructed from the browser
-- globally accessible by JavaScript code using the document object
-- used all of the time 
+- __NOTE:__ The DOM is __NOT__: part of the JavaScript language.
+- It __ONLY__ references the _document object model in one place_, in its "Global Object" section:
+- __ECMAScript__ is the language specification JavaScript is based on. 
 
 ### Create the DOM: How the DOM gets created? 
 - When you request a website, it responds with HTML: 
@@ -82,6 +78,9 @@ Example:
 - [JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
 
 #### Take Away
+- The DOM is: `document object modal`, constructed __from the browser__ 
+- globally accessible by JavaScript code using the `document object`
+
 Creating Content with JavaScript
 Working with Browser Events
 Performance
