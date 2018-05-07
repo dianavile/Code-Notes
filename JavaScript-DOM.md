@@ -18,7 +18,7 @@ _ __Source:__ Accesibility - Udacity Front End Web Development Nanodegree_
 - It is a __tree-like structure__ _`representation of the HTML document`_. 
 - It contains all __nodes__ `relationship between elements`,  (=the element `content` and `properties`).
 
-- __NOTE:__  :exclamation: The DOM is __NOT__: part of the JavaScript language.
+- :exclamation: __NOTE:__  The DOM is __NOT__ _part of the JavaScript language_.
 - It __ONLY__ references the _document object model in one place_, in its "Global Object" section:
 - __ECMAScript__ is the language specification JavaScript is based on. 
 
