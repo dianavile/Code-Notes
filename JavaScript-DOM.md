@@ -1,6 +1,10 @@
-#JavaScript DOM-The Document Object Model
+# JavaScript DOM- [DOM](#2.19-DOM)
+_Source: Accesibility - Udacity Front End Web Development Nanodegree_
+- created together with @ArtNerd 
 
-#### Contents
+#### Goals:
+
+### Table Of Contents
 - __The DOM:__ What is the Document Object Model (DOM)?
 - __Create the DOM:__ How the DOM gets created? 
 - __Access the DOM:__ How to access the DOM with JavaScript?
@@ -73,8 +77,6 @@ The element interface inherits all properties AND methods from the Node. It is a
 
 Example:
 
-
-created together with @ArtNerd 
 
 #### Resources
 - [JavaScript Closure, SetOutTime, Scopes](https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703)
