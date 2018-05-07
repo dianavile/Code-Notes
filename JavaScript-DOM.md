@@ -22,18 +22,12 @@ __Source:__ _Accesibility - Udacity Front End Web Development Nanodegree_
 
 ### b) Create the DOM: How the DOM gets created? 
 - When you request a website, it responds with HTML: 
-- These bytes recieved are run through a `parsing process` 
-- ===> it determine characters (eg., start tag character, atribute) 
-- ===> it is a tokenizer 
-- ===> it shows its tokens (DOCTYPE, start tag, end tag, comments) 
-- ===> it convert into the DOM (a tree structure, that captures HTML content and properties and relationships between the nodes)
-
-So to reiterate the process, it's:
-- `characters`
-- `tags`
-- `tokens`
-- `nodes`
-- `DOM`
+- The received bytes run through a `parsing process` 
+- `characters` ===> (eg., start tag character, atribute) 
+- `tags` ===> it shows the HTML tags used (DOCTYPE, start tag, end tag, comments) 
+- `tokens` ===> it convert these tags into tokens 
+- `nodes` ===> it convert these tokens into nodes (HTML content and properties elements)
+- `DOM` ===> it convert nodes into the DOM (a tree structure, that captures HTML content and properties and relationships between the nodes)
 
 ### c) Access the DOM: How to access the DOM with JavaScript?
 _ There are various ways to access the DOM with JavaScript:
