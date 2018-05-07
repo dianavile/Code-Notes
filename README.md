@@ -2,7 +2,7 @@
 Here I put all things I am learning per subject, in order to keep track:)
 
 ## Content
-- __1) [WEBFOUNDATION](### __1) WEBFOUNDATION__)__
+- __1) WEBFOUNDATION__
 - __2) WEBPROGRAMMING-JAVASCRIPT__
 - __3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
 - __4) FRONT END APPLICATIONS__
@@ -15,7 +15,7 @@ Here I put all things I am learning per subject, in order to keep track:)
 __HTML__
 - 1.1 HTML Syntax
 - 1.2 HTML Syntax Problem Set
-- 1.3 Project: Article to Mockup
+- 1.3 PROJECT: Article to Mockup
 
 __CSS__
 - 1.4 CSS Syntax
@@ -23,7 +23,7 @@ __CSS__
 
 __CODE TRICKS__
 - 1.6 Write Code Fast
-- 1.7 Project: Animal Trading Card
+- 1.7 PROJECT: Animal Trading Card
 
 __RESPONSIVE DESIGN__
 - 1.8 Responsive Design
@@ -34,7 +34,7 @@ __RESPONSIVE DESIGN__
 
 __READme´s__
 - 1.13 Writing READme´s
-- 1.14 Project: Build a Portfolio Website (responsive design)
+- 1.14 PROJECT: Build a Portfolio Website (responsive design)
 
 ### __2) WEBPROGRAMMING-JAVASCRIPT__
 __JAVASCRIPT__
@@ -59,7 +59,32 @@ __VERSION CONTROL__
 - 2.17 Working on anothers Dev. repository
 - 2.18 Staying in Sync with a remote repository
 
+__The DOM (Document Object Modal)__
+- 2.19 the DOM
+- 2.20 Creating Content with JavaScript
+- 2.21 Working with Browser Events
+- 2.22 PROJECT: Pixel Art Maker
+- 2.23 Performance
+- 2.24 Project: Memory Game
+
 ### __3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
+
+__ACCESIBILITY__
+- 3.1 Accessibility Overview
+- 3.2 Focus
+- 3.3 Semantics Basics
+- 3.4 Navigating Content
+- 3.5 ARIA
+- 3.6 Style
+
+__JS Intermediate__
+- 3.7 Objects in Depth
+- 3.8 Functions in Runtime
+- 3.9 Classes & Objects
+- 3.10 Functions
+- 3.11 Built-ins
+- 3.12 Professional Developer-Fu
+- 3.13 PROJECT: Classical Arcade Game Clone
 
 __4) FRONT END APPLICATIONS__
 __5) BUILD WITH REACT__
