@@ -252,7 +252,6 @@ var improvedDonuts = donuts.map(function(donut) {
 donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
 improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
-
  ### l. __2D Grid(nested array)__
 - Use an array of arrays that has the name of each donut associated with its position in the box.
 
@@ -266,7 +265,7 @@ var donutBox = [
 ];
 ```
 - //Loop over the donut box and display each donut (along with position in the box!) 
-_ //__step 1:__ Write a `for loop` to _loop over each row of the box of donuts_:
+-  //__step 1:__ __Write a `for loop` to _loop over each row of the box__ of donuts_:
 ```
 var donutBox = [
   ["glazed", "chocolate glazed", "cinnamon"],
@@ -285,11 +284,11 @@ _ Prints:
 - ["powdered", "sprinkled", "glazed cruller"]
 - ["chocolate cruller", "Boston creme", "creme de leche"]
 
-_ //__step 2:__ Each row is an array of donuts. Set up an `inner-loop` to _loop over each cell in the arrays_.
+- //__step 2:__ Each row is an array of donuts. __Set up an `inner-loop` to _loop over each cell in the arrays_.__
 ```
 for (var row = 0; row < donutBox.length; row++) {
 ```
-- // here, donutBox[row].length refers to the length of the donut array currently being looped over
+- // here, donutBox[row].length refers to __the length of the donut array currently being looped over__
 ```
   for (var column = 0; column < donutBox[row].length; column++) {
     console.log(donutBox[row][column]);
@@ -307,6 +306,28 @@ for (var row = 0; row < donutBox.length; row++) {
 - "Boston creme"
 - "creme de leche"
 
+ ### Nested Array = Multi-dimensional arrays
+- Arrays can be nested= an array can contain another array as an element. 
+- Using this characteristic of JavaScript arrays, `multi-dimensional arrays` can be created.
+
+The following code creates a __two-dimensional array.__
+```
+var a = new Array(4);
+for (i = 0; i < 4; i++) {
+  a[i] = new Array(4);
+  for (j = 0; j < 4; j++) {
+    a[i][j] = '[' + i + ', ' + j + ']';
+  }
+}
+```
+This example creates an array with the following rows:
+```
+Row 0: [0, 0] [0, 1] [0, 2] [0, 3]
+Row 1: [1, 0] [1, 1] [1, 2] [1, 3]
+Row 2: [2, 0] [2, 1] [2, 2] [2, 3]
+Row 3: [3, 0] [3, 1] [3, 2] [3, 3]
+```
+
 #### Resources 
 - [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
@@ -314,6 +335,7 @@ for (var row = 0; row < donutBox.length; row++) {
 - [Splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 - [forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [nested array-Multi-dimensional arrays](Multi-dimensional arrays)
 
 #### Take Away
 - An `array[]` = _ordered collection of elements, enclosed by []._
@@ -326,3 +348,4 @@ for (var row = 0; row < donutBox.length; row++) {
   - `index` parameter get = the `index` of the element (starting with zero). 
   - `array` parameter get = `reference to the whole array` (to modify the elements).
 - `map()` method: create a new array from an existing array.
+- `Arrays[]` can be nested= an array can contain another array as an element. 
