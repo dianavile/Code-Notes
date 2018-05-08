@@ -1,4 +1,4 @@
-# Everything you need to know about _Front End problemsolving and debugging skills_ by Cameron Pittman from [Udacity.com](http://www.Udacity.com)
+# Everything you need to know about _Front End problem-solving & debugging skills_ by Cameron Pittman from [Udacity.com](http://www.Udacity.com)
 Check the video [here](https://youtu.be/vftSDWcA6to).
 
 Source: Code Notes thanks to [Thijs Waalders](https://github.com/ThijsWaalders)
