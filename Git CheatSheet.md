@@ -1,5 +1,5 @@
-#Git Cheat Sheet
-Source: [Git Cheat Sheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
+# Git Cheat Sheet
+- Source: [Git Cheat Sheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 
 ### Create & Clone
 - __create new__ repository    = _`git init`_
