@@ -1,7 +1,6 @@
 # Everything you need to know about _Front End problem-solving & debugging skills_ by Cameron Pittman from [Udacity.com](http://www.Udacity.com)
 Check the video [here](https://youtu.be/vftSDWcA6to).
-
-Source: Code Notes thanks to [Thijs Waalders](https://github.com/ThijsWaalders)
+Source: __Code Notes__ thanks to [Thijs Waalders](https://github.com/ThijsWaalders)
 
 ## Debugging [Front End] - Tips, Tricks and Advice
 A lot of tips can also be used for other development (that's why there are these [brackets].
