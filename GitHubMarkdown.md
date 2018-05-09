@@ -1,4 +1,4 @@
-# Markdown- [Markdown Cheatsheet](#2-GitHub-markdown)
+:rocket: # Markdown- [Markdown Cheatsheet](#2-GitHub-markdown)
 _Source: __GitHub Hacknight__ - [Woman Who Code](https://github.com/WomenWhoCode/WWCodeBarcelona)_
 
 ### Table Of Contents:
@@ -62,5 +62,5 @@ GitHub supports emoji!
 :rocket: :metal: :octocat:
 
 #### Resources
-[Markdown Tables](https://www.tablesgenerator.com/markdown_tables)
-[Emoji](http://www.emoji-cheat-sheet.com)
+- [Markdown Tables](https://www.tablesgenerator.com/markdown_tables)
+- [Emoji](http://www.emoji-cheat-sheet.com)
