@@ -1,5 +1,5 @@
 # Markdown- [Markdown Cheatsheet](#2-GitHub-markdown)
-_Source: __GitHub Hacknight__ - [Woman Who Code Barcelona](https://github.com/WomenWhoCode/WWCodeBarcelona)_
+_Source: __GitHub Hacknight__ - [WWCode Barcelona](https://github.com/WomenWhoCode/WWCodeBarcelona)_
 
 ### Table Of Contents: :rocket:
 ## 1. GitHub Markdown 
@@ -40,9 +40,11 @@ console.log("look ma`,  no spaces");
 }
 ```
 - Add an optional language identifier and your code with get syntax highlighting.
+```
 function test (){
 console.log("look ma`, no spaces");
 }
+```
 
 ## e. TABLES
 In GitHub you can create a table by 
