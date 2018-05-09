@@ -1,7 +1,7 @@
-:rocket: # Markdown- [Markdown Cheatsheet](#2-GitHub-markdown)
+# Markdown- [Markdown Cheatsheet](#2-GitHub-markdown)
 _Source: __GitHub Hacknight__ - [Woman Who Code](https://github.com/WomenWhoCode/WWCodeBarcelona)_
 
-### Table Of Contents:
+### Table Of Contents: :rocket:
 ## 1. GitHub Markdown 
 - GitHub uses its own version of the Markdown syntax. 
 - It provides an _additional set of usefull features_, that make it easier to work with content on GitHub.com:
