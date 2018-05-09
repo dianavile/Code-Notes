@@ -55,6 +55,8 @@ First Header     I Second Header
 Content cell1   I Content cell2
 Content column2 I Content column2
 ```
+#### Resources
+[Github Tables](https://www.tablesgenerator.com/markdown_tables)
 
 ## f. EMOJI
 GitHub supports emoji!
