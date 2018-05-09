@@ -50,16 +50,17 @@ In GitHub you can create a table by
 - divide them with hyphens (-) for first row 
 - separate each column with a pipe `I`
 ```
-First Header     I Second Header
---------------- I -------------
-Content cell1   I Content cell2
-Content column2 I Content column2
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 ```
-#### Resources
-[Github Tables](https://www.tablesgenerator.com/markdown_tables)
-
 ## f. EMOJI
 GitHub supports emoji!
 :+1: :sparkles: :camel: :tada:
 :rocket: :metal: :octocat:
 See all [available & supported emoji](http://www.emoji-cheat-sheet.com)
+
+#### Resources
+[Markdown Tables](https://www.tablesgenerator.com/markdown_tables)
