@@ -34,7 +34,12 @@
 ### Restore
 - __Replace__ working copy with latest from HEAD = _`git checkout --<filename>`_
 
-
-
+#### Resources
+-  [Learn Git](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+-  [Version Control for Beginners](https://www.atlassian.com/git/tutorials/what-is-version-control)
+-  [Git Get Started](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+-  [Git Collaboration](https://www.atlassian.com/git/tutorials/syncing)
+-  [Git Migration](https://www.atlassian.com/git/tutorials/svn-to-git-prepping-your-team-migration)
+-  [Advanced Git Tutorials](https://www.atlassian.com/git/tutorials/advanced-overview)
 
 
