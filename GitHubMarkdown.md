@@ -1,5 +1,5 @@
 # Markdown- [Markdown Cheatsheet](#2-GitHub-markdown)
-_Source: GitHub Hacknight - [Woman Who Code](https://github.com/WomenWhoCode/WWCodeBarcelona)_
+_Source: __GitHub Hacknight__ - [Woman Who Code](https://github.com/WomenWhoCode/WWCodeBarcelona)_
 
 ### Table Of Contents:
 ## 1. GitHub Markdown 
@@ -60,7 +60,7 @@ In GitHub you can create a table by
 GitHub supports emoji!
 :+1: :sparkles: :camel: :tada:
 :rocket: :metal: :octocat:
-See all [available & supported emoji](http://www.emoji-cheat-sheet.com)
 
 #### Resources
 [Markdown Tables](https://www.tablesgenerator.com/markdown_tables)
+[Emoji](http://www.emoji-cheat-sheet.com)
