@@ -55,3 +55,7 @@ gulp.task('scripts'/*name of task. you can put whatever name you want*/, functio
 ```
 gulp scripts
 ```
+
+#### Gulp Resources
+- [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
+- [Gulp JS Tutorial Beginners](https://appdividend.com/2018/03/09/gulp-js-tutorial-beginners/)
