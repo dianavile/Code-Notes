@@ -114,3 +114,6 @@ __Alt text:__
 4. Search icon = empty alt. (This will skip it from accessibility tree.)
 5. Any image meant for decoration = empty alt.
 6.  Specify each image's alt attribute in full, e.g. `alt="bees"`.
+
+#### Takeaway
+- Check this [SEMANTIC HTML](https://internetingishard.com/html-and-css/semantic-html/)
