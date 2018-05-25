@@ -86,6 +86,17 @@ __JS Intermediate__
 - 3.12 Professional Developer-Fu
 - 3.13 PROJECT: Classical Arcade Game Clone
 
+__JS Testing__
+- 3.14  Introducing Web Tool Automation
+- 3.15  Productive Editing
+- 3.16  Powerful Builds
+- 3.17  Expressive Live Editing
+- 3.18  How to Prevent Disasters
+- 3.19  Awesome Optimizations
+- 3.20  Webtooling and Automation Conclusion
+- 3.21  Rethinking Testing
+- 3.22  Writing Test tools
+
 ### __4) FRONT END APPLICATIONS__
 ### __5) BUILD WITH REACT__
 ### __6) EXTRA__
