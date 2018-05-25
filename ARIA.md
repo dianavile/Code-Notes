@@ -178,3 +178,5 @@ Could not connect!
   - `aria-busy` ==> _temporarily ignore changes to the element_.
   
 ARIA is to make the job as web developer easier and to include as many users as posible. 
+
+Check this [ARIA CHEETSHEET](https://codepen.io/matchboxhero/post/aria-cheatsheet)
