@@ -65,7 +65,7 @@ __The DOM (Document Object Modal)__
 - [x] 2.21 Working with Browser Events
 - [x] 2.22 PROJECT: Pixel Art Maker
 - [x] 2.23 Performance
-- [x]2.24 Project: Memory Game
+- [x] 2.24 Project: Memory Game
 
 ### __3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
 
@@ -92,9 +92,9 @@ __JS Testing__
 - [x] 3.16  Powerful Builds
 - [x] 3.17  Expressive Live Editing
 - [x] 3.18  How to Prevent Disasters
-- [ ] 3.19  Awesome Optimizations
-- [ ] 3.20  Webtooling and Automation Conclusion
-- [ ] 3.21  Rethinking Testing
+- [x] 3.19  Awesome Optimizations
+- [x] 3.20  Webtooling and Automation Conclusion
+- [x] 3.21  Rethinking Testing
 - [ ] 3.22  Writing Test tools
 
 ### __4) FRONT END APPLICATIONS__
