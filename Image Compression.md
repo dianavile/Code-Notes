@@ -1,7 +1,7 @@
 ## Image Compression
 Our build can help us optimize our images in many different ways, the most obvious of which is for file size. I’ve gone ahead and created a task that copies images to our distribution directory. We’re then piping that output into our optimization plugins. We can compress images with either lossless or lossy compression algorithms. Lossless compression reduces a file in such a way that the original can be recreated from the compressed version. You can think of it as reducing the file size but not throwing away any information.
 
-###Imagemin
+### Imagemin
 - [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) 
 - can `lossless` compress JPEGs, GIFS, PNGs and SVGs out of the box. 
 - Lossless means that even though the file size will end up being smaller, special care is taken to not cause any visual changes whatsoever, meaning that original visual information stays exactly the same.
