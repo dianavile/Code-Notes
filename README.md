@@ -3,12 +3,12 @@ Here I put all things I am learning per subject, in order to keep track:)
 
 ## Content
 - __1) [WEBFOUNDATION]()__
-- __2) WEBPROGRAMMING-JAVASCRIPT__
-- __3) EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING__
-- __4) FRONT END APPLICATIONS__
-- __5) BUILD WITH REACT__
-- __6) EXTRA__
-- __7) CAREER__
+- __2) [WEBPROGRAMMING-JAVASCRIPT]()__
+- __3) [EXPLORE JAVASCRIPT-OBJECTS-TOOLS & TESTING]()__
+- __4) [FRONT END APPLICATIONS]()__
+- __5) [BUILD WITH REACT]()__
+- __6) [EXTRA]()__
+- __7) [CAREER]()__
 
 ### __1) WEBFOUNDATION__
 
