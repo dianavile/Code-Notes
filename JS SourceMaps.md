@@ -1,4 +1,4 @@
-## JavaScript Source Maps
+## JavaScript Source Maps (Lesson 19)
 - Imagine you’re running your page now and there’s a bug in your JavaScript. 
 - So you head over to the Sources panel to set a breakpoint, only to realize you’re looking at Spaghetti instead of source code.
 
