@@ -20,8 +20,7 @@ sayHi();// Hi Diana
 sayHi('Monica', 'Hello');//Hello Monica
 ```
 
-How verbose this is!
-So you can instead write
+So you can write this instead:
 ```
 function sayHi (name = 'Diana', greeting = 'Hi') {
   return `${greeting} ${name}`;}
@@ -30,6 +29,4 @@ sayHi();// Hi Diana
 sayHi('Monica', 'Hello');//Hello Monica
 ```
 
-This is what is meant by default function parameters. Assigning a default values for function parameters in case no values are assigned when invoking the function.
-
-  
+This is `default function parameters`= __Assigning a default values for function parameters__ in case __no values are assigned__ when invoking the function. 
