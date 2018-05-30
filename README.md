@@ -95,9 +95,25 @@ __JS Testing__
 - [x] 3.19  Awesome Optimizations
 - [x] 3.20  Webtooling and Automation Conclusion
 - [x] 3.21  Rethinking Testing
-- [ ] 3.22  Writing Test tools
+- [x] 3.22  Writing Test tools
+- [ ] 3.23  PROJECT 5: Jasmine Feed Reader Test
 
 ### __4) FRONT END APPLICATIONS__
+- [ ] 4.1  Changing Expectations
+- [ ] 4.2  Refactoring with Separation of Concerns
+- [ ] 4.3  Creating Promises
+- [ ] 4.4  Chaining Promises
+- [ ] 4.5  Ajax with XHR
+- [ ] 4.6  Ajax with JQuery
+- [ ] 4.7  Ajax with Fetch
+- [ ] 4.8  Feature Single Page App
+- [ ] 4.9  Framework Source
+- [ ] 4.10 Angular
+- [ ] 4.11 Ember 
+- [ ] 4.12 Offline First 
+- [ ] 4.13 Service Worker 
+- [ ] 4.14 PROJECT 6: Restaurant Reviews App
+
 ### __5) BUILD WITH REACT__
 ### __6) EXTRA__
 ### __7) CAREER__
