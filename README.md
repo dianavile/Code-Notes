@@ -96,10 +96,10 @@ __JS Testing__
 - [x] 3.20  Webtooling and Automation Conclusion
 - [x] 3.21  Rethinking Testing
 - [x] 3.22  Writing Test tools
-- [ ] 3.23  PROJECT 5: Jasmine Feed Reader Test
+- [x] 3.23  PROJECT 5: Jasmine Feed Reader Test
 
 ### __4) FRONT END APPLICATIONS__
-- [ ] 4.1  Changing Expectations
+- [x] 4.1  Changing Expectations
 - [ ] 4.2  Refactoring with Separation of Concerns
 - [ ] 4.3  Creating Promises
 - [ ] 4.4  Chaining Promises
