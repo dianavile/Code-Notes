@@ -1,9 +1,9 @@
 # Changing Expectations- the MVO model
 
 ### The MVO-modal consists of:
-- Modal
-- Octopus
-- View
+- Modal (DATA)
+- Octopus (Functionality, Filtering)
+- View (DOM)
 
 
 ### Modal
