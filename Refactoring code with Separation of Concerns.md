@@ -12,6 +12,5 @@ Restructure your code and learn the best ways to improve its structure.
 - Create a TODO list 
 - Plan your method 
 
-__NOTE:__ Although, web developers often use organizational frameworks for seperation of concerns. They are truly NOT needed.
-- It can be done with plain Vanilla JavaScript or jQuery.
-
+__NOTE:__ Although, web developers often use organizational frameworks for seperation of concerns. 
+- They are truly __NOT__ needed. It can be done with plain Vanilla JavaScript or jQuery.
