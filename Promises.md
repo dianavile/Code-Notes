@@ -23,11 +23,28 @@ Remaining questions are: __Any operation could fail at any time__
 __NOTE:__ Althoug Node.js makes Async obligatory, but it is still the full responsibility of the coder to __define and implement a code error strategy__.
 
 2) __How to create a work sequence?__
-Instead of creating a function into another function into another callback function, - known as the __Paramid of DOOM__, it is better to create a good work sequence.
 
-load im
-
-
+- Instead of creating a function into another function into another callback function, - known as the __Paramid of DOOM__, 
+- it is better to create a good work sequence.
+- __EXAMPLE: Paramid of DOOM__
+```
+loadImage('above-the-fold.jpg', imgContainer, function() {
+  loadImage('just-below-the-fold.jpg', imgContainer2, function() {
+   loadImage('further-down-fold.jpg', imgContainer3, function() {
+    loadImage('this-is-ridiculous.jpg', imgContainer4, function() {
+     loadImage('abstract-art.jpg', imgContainer5, function() {
+      loadImage('egyptian-pyramids.jpg', imgContainer6, function() {
+       loadImage('last-below-the-fold.jpg', imgContainer7, function() {
+        })
+       })
+      })
+     })
+    })
+   })
+  })
+ })
+})
+```
 # Promises 
 __Course Stages:__
 1. Wrapping.
