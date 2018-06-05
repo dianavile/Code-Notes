@@ -68,6 +68,18 @@ __PROMISES States:__
 3. Pending. => Promise has `not yet fulfilled or rejected`.  __PENDING__: It is still waiting.
 4. Settled. => Promise has `either fulfilled or rejected`.  __SETTLED__: Something happened.
 
+- __EXAMPLE: Promises= UNDEFINED__
+```
+new Promise(function(resolve) {
+  console.log('first');
+  resolve();
+  console.log('second');
+}).then(function() {
+  console.log('third');
+});
+```
+Promise {<resolved>: undefined}
+
  # Async/Await
  ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
  
