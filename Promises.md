@@ -1,13 +1,13 @@
 # Promises
 
 __Callback__ = `the default JS technique for Asynchronous work.`
-It works like this: 
-- Pass a function into another function 
-- Call the call back function at some time later, when some conditions have been met.
+It: 
+- Passes a `function`() into another function 
+- Calls the `call back`() function at some time later, when some conditions have been met.
 
 It works fine, but is not a solution for everything:
 Remaining questions are:
-1) How to handle errors?
+1) __How to handle errors?__
 
 # Promises 
 __Course Stages:__
