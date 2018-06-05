@@ -1,5 +1,5 @@
 # CSS Guide
-[Spacing](http://i.stack.imgur.com/D9nU6.gif)
+![Spacing](https://github.com/dianavile/Code-Notes/blob/master/img/CSS1.gif)
 
 ## Naming elements
 - [Get BEM](http://getbem.com/naming/)
