@@ -12,11 +12,13 @@ function loadImage(scr, parent, callback) {
  parent.appendChild(img);
 };
 ```
-__NOTE:__Althoug a `callback() function` works fine, it is not a solution for everything:
+__NOTE:__ Althoug a `callback() function` works fine, it is not a solution for everything:
 
 Remaining questions are:
-1) __How to handle errors?__
-
+1) __How to handle errors?__ As __Any operation could fail at any time__
+- JavaScript error: `undefined is not a function`.
+- Network error: `network request error`.
+__NOTE:__ Althoug Node.js makes Async obligatory, it is still the full responsibility of the coder to __define and implement a code error strategy__.
 
 # Promises 
 __Course Stages:__
