@@ -29,3 +29,4 @@ __States:__
 - [JavaScript Promises](https://davidwalsh.name/promises)
 - [Google Developers- JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/primers/promises)
 - [JavaScript Promises for Dummies](https://scotch.io/tutorials/javascript-promises-for-dummies)
+- [Asynchronous vs synchronous execution, what does it really mean?](https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-does-it-really-mean)
