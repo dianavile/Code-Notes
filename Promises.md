@@ -1,4 +1,4 @@
-# Promises
+# Callback, Promises & Async
 
 __Callback__ = `the default JS technique for Asynchronous work.`
 It: 
@@ -23,6 +23,7 @@ __States:__
 4. Settled. => Promise has either fulfilled or rejected.
 
  # Async/Await
+ ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
  
 # Resources:
 - [Getting to know asynchronous JavaScript: Callbacks, Promises and Async/Await](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee)
