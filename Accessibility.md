@@ -77,3 +77,11 @@ _Web Content Accessibility Guidelines_ make your website and app
   - [WCAG](https://www.w3.org/TR/WCAG20/) (_Web Content Accessibility Guidelines 2.0_)
   - [Web Aim Checklist WCAG 2.0](https://webaim.org/standards/wcag/checklist): checklist to _`ensure web meet WCAG guidelines`_.
 
+## Cheatsheets
+- [ARIA Cheatsheet](https://codepen.io/matchboxhero/post/aria-cheatsheet)
+
+#### Cources:
+- [Udacity Free course about Accessibility](https://eu.udacity.com/course/web-accessibility--ud891)
+- [Screen reader ChromeVox Google Chrome extension(https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn)
+
+
