@@ -1,9 +1,8 @@
 # Callback, Promises & Async
 
-__Callback__ = `the default JS technique for Asynchronous work.`: 
+__Callback__ = `the default JS technique for Asynchronous work`: 
 - Passes a `function`() into another function 
 - Calls the `call back`() function at some time later, when some conditions have been met.
-
 EXAMPLE:
 ```
 function loadImage(scr, parent, callback) {
