@@ -78,3 +78,4 @@ __States:__
 - [JavaScript Promises for Dummies](https://scotch.io/tutorials/javascript-promises-for-dummies)
 - [Asynchronous vs synchronous execution, what does it really mean?](https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-does-it-really-mean)
 - [The Future of JavaScript](https://github.com/dianavile/Code-Notes/blob/master/img/future_of_js_2018_progress.pdf)
+- [Asynchronous JavaScript #1 - What is Asynchronous JavaScript?](https://www.youtube.com/watch?v=YxWMxJONp7E&list=PL4cUxeGkcC9jAhrjtZ9U93UMIhnCc44MH)
