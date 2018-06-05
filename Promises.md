@@ -58,8 +58,8 @@ var sequence = get('example.json')
 
 __Course Stages:__
 1. Wrapping stage= `the syntax of constructing promises`.
-2. Thening stage =
-3. Catching stage =
+2. Thening stage = `the resolution of a promise`
+3. Catching stage = 
 4. Chaining stage = 
 
 __States:__
