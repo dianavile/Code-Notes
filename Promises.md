@@ -46,6 +46,16 @@ loadImage('above-the-fold.jpg', imgContainer, function() {
 })
 ```
 # Promises 
+- Now see the same kind of code written with Promises.
+
+- __EXAMPLE: Promises__
+```
+var sequence = get('example.json')
+ .then(doSomething)
+ .then(doSomethingElse);
+```
+- This is so much easier!
+
 __Course Stages:__
 1. Wrapping.
 2. Thening.
