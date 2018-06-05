@@ -3,7 +3,7 @@
 __Callback__ = `the default JS technique for Asynchronous work`: 
 - Passes a `function`() into another function 
 - Calls the `call back`() function at some time later, when some conditions have been met.
-EXAMPLE:
+- __EXAMPLE:__
 ```
 function loadImage(scr, parent, callback) {
  var img = document.createElement('img');
@@ -12,7 +12,7 @@ function loadImage(scr, parent, callback) {
  parent.appendChild(img);
 };
 ```
-__NOTE:__ Althoug a `callback() function` works fine, it is not a solution for everything:
+- __NOTE:__ Althoug a `callback() function` works fine, it is not a solution for everything:
 
 ## Callbacks vs Thens
 Remaining questions are: __Any operation could fail at any time__
@@ -21,6 +21,9 @@ Remaining questions are: __Any operation could fail at any time__
 - JavaScript error: `undefined is not a function`.
 - Network error: `network request error`.
 __NOTE:__ Althoug Node.js makes Async obligatory, but it is still the full responsibility of the coder to __define and implement a code error strategy__.
+
+2) __How to create a work sequence?__
+
 
 # Promises 
 __Course Stages:__
