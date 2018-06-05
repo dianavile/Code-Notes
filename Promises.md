@@ -1,13 +1,23 @@
 # Callback, Promises & Async
 
-__Callback__ = `the default JS technique for Asynchronous work.`
-It: 
+__Callback__ = `the default JS technique for Asynchronous work.`: 
 - Passes a `function`() into another function 
 - Calls the `call back`() function at some time later, when some conditions have been met.
 
-It works fine, but is not a solution for everything:
+EXAMPLE:
+```
+function loadImage(scr, parent, callback) {
+ var img = document.createElement('img');
+ img.src = src;
+ img.onload = callback;
+ parent.appendChild(img);
+};
+```
+__NOTE:__Althoug a `callback() function` works fine, it is not a solution for everything:
+
 Remaining questions are:
 1) __How to handle errors?__
+
 
 # Promises 
 __Course Stages:__
