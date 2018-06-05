@@ -23,6 +23,9 @@ Remaining questions are: __Any operation could fail at any time__
 __NOTE:__ Althoug Node.js makes Async obligatory, but it is still the full responsibility of the coder to __define and implement a code error strategy__.
 
 2) __How to create a work sequence?__
+Instead of creating a function into another function into another callback function, - known as the __Paramid of DOOM__, it is better to create a good work sequence.
+
+load im
 
 
 # Promises 
