@@ -56,17 +56,17 @@ var sequence = get('example.json')
 ```
 - This is so much easier!
 
-__Course Stages:__
+__PROMISES Course Stages:__
 1. Wrapping stage= `the syntax of constructing promises`.
-2. Thening stage = `the resolution of a promise`
-3. Catching stage = 
-4. Chaining stage = 
+2. Thening stage = `How to react to the resolution of a promise`: __ACTIONS__ TO TAKE.
+3. Catching stage = `If something breaks, catch the error`: __RECOVERY__ TO MAKE.
+4. Chaining stage =  `Create a long sequences of asynchronous work`: __ASYNC__ TO MAKE. 
 
-__States:__
-1. Fulfilled (Resolved). => The action related to the promise succeeded.
-2. Rejected. => The action related to the promise failed.
-3. Pending. => Promise has not yet fulfilled or rejected.
-4. Settled. => Promise has either fulfilled or rejected.
+__PROMISES States:__
+1. Fulfilled (Resolved). => The action related to `the promise succeeded`.  __RESOLVED__: It works.
+2. Rejected. => The action related to `the promise failed`.  __REJECTED__: It DOES NOT work.
+3. Pending. => Promise has `not yet fulfilled or rejected`.  __PENDING__: It is still waiting.
+4. Settled. => Promise has `either fulfilled or rejected`.  __SETTLED__: Something happened.
 
  # Async/Await
  ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
