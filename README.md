@@ -86,29 +86,20 @@ __JS Intermediate__
 - [x] 3.13 PROJECT: Classical Arcade Game Clone
 
 ### __4) FRONT END APPLICATIONS__
-- [x] 4.1
-- [x] 4.2
-- [x] 4.3 Promises
-- [] 4.4
-- [] 4.5
-- [] 4.6
-- [] 4.7
-- [] 4.8
-- [] 4.9
-- [] 4.10
-- [] 4.11
-- [] 4.12
-- [] 4.13
-- [] 4.14
-- [] 4.15
-- [] 4.16
-- [] 4.17
-- [] 4.18
-- [] 4.19
-- [] 4.20
-- [] 4.21
-- [] 4.22
-- [] 4.23
+- [x] 4.1 Changing Expectations
+- [x] 4.2 Refactoring with Separation of Concerns
+- [x] 4.3 Creating Promises
+- [] 4.4 Chaining Promises
+- [] 4.5 Ajax with XHR
+- [] 4.6 Ajax with jQuery
+- [] 4.7 Ajax with Fetch
+- [] 4.8 Features of Single Page Apps
+- [] 4.9 Examine a Framework's Source
+- [] 4.10 Angular
+- [] 4.11 Ember
+- [x] 4.12 The Benefits of Offline First
+- [] 4.13 Introducing the Service Worker
+- [] 4.14 Project: Restaurant Reviews App—Stage 1
 
 ### __5) BUILD WITH REACT__
 - [] 5.1
