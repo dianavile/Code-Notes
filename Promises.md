@@ -68,6 +68,56 @@ __PROMISES States:__
 3. Pending. => Promise has `not yet fulfilled or rejected`.  __PENDING__: It is still waiting.
 4. Settled. => Promise has `either fulfilled or rejected`.  __SETTLED__: Something happened.
 
+
+__EXAMPLE__: Promises
+- First the Event fires
+- Second set The Event listerer
+```
+new Promise(function(resolve, reject) {
+  resolve('hi'); // works
+  resolve('bye');// can´t happen a second time
+});
+```
+__Promise resolves__
+- First: Promise created
+- Second: Promis settled
+- Set action for resolution value = //on main trreadh and potentially "blocking"
+Promise
+```
+Try{
+}.....{
+....
+}
+```
+
+### __Async Scenarios: When to use Promises__
+When and where Promises are useful: 
+EXAMPLE 1: Promises = useful
+```
+var data = get ('data.json');
+data.onload = fucntion (){
+analyze(this.responseText);
+};
+```
+EXAMPLE 2: Promises = NOT NEEDED
+```
+hugeArrayOfImages.forEach(function(i) {
+  makeSepia(i);
+  });
+```
+EXAMPLE 3: Promises = NOT NEEDED
+```
+data.forEach(function(d) {
+ var div = createDiv(d);
+ body.appendChild(div);
+});
+```
+EXAMPLE 4: Promises = useful
+```
+var worker = new Worker ('worker.js');
+ worker.postMessage/data);
+ worker.onmmessage = doSomething;
+```
 - __EXAMPLE: Promises= UNDEFINED__
 ```
 new Promise(function(resolve) {
