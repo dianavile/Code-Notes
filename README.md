@@ -114,20 +114,18 @@ __JS Intermediate__
 - [] 5.10 Project: Neighborhood Map (React)
 
 ### __6) EXTRA__
-- [] 6.1 Efficient Inputs Part 1
-- [] 6.2
-- [] 6.3
-- [] 6.4
-- [] 6.5
-- [] 6.6
-- [] 6.7
-- [] 6.8
-- [] 6.9
-- [] 6.10
-- [] 6.11
-- [] 6.12
-- [] 6.13
-- [] 6.14
+- [x] 6.1 Efficient Inputs Part 1
+- [x] 6.2 Efficient Inputs Part 2
+- [] 6.3 Fast Forms
+- [] 6.4 Touch Support
+- [x] 6.5 The Basics: the DOM, $, and Selectors
+- [x] 6.6 The Tricks: DOM Manipulation
+- [x] 6.7 Event Listeners with jQuery
+- [] 6.8 HTTP's Request/Response Cycle
+- [] 6.9 HTTP/1
+- [] 6.10 HTTPS
+- [] 6.11 HTTP/2
+- [x] 6.12 Security
 
 ### __7) CAREER__
 - [] 7.1
