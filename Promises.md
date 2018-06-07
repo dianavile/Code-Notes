@@ -81,7 +81,7 @@ new Promise(function(resolve, reject) {
 __Promise resolves__
 - First: Promise created
 - Second: Promis settled
-- Set action for resolution value = //on main trreadh and potentially "blocking"
+- Set action for resolution value = //on main thread and potentially "blocking"
 Promise
 ```
 Try{
@@ -129,6 +129,13 @@ new Promise(function(resolve) {
 });
 ```
 Promise {<resolved>: undefined}
+
+You'll notice that `'first'`, `'second'` and `'third'` all get logged. 
+`'second'` gets logged despite that it comes after `resolve()`.
+
+pass a value or `undefined` through `resolve()` and `reject()` to .then and .catch. The values themselves aren't being passed to .then or .catch, rather they're being passed to the functions called by .then or .catch.
+
+
 
  # Async/Await
  ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
