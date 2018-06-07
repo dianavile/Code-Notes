@@ -102,32 +102,19 @@ __JS Intermediate__
 - [] 4.14 Project: Restaurant Reviews App—Stage 1
 
 ### __5) BUILD WITH REACT__
-- [] 5.1
-- [] 5.2
-- [] 5.3
-- [] 5.4
-- [] 5.5
-- [] 5.6
-- [] 5.7
-- [] 5.8
-- [] 5.9
-- [] 5.10
-- [] 5.11
-- [] 5.12
-- [] 5.13
-- [] 5.14
-- [] 5.15
-- [] 5.16
-- [] 5.17
-- [] 5.18
-- [] 5.19
-- [] 5.20
-- [] 5.21
-- [] 5.22
-- [] 5.23
+- [] 5.1 Why React?
+- [] 5.2 Rendering UI with React
+- [] 5.3 State Management
+- [] 5.4 Render UI with External Data
+- [] 5.5 Managing App Location with React Router
+- [] 5.6 Project: MyReads Project Workspace
+- [] 5.7 Getting Started with the APIs
+- [] 5.8 Understanding API Services
+- [] 5.9 Using the APIs in Practice
+- [] 5.10 Project: Neighborhood Map (React)
 
 ### __6) EXTRA__
-- [] 6.1
+- [] 6.1 Efficient Inputs Part 1
 - [] 6.2
 - [] 6.3
 - [] 6.4
