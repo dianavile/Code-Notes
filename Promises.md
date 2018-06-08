@@ -269,6 +269,9 @@ In 2015 `jQuery Promises` are safe to use in every browser except for internet e
 - New APIs are taking advantage of  `promises` as well, like Service Worker API. They allow you to add a powerful control between your APP and the network. In this way you can make `APPS that work offline`.
 - the `FETCH API` uses native to simplify `XML HTTP query requests`.
 
+
+see 4.3.14 for a summary!!!
+
 ### Resources Callback, Promises & Async:
 - [Getting to know asynchronous JavaScript: Callbacks, Promises and Async/Await](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee)
 - [JavaScript Promises](https://davidwalsh.name/promises)
@@ -294,3 +297,4 @@ In 2015 `jQuery Promises` are safe to use in every browser except for internet e
 - [Service Worker API](https://developers.google.com/web/fundamentals/primers/service-workers/)
 - [Fetch API](https://davidwalsh.name/fetch)
 - [Fetch API Walkthrough](https://davidwalsh.name/fetch)
+- ["Thenable" used in context of promises on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Methods)
