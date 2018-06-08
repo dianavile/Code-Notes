@@ -130,11 +130,10 @@ new Promise(function(resolve) {
 ```
 Promise {<resolved>: undefined}
 
-You'll notice that `'first'`, `'second'` and `'third'` all get logged. 
-`'second'` gets logged despite that it comes after `resolve()`.
-
-pass a value or `undefined` through `resolve()` and `reject()` to .then and .catch. The values themselves aren't being passed to .then or .catch, rather they're being passed to the functions called by .then or .catch.
-
+- You'll notice that `'first'`, `'second'` and `'third'` all get logged. 
+- `'second'` gets logged despite that it comes after `resolve()`.
+- Pass a value or `undefined` through `resolve()` and `reject()` to `.then` and `.catch.` 
+- The values aren't being passed to `.then` or `.catch`, but to __the functions called by__ `.then` or `.catch`.
 
 
  # Async/Await
