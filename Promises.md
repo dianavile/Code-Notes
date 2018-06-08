@@ -177,11 +177,13 @@ Promise {<resolved>: undefined}
 - Pass a value or `undefined` through `resolve()` and `reject()` to `.then` and `.catch.` 
 - The values aren't being passed to `.then` or `.catch`, but to __the functions called by__ `.then` or `.catch`.
 
-
- # Async/Await
+## readyState()
+ ![readyState]()
+ 
+## Async/Await
  ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
  
-# Resources:
+### Resources:
 - [Getting to know asynchronous JavaScript: Callbacks, Promises and Async/Await](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee)
 - [JavaScript Promises](https://davidwalsh.name/promises)
 - [Google Developers- JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/primers/promises)
