@@ -93,9 +93,8 @@ Try{
 ### Create first Promise
 EXAMPLE:
 ```
-		function wait(ms) {
-			/*
-			Your code goes here!
+function wait(ms) {
+/*Your code goes here!
 
 			Instructions:
 			(1) Wrap this setTimeout in a Promise. resolve() in setTimeout's callback.
@@ -108,7 +107,6 @@ EXAMPLE:
 		/*	Uncomment these lines when you want to test! You'll know you've done it right when the message on the page changes.*/
 		// var milliseconds = 2000;
 		// wait(milliseconds).then(finish);
-
 
 		// This is just here to help you test.
 		function finish() {
@@ -135,7 +133,6 @@ ANSWER:
 			completion.innerHTML = "Complete after " + milliseconds + "ms.";
 		};	
 ```
-
 ### __Async Scenarios: When to use Promises__
 When and where Promises are useful: 
 EXAMPLE 1: Promises = useful
