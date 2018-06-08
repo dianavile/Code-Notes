@@ -203,6 +203,27 @@ The readyState() in the document can be `loading`, `interactive`, `complete`.
 }
  ```
   
+## TEST readyState()  
+```
+function ready() {
+// Credit to Jake Archibald
+// https://github.com/jakearchibald/svgomg/blob/master/src/js/page/utils.js#L7
+return new Promise(function(resolve) {
+	function checkState() {
+	if (document.readyState !== 'loading') {
+	resolve();
+   }
+}
+	document.addEventListener('readystatechange', checkState);
+	checkState();
+   });
+};
+	ready().then(wrapperResolved);
+```
+It checks the readyState() twice: 
+1) when the readyState() event fires
+2) immediately
+
 ## Async/Await
  ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
  
