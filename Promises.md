@@ -178,8 +178,12 @@ Promise {<resolved>: undefined}
 - The values aren't being passed to `.then` or `.catch`, but to __the functions called by__ `.then` or `.catch`.
 
 ## readyState()
- ![readyState]()
- 
+ ![readyState](https://github.com/dianavile/Code-Notes/blob/master/img/document.readyState.jpg)
+- Turn on[network throttling] (https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/network-conditions) to test.
+ ```
+
+ ```
+  
 ## Async/Await
  ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
  
