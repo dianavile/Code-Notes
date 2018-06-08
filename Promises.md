@@ -202,7 +202,6 @@ The readyState() in the document can be `loading`, `interactive`, `complete`.
     break;
 }
  ```
-  
 ## TEST readyState()  
 ```
 function ready() {
