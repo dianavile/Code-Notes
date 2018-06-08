@@ -90,7 +90,7 @@ Try{
 }
 ```
 ### Create first Promise
-EXAMPLE:
+EXAMPLE: 1  Wrapping stage= `the syntax of constructing promises`.
 ```
 function wait(ms) {
 /*Your code goes here!
@@ -177,7 +177,12 @@ Promise {<resolved>: undefined}
 - Pass a value or `undefined` through `resolve()` and `reject()` to `.then` and `.catch.` 
 - The values aren't being passed to `.then` or `.catch`, but to __the functions called by__ `.then` or `.catch`.
 
+## Async/Await
+ ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
+
+__PROMISES Course Stages:__
 ## readyState()
+- __Thening stage__ = `How to react to the resolution of a promise`: __ACTIONS__ TO TAKE.
 The readyState() in the document can be `loading`, `interactive`, `complete`. 
  ![readyState](https://github.com/dianavile/Code-Notes/blob/master/img/document.readyState.jpg)
 - [Network throttling](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/network-conditions)to test.
@@ -223,10 +228,48 @@ It checks the readyState() twice:
 1) when the readyState() event fires
 2) immediately
 
-## Async/Await
- ![Async](https://github.com/dianavile/Code-Notes/blob/master/img/Async.png)
+## Wrap an XML
+- __Catching stage__ = `If something breaks, catch the error`: __RECOVERY__ TO MAKE.
+```
+function get(url) {
+return new Promise(function(resolve, reject) {
+	function checkState() {
+	var req = new XMLHttpRequest();
+	req.open('GET?, url);
+	req.onload = function() {
+	if (req.status == 200) {
+	resolve(req.response);
+	} else {
+	reject(Error(re.statusText));
+	};
+      };
+      req.send();
+   });
+ });
  
-### Resources:
+ windows.addEventListehner(?WebComponentsReady?, function() {
+ home = document.querySelector('section-data-route="home"]');
+ 
+ get('http://udacity.github.io/exoplanet-explorer/site/app/data/earth-like-results.json´)
+ .then(function(response) {
+   addSearchHeader(response);
+   })
+ .catch(function(error) {
+   addSearchHeader('unknown');
+   console.log(error);
+   	});
+    });
+}) (document);   
+```
+
+## WebTechnologies
+__Chaining stage__ = `Create a long sequences of asynchronous work`: __ASYNC__ TO MAKE.
+In 2015 `jQuery Promises` are safe to use in every browser except for internet explorer and Operamini.
+- Include a `polyfill`or other `fallback`on your production site.
+- New APIs are taking advantage of  `promises` as well, like Service Worker API. They allow you to add a powerful control between your APP and the network. In this way you can make `APPS that work offline`.
+- the `FETCH API` uses native to simplify `XML HTTP query requests`.
+
+### Resources Callback, Promises & Async:
 - [Getting to know asynchronous JavaScript: Callbacks, Promises and Async/Await](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee)
 - [JavaScript Promises](https://davidwalsh.name/promises)
 - [Google Developers- JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/primers/promises)
@@ -234,3 +277,19 @@ It checks the readyState() twice:
 - [Asynchronous vs synchronous execution, what does it really mean?](https://stackoverflow.com/questions/748175/asynchronous-vs-synchronous-execution-what-does-it-really-mean)
 - [The Future of JavaScript](https://github.com/dianavile/Code-Notes/blob/master/img/future_of_js_2018_progress.pdf)
 - [Asynchronous JavaScript #1 - What is Asynchronous JavaScript?](https://www.youtube.com/watch?v=YxWMxJONp7E&list=PL4cUxeGkcC9jAhrjtZ9U93UMIhnCc44MH)
+
+### Resources Web Technologies:
+- [Issues with jQuery Promises: 10 June 2016 update! With the 3.0 release, jQuery promises now satisfy Promises/A+ compliance!](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/)
+- [You're Missing the Point of Promises - Domenic Denicola (Pre-jQuery 3.0)](https://blog.domenic.me/youre-missing-the-point-of-promises/)
+- [jQuery Deferred Broken - Valerio Gheri (Pre-jQuery 3.0)](https://thewayofcode.wordpress.com/tag/jquery-deferred-broken/)
+- __Q Style Promises__
+- They're an implementation of the [Promises/A+ spec.](https://promisesaplus.com/)
+- [$q service Documentation](https://docs.angularjs.org/api/ng/service/$q)
+- __Browser Implementation__
+- [Can I Use... - Promises](https://caniuse.com/#search=promises)
+- [ES2015 Promises Polyfill](https://github.com/stefanpenner/es6-promise)
+- [Q Library](https://github.com/kriskowal/q)
+- [Bluebird Promises](https://github.com/stefanpenner/es6-promise)
+- __APIs that Use Promises()__
+- Service Worker API(https://developers.google.com/web/fundamentals/primers/service-workers/)
+- Fetch API(https://davidwalsh.name/fetch)
