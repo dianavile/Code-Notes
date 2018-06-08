@@ -178,9 +178,11 @@ Promise {<resolved>: undefined}
 - The values aren't being passed to `.then` or `.catch`, but to __the functions called by__ `.then` or `.catch`.
 
 ## readyState()
+The readyState() in the document can be `loading`, `interactive`, `complete`. 
  ![readyState](https://github.com/dianavile/Code-Notes/blob/master/img/document.readyState.jpg)
 - [Network throttling](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/network-conditions)to test.
 - More info [Google Dev Network Conditions](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#network-conditions)
+- MDN [document.readyState()](https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState)
 
  ``` 
  ```
