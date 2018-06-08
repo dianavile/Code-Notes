@@ -130,6 +130,8 @@ ANSWER:
 	completion.innerHTML = "Complete after " + milliseconds + "ms.";
 };	
 ```
+__NOTE:__ The Scope of this inside the promise is the `global object`.
+
 ### __Async Scenarios: When to use Promises__
 When and where Promises are useful: 
 EXAMPLE 1: Promises = useful
@@ -139,13 +141,13 @@ data.onload = fucntion (){
 analyze(this.responseText);
 };
 ```
-EXAMPLE 2: Promises = NOT NEEDED
+EXAMPLE 2: Promises = __NOT NEEDED__
 ```
 hugeArrayOfImages.forEach(function(i) {
   makeSepia(i);
   });
 ```
-EXAMPLE 3: Promises = NOT NEEDED
+EXAMPLE 3: Promises = __NOT NEEDED__
 ```
 data.forEach(function(d) {
  var div = createDiv(d);
