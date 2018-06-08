@@ -291,5 +291,6 @@ In 2015 `jQuery Promises` are safe to use in every browser except for internet e
 - [Q Library](https://github.com/kriskowal/q)
 - [Bluebird Promises](https://github.com/stefanpenner/es6-promise)
 - __APIs that Use Promises()__
-- Service Worker API(https://developers.google.com/web/fundamentals/primers/service-workers/)
-- Fetch API(https://davidwalsh.name/fetch)
+- [Service Worker API](https://developers.google.com/web/fundamentals/primers/service-workers/)
+- [Fetch API](https://davidwalsh.name/fetch)
+- [Fetch API Walkthrough](https://davidwalsh.name/fetch)
