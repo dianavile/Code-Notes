@@ -179,9 +179,10 @@ Promise {<resolved>: undefined}
 
 ## readyState()
  ![readyState](https://github.com/dianavile/Code-Notes/blob/master/img/document.readyState.jpg)
-- Turn on[network throttling] (https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/network-conditions) to test.
- ```
+- [Network throttling](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/network-conditions)to test.
+- More info [Google Dev Network Conditions](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#network-conditions)
 
+ ``` 
  ```
   
 ## Async/Await
