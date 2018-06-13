@@ -149,30 +149,29 @@ In case of:
 function sayHi (name, greeting) {
   return `${greeting} ${name}`;}
   
-sayHi('Islam', 'Hi');//Hi Islam
+sayHi('Diana', 'Hi');//Hi Diana
 sayHi();//Uncaught ReferenceError: sayHi is not defined at ...
 ```
 You can write
 ```
 function sayHi (name, greeting) {
-name = (name !== undefined)? name : 'Islam';
+name = (name !== undefined)? name : 'Diana';
 greeting = (greeting !== undefined)? greeting : 'Hi'
   return `${greeting} ${name}`;}
   
-sayHi();// Hi Islam
-sayHi('Hazem', 'Hello');//Hello Hazem
+sayHi();// Hi Diana
+sayHi('Violeta', 'Hello');//Hello Violeta
 ```
 How verbose this is! So you can instead write
 ```
-function sayHi (name = 'Islam', greeting = 'Hi') {
+function sayHi (name = 'Diana', greeting = 'Hi') {
   return `${greeting} ${name}`;}
   
-sayHi();// Hi Islam
-sayHi('Hazem', 'Hello');//Hello Hazem
-sayHi('Hazem');//Hi Hazem
-sayHi(undefined, 'Hello');//Hello Islam
+sayHi();// Hi Diana
+sayHi('Violeta', 'Hello');//Hello Violeta
+sayHi('Violeta');//Hi Violeta
+sayHi(undefined, 'Hello');//Hello Diana
 ```
-
 
 ## Destructuring with Default Function Parameters:
 
@@ -210,8 +209,7 @@ createSundae({toppings: ['Cookie Dough']}); // Your sundae has 1 scoop with Cook
  - Always use Objects defaults over array ones whenever possible because object defaults handle skipped parameter in a better way.
  - While you will have to set the skipped parameters to `undefined` value in arrays arguments( except the last element in the array) you don't have to do the same for object. This is because arrays are order (position based) while objects are not. 
  
- 
- 
+
  ## JS Classes:
  
  1. Introduction:
@@ -284,8 +282,6 @@ class Plane {
   }
 }
 ```
-
-
 ## Subclasses with extends, and super:
 
 1. `extends`
