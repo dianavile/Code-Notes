@@ -102,8 +102,8 @@ __JS Intermediate__
 - [x] 4.14 Project: Restaurant Reviews App—Stage 1
 
 ### __5) BUILD WITH REACT__
-- [] 5.1 Why React?
-- [] 5.2 Rendering UI with React
+- [x] 5.1 Why React?
+- [x] 5.2 Rendering UI with React
 - [] 5.3 State Management
 - [] 5.4 Render UI with External Data
 - [] 5.5 Managing App Location with React Router
