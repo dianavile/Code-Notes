@@ -89,17 +89,17 @@ __JS Intermediate__
 - [x] 4.1 Changing Expectations
 - [x] 4.2 Refactoring with Separation of Concerns
 - [x] 4.3 Creating Promises
-- [] 4.4 Chaining Promises
-- [] 4.5 Ajax with XHR
-- [] 4.6 Ajax with jQuery
-- [] 4.7 Ajax with Fetch
-- [] 4.8 Features of Single Page Apps
-- [] 4.9 Examine a Framework's Source
-- [] 4.10 Angular
-- [] 4.11 Ember
+- [x] 4.4 Chaining Promises
+- [x] 4.5 Ajax with XHR
+- [x] 4.6 Ajax with jQuery
+- [x] 4.7 Ajax with Fetch
+- [x] 4.8 Features of Single Page Apps
+- [x] 4.9 Examine a Framework's Source
+- [x] 4.10 Angular
+- [x] 4.11 Ember
 - [x] 4.12 The Benefits of Offline First
-- [] 4.13 Introducing the Service Worker
-- [] 4.14 Project: Restaurant Reviews App—Stage 1
+- [x] 4.13 Introducing the Service Worker
+- [x] 4.14 Project: Restaurant Reviews App—Stage 1
 
 ### __5) BUILD WITH REACT__
 - [] 5.1 Why React?
